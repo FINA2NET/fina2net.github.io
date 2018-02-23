@@ -24,21 +24,24 @@
 </head>
 
 <body>
-
 <!-- Navigation -->
-<nav class="navbar fixed-top navbar-expand-lg bg-light fixed-top">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
 
         <a class="navbar-brand" href="index.html"><h1>FINA LLC</h1></a>
 
-        <div class="contact-info">
-            <div><i class="fa fa-phone" aria-hidden="true"></i>+1 366 868 3339</div>
-            <div><i class="fa fa-envelope"></i> INFO@FINA2.NET</div>
-        </div>
+        <span class="contact-info">
+          <span><i class="fa fa-phone" ></i>+1 366 868 3339</span>
+          <span><i class="fa fa-envelope"></i> INFO@FINA2.NET</span>
+        </span>
+
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
+
+
+
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -85,20 +88,27 @@
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">DEMO</a>
                 </li>
+
+                <li class="nav-item">
+                    <a class="nav-link">Workshops</a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
             </ul>
         </div>
+
     </div>
 </nav>
 
-
 <div id="social_side_links">
-        <a href="https://www.facebook.com/FINA2.NET/?ref=br_rs"><i class="fa fa-facebook"></i></a>
-        <a href="https://www.youtube.com/user/fina2net"><i class="fa fa-youtube"></i></a>
-        <a href="https://twitter.com/fina2"><i class="fa fa-twitter"></i></a>
-        <a href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQHZoCrSOuu6xgAAAWG9cqJwa3LwEoZ0jD-hIyBzJjfEB4h5jdbWSX6E4O_vDQ57dR5ECoDM1BLcRjdzWjoOQnCAHf_GLJ7ihUmPDNoUYHSmaopuRI6r6Tu95bMcHoOMn0DpnCM=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Ffina-ltd"><i class="fa fa-linkedin"></i></a>
+    <a href="https://www.facebook.com/FINA2.NET/?ref=br_rs"><i class="fa fa-facebook-square"></i></a>
+    <a href="https://www.youtube.com/user/fina2net"><i class="fa fa-youtube"></i></a>
+    <a href="https://twitter.com/fina2"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQHZoCrSOuu6xgAAAWG9cqJwa3LwEoZ0jD-hIyBzJjfEB4h5jdbWSX6E4O_vDQ57dR5ECoDM1BLcRjdzWjoOQnCAHf_GLJ7ihUmPDNoUYHSmaopuRI6r6Tu95bMcHoOMn0DpnCM=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Ffina-ltd"><i class="fa fa-linkedin"></i></a>
 </div>
-
-
 
 
 
@@ -112,9 +122,7 @@
     <div class="col-lg-8  offset-lg-2 portfolio-item">
         <div class="card h-100">
             <div class="card-body">
-                <h4 class="card-title">
-                    <a href="prod_fina.html">FINA</a>
-                </h4>
+
                 <p class="card-text">
 
                     <!-- Item text -->
@@ -142,51 +150,16 @@
                 <p>Main idea of the FINA project is to build customizable system. Functionality of all central banks and supervisory agencies are very similar: data collection from banks, checking, storing to data base and then designing/generating of different reports.</p>
                 <p> </p>
 
-                <pre>
-                    <div class="accordion" id="accordion1">
-                        <div class="accordion-group">
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle " data-toggle="collapse" data-parent="#accordion1" href="#accordion1-accordion-0">Open Source Joint Project<i class="icon-plus pull-right"></i><i class="icon-minus pull-right"></i></a>
-                            </div>
-                            <div id="accordion1-accordion-0" class="accordion-body collapse in">
-                                <div class="accordion-inner">FINA is Open Source project under the LGPL/ GNU license. All components used in the system also Free. The main idea of the FINA from organizational point of view is to share the experience and develop system together with several Central banks. As system is very flexible and extendible additions done for each site can be very easy implemented into system and used by other members. Special web based discussion forum, issue manager, bag tracking tool, etc. makes it very useful for members.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-group">
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-accordion-1">Meta Data Structure<i class="icon-plus pull-right"></i><i class="icon-minus pull-right"></i></a>
-                            </div>
-                            <div id="accordion1-accordion-1" class="accordion-body collapse">
-                                <div class="accordion-inner">Returns submitted by banks (call reports, supervisory forms, statistical data, etc.) being changed time by time based on changes/additions in regulations or new business requirements. Therefore we decided to built the system which should be flexible and easy changeable. This was achieved by the concept of the Meta Data Tree. Any table can be described as hierarchical data structure called Meta Data Tree.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-group">
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-accordion-2">Report Designer<i class="icon-plus pull-right"></i><i class="icon-minus pull-right"></i></a>
-                            </div>
-                            <div id="accordion1-accordion-2" class="accordion-body collapse">
-                                <div class="accordion-inner">Output reports also could be changed very often. To capture those changes into the system FINA has Report Designer. It is very flexible and easy to use tool. Meta Data Tree and Report designer makes FINA easy changeable and customizable system.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-group">
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-accordion-3">Languages and Locales<i class="icon-plus pull-right"></i><i class="icon-minus pull-right"></i></a>
-                            </div>
-                            <div id="accordion1-accordion-3" class="accordion-body collapse">
-                                <div class="accordion-inner">FinA can be translated into any language. To configure FinA for another language user has to complete the following three procedures: a) Create locale. B) Create/Translate message bundle and c) Translate Menu/Meta Data Tree.</div>
-                            </div>
-                        </div>
-                        <div class="accordion-group">
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1-accordion-4">User Manager<i class="icon-plus pull-right"></i><i class="icon-minus pull-right"></i></a>
-                            </div>
-                            <div id="accordion1-accordion-4" class="accordion-body collapse">
-                                <div class="accordion-inner">The User Manager organizes the roles and users with access rights. Each user can have original permissions or can be member of the group (role) and inherit all predefind permissions. User management can be organized based on physical units and/or on logical groups.</div>
-                            </div>
-                        </div>
-                    </div>
-                </pre>
+                <h1><span style="font-size: 12pt;"><strong>Open Source Joint Project</strong></span></h1>
+                <p>FINA is Open Source project under the LGPL/ GNU license. All components used in the system also Free. The main idea of the FINA from organizational point of view is to share the experience and develop system together with several Central banks. As system is very flexible and extendible additions done for each site can be very easy implemented into system and used by other members. Special web based discussion forum, issue manager, bag tracking tool, etc. makes it very useful for members.</p>
+                <h1><span style="font-size: 12pt;"><strong>Meta Data Structure</strong></span></h1>
+                <p>Returns submitted by banks (call reports, supervisory forms, statistical data, etc.) being changed time by time based on changes/additions in regulations or new business requirements. Therefore we decided to built the system which should be flexible and easy changeable. This was achieved by the concept of the Meta Data Tree. Any table can be described as hierarchical data structure called Meta Data Tree.</p>
+                <h1><span style="font-size: 12pt;"><strong>Report Designer</strong></span></h1>
+                <p>Output reports also could be changed very often. To capture those changes into the system FINA has Report Designer. It is very flexible and easy to use tool. Meta Data Tree and Report designer makes FINA easy changeable and customizable system.</p>
+                <h1><span style="font-size: 12pt;"><strong>Languages and Locales</strong></span></h1>
+                <p>FinA can be translated into any language. To configure FinA for another language user has to complete the following three procedures: a) Create locale. B) Create/Translate message bundle and c) Translate Menu/Meta Data Tree.</p>
+                <h1><span style="font-size: 12pt;"><strong>User Manager</strong></span></h1>
+                <p>The User Manager organizes the roles and users with access rights. Each user can have original permissions or can be member of the group (role) and inherit all predefind permissions. User management can be organized based on physical units and/or on logical groups.</p>
 
 
 
@@ -232,7 +205,6 @@
                 <a href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQHZoCrSOuu6xgAAAWG9cqJwa3LwEoZ0jD-hIyBzJjfEB4h5jdbWSX6E4O_vDQ57dR5ECoDM1BLcRjdzWjoOQnCAHf_GLJ7ihUmPDNoUYHSmaopuRI6r6Tu95bMcHoOMn0DpnCM=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Ffina-ltd"><i class="fa fa-linkedin"></i></a>
             </div>
         </div>
-    </div>
     </div>
     <!-- /.container -->
 </footer>

@@ -28,6 +28,14 @@ h1, h2, h3, h4, h5, h6 p{
   font-family: "sans-serif";
 }
 
+a{
+  color: #ca0820;
+}
+
+a:hover{
+  color: #821e1e;
+}
+
 
 /*
   Navigation
@@ -47,16 +55,25 @@ h1, h2, h3, h4, h5, h6 p{
 }
 
 .dropdown-item{
-  color: #007bff;
+  color: #ca0820;
 }
 
 .contact-info{
   font-family: "sans-serif";
-  padding-bottom: 10px;
+  font-size: 15px;
   padding-left: 30px;
-  color: #007bff;
+  color: #ca0820;
 }
 
+.contact-info i{
+  font-size: 15px;
+  color: #ca0820;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ca0820;
+
+}
 
 /*
 slider
@@ -73,7 +90,9 @@ Marketing Icons Section
 }
 
 
-
+.card-title a{
+  color: #ca0820;
+}
 
 /*
  Portfolio Section
@@ -110,7 +129,7 @@ footer
 }
 
 #f i:hover{
-  color: #0069d9;
+  color: #ca0820;
 }
 
 /*
@@ -119,7 +138,7 @@ footer
  */
 #social_side_links {
   position: fixed;
-  top: 70px;
+  top: 40%;
   right: 0;
   padding: 0;
   list-style: none;
@@ -132,17 +151,21 @@ footer
 
 
 #social_side_links i{
-  color: #80bdff;
-  font-size: 30px;
-  padding: 20px;
+
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #ca0820;
 }
 
 #social_side_links i:hover{
-  color: #0069d9;
+  background-color: #323232;
+  color: #ca0820;
 }
 
-
-.fa {
+/*
+#social_side_links .fa {
   padding: 20px;
   font-size: 30px;
   width: 50px;
@@ -151,7 +174,13 @@ footer
   margin: 5px 2px;
 }
 
-.social_side_links i {
-  background: #ff5500;
+
+*/
+
+.collapsed_links_img{
   color: white;
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 60%;
+  background-color: #80bdff;
 }
