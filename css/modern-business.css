@@ -24,6 +24,134 @@ body {
   background-size: cover;
 }
 
+h1, h2, h3, h4, h5, h6 p{
+  font-family: "sans-serif";
+}
+
+
+/*
+  Navigation
+  =============================================================
+ */
 .portfolio-item {
   margin-bottom: 30px;
+}
+
+.navbar-brand h1{
+  font-size: 35px;
+  color: black;
+}
+
+.navbar-brand:hover{
+  color: black;
+}
+
+.dropdown-item{
+  color: #007bff;
+}
+
+.contact-info{
+  font-family: "sans-serif";
+  padding-bottom: 10px;
+  padding-left: 30px;
+  color: #007bff;
+}
+
+
+/*
+slider
+===============================================================
+ */
+
+
+/*
+Marketing Icons Section
+===============================================================
+ */
+.my-4{
+  text-align: center;
+}
+
+
+
+
+/*
+ Portfolio Section
+================================================================
+ */
+.card-header{
+  text-align: center;
+}
+
+.card-text{
+  text-align: justify;
+}
+
+.card-title{
+  text-align: center;
+}
+
+
+
+
+
+/*
+footer
+=============================================================
+ */
+
+
+
+
+#f i{
+  color: #bdbdbd;
+  font-size: 30px;
+  padding: 20px;
+}
+
+#f i:hover{
+  color: #0069d9;
+}
+
+/*
+  social media icon
+  ===============================================================================
+ */
+#social_side_links {
+  position: fixed;
+  top: 70px;
+  right: 0;
+  padding: 0;
+  list-style: none;
+  z-index: 99;
+}
+
+#social_side_links  a {
+  display: block;
+}
+
+
+#social_side_links i{
+  color: #80bdff;
+  font-size: 30px;
+  padding: 20px;
+}
+
+#social_side_links i:hover{
+  color: #0069d9;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.social_side_links i {
+  background: #ff5500;
+  color: white;
 }
