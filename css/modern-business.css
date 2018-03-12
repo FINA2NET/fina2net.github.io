@@ -244,7 +244,7 @@ footer
  */
 #social_side_links {
   position: fixed;
-  top: 40%;
+  bottom: 50%;
   right: 0;
   padding: 0;
   list-style: none;
@@ -277,7 +277,7 @@ footer
 
 @media  screen and (max-device-width : 640px) {
   #social_side_links{
-    bottom: 1%;
+    bottom: 1%!important;
   }
 
   #social_side_links .icon-btn{
@@ -312,3 +312,19 @@ accordian
   align-items: center
 }
 
+
+
+/*
+buttons
+=======================================================================
+ */
+.btn-danger{
+  background-color: #f8f8f8;
+  border-color: #f8f8f8;
+  color: #ca0820;
+}
+.btn-danger:hover{
+  background-color: #ca0820;
+  border-color: #ca0820;
+  color: #f8f8f8;
+}
