@@ -4,15 +4,6 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
 
-body {
-  padding-top: 54px;
-}
-
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
-}
 
 .carousel-item {
   height: 65vh;
@@ -25,7 +16,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 p{
-  font-family: "sans-serif";
+  font-family: "calibri";
 }
 
 a{
@@ -37,10 +28,114 @@ a:hover{
 }
 
 
+nav a{
+  text-decoration: none !important;
+}
+
 /*
   Navigation
   =============================================================
  */
+
+
+
+nav{
+  background-color: #f8f8f8;
+}
+
+.nav-first-row{
+  width: 100%;
+  background-color: #f8f8f8;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+@media  screen and (max-device-width : 640px) {
+  .nav-first-row{
+    display: none;
+  }
+  #sl-content{
+    font-size: 18px !important;
+  }
+  #left .send-btn {
+    float: none !important;
+  }
+}
+
+.nav-second-row{
+  width: 100%;
+  background-color: #f8f8f8;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.navbar-toggler{
+  font-size: 20px;
+  color: white;
+  background-color: #e4615c;
+}
+
+.navbar-toggler-icon {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #ffffff;
+  border-radius: 1px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+.navbar a{
+  color: #5D5D5D;
+}
+
+#fr-content{
+  float:right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#fr-content a{
+  color: #363636;
+  padding-right: 6px;
+}
+#fl-content{
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+
+#sr-content{
+  float:right;
+}
+
+#sr-content a{
+  color: #5D5D5D;
+  padding-right: 20px;
+  font-size: 15px;
+}
+#sr-content a span{
+  padding-bottom: 4%;
+}
+
+
+#sl-content{
+  font-size: 20px;
+  padding-left: 4%;
+  float: left;
+}
+
+
+.nav-second-row a{
+  color: #ca0820 !important;
+  font-weight: bold;
+}
+
+
+
+
+
 .portfolio-item {
   margin-bottom: 30px;
 }
@@ -59,7 +154,7 @@ a:hover{
 }
 
 .contact-info{
-  font-family: "sans-serif";
+  font-family: "calibri";
   font-size: 15px;
   padding-left: 30px;
   color: #ca0820;
@@ -74,6 +169,17 @@ a:hover{
   color: #ca0820;
 
 }
+
+.dropdown-menu{
+  background-color: #f8f8f8;
+}
+
+.dropdown-item:hover{
+  background-color: #ca0820;
+  color: #ffffff !important;
+
+}
+
 
 /*
 slider
@@ -138,7 +244,7 @@ footer
  */
 #social_side_links {
   position: fixed;
-  top: 40%;
+  bottom: 1%;
   right: 0;
   padding: 0;
   list-style: none;
@@ -151,7 +257,6 @@ footer
 
 
 #social_side_links i{
-
   color: white;
   font-size: 20px;
   padding: 10px;
@@ -160,27 +265,50 @@ footer
 }
 
 #social_side_links i:hover{
-  background-color: #323232;
+  background-color: #bdbdbd;
   color: #ca0820;
+  padding-right: 10px;
 }
+
+
+#social_side_links .icon-btn{
+  display: none;
+}
+
+@media  screen and (max-device-width : 640px) {
+  #social_side_links{
+    bottom: 1%;
+  }
+
+  #social_side_links .icon-btn{
+    display: block;
+  }
+
+  #social_side_links  .social-links-class {
+    display: none;
+  }
+
+  #social_side_links .icon-btn:hover a{
+    display: block;
+  }
+
+  #social_side_links .social-links-class-response{
+    display: block;
+  }
+}
+
 
 /*
-#social_side_links .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
+accordian
+=======================================================================
+ */
+
+.accordian-title{
   text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
 }
 
-
-*/
-
-.collapsed_links_img{
-  color: white;
-  font-size: 30px;
-  padding: 20px;
-  border-radius: 60%;
-  background-color: #80bdff;
+.accordian-title span{
+  color: #ca0820;
+  align-items: center
 }
+

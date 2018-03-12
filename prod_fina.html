@@ -30,10 +30,7 @@
 
         <a class="navbar-brand" href="index.html"><h1>FINA LLC</h1></a>
 
-        <span class="contact-info">
-          <span><i class="fa fa-phone" ></i>+1 366 868 3339</span>
-          <span><i class="fa fa-envelope"></i> INFO@FINA2.NET</span>
-        </span>
+
 
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -103,11 +100,16 @@
     </div>
 </nav>
 
+
 <div id="social_side_links">
-    <a href="https://www.facebook.com/FINA2.NET/?ref=br_rs"><i class="fa fa-facebook-square"></i></a>
-    <a href="https://www.youtube.com/user/fina2net"><i class="fa fa-youtube"></i></a>
-    <a href="https://twitter.com/fina2"><i class="fa fa-twitter"></i></a>
-    <a href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQHZoCrSOuu6xgAAAWG9cqJwa3LwEoZ0jD-hIyBzJjfEB4h5jdbWSX6E4O_vDQ57dR5ECoDM1BLcRjdzWjoOQnCAHf_GLJ7ihUmPDNoUYHSmaopuRI6r6Tu95bMcHoOMn0DpnCM=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Ffina-ltd"><i class="fa fa-linkedin"></i></a>
+    <a  class="icon-btn" onclick="myFunction()"><i class="fa fa-plus"></i></a>
+
+    <div class="social-links-class" id="social-links-container">
+        <a href="https://www.facebook.com/FINA2.NET/?ref=br_rs"><i class="fa fa-facebook-square"></i></a>
+        <a href="https://www.youtube.com/user/fina2net"><i class="fa fa-youtube"></i></a>
+        <a href="https://twitter.com/fina2"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQHZoCrSOuu6xgAAAWG9cqJwa3LwEoZ0jD-hIyBzJjfEB4h5jdbWSX6E4O_vDQ57dR5ECoDM1BLcRjdzWjoOQnCAHf_GLJ7ihUmPDNoUYHSmaopuRI6r6Tu95bMcHoOMn0DpnCM=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Ffina-ltd"><i class="fa fa-linkedin"></i></a>
+    </div>
 </div>
 
 
@@ -150,16 +152,16 @@
                 <p>Main idea of the FINA project is to build customizable system. Functionality of all central banks and supervisory agencies are very similar: data collection from banks, checking, storing to data base and then designing/generating of different reports.</p>
                 <p> </p>
 
-                <h1><span style="font-size: 12pt;"><strong>Open Source Joint Project</strong></span></h1>
-                <p>FINA is Open Source project under the LGPL/ GNU license. All components used in the system also Free. The main idea of the FINA from organizational point of view is to share the experience and develop system together with several Central banks. As system is very flexible and extendible additions done for each site can be very easy implemented into system and used by other members. Special web based discussion forum, issue manager, bag tracking tool, etc. makes it very useful for members.</p>
-                <h1><span style="font-size: 12pt;"><strong>Meta Data Structure</strong></span></h1>
-                <p>Returns submitted by banks (call reports, supervisory forms, statistical data, etc.) being changed time by time based on changes/additions in regulations or new business requirements. Therefore we decided to built the system which should be flexible and easy changeable. This was achieved by the concept of the Meta Data Tree. Any table can be described as hierarchical data structure called Meta Data Tree.</p>
-                <h1><span style="font-size: 12pt;"><strong>Report Designer</strong></span></h1>
-                <p>Output reports also could be changed very often. To capture those changes into the system FINA has Report Designer. It is very flexible and easy to use tool. Meta Data Tree and Report designer makes FINA easy changeable and customizable system.</p>
-                <h1><span style="font-size: 12pt;"><strong>Languages and Locales</strong></span></h1>
-                <p>FinA can be translated into any language. To configure FinA for another language user has to complete the following three procedures: a) Create locale. B) Create/Translate message bundle and c) Translate Menu/Meta Data Tree.</p>
-                <h1><span style="font-size: 12pt;"><strong>User Manager</strong></span></h1>
-                <p>The User Manager organizes the roles and users with access rights. Each user can have original permissions or can be member of the group (role) and inherit all predefind permissions. User management can be organized based on physical units and/or on logical groups.</p>
+                <a class="accordian-title"><h1><span style="font-size: 12pt;"><strong>Open Source Joint Project</strong></span></h1></a>
+                <p class="accordian-element">FINA is Open Source project under the LGPL/ GNU license. All components used in the system also Free. The main idea of the FINA from organizational point of view is to share the experience and develop system together with several Central banks. As system is very flexible and extendible additions done for each site can be very easy implemented into system and used by other members. Special web based discussion forum, issue manager, bag tracking tool, etc. makes it very useful for members.</p>
+                <a class="accordian-title"><h1><span style="font-size: 12pt;"><strong>Languages and Locales</strong></span></h1></a>
+                <p class="accordian-element">FinA can be translated into any language. To configure FinA for another language user has to complete the following three procedures: a) Create locale. B) Create/Translate message bundle and c) Translate Menu/Meta Data Tree.</p>
+                <a class="accordian-title"><h1><span style="font-size: 12pt;" ><strong>Meta Data Structure</strong></span></h1></a>
+                <p class="accordian-element">Returns submitted by banks (call reports, supervisory forms, statistical data, etc.) being changed time by time based on changes/additions in regulations or new business requirements. Therefore we decided to built the system which should be flexible and easy changeable. This was achieved by the concept of the Meta Data Tree. Any table can be described as hierarchical data structure called Meta Data Tree.</p>
+                <a class="accordian-title"><h1><span style="font-size: 12pt;"><strong>Report Designer</strong></span></h1></a>
+                <p class="accordian-element">Output reports also could be changed very often. To capture those changes into the system FINA has Report Designer. It is very flexible and easy to use tool. Meta Data Tree and Report designer makes FINA easy changeable and customizable system.</p>
+                <a class="accordian-title"><h1><span style="font-size: 12pt;" ><strong>User Manager</strong></span></h1></a>
+                <p class="accordian-element">The User Manager organizes the roles and users with access rights. Each user can have original permissions or can be member of the group (role) and inherit all predefind permissions. User management can be organized based on physical units and/or on logical groups.</p>
 
 
 
@@ -212,6 +214,7 @@
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="js/my-javascript.js"></script>
 
 </body>
 
