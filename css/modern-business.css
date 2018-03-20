@@ -329,4 +329,165 @@ buttons
   color: #f8f8f8;
 }
 
+.carousel-control-prev{
+  width: 5%;
+  color: rgba(195, 195, 195, 0.6) !important;
+  background-color: rgba(195, 195, 195, 0.6) !important;
+}
+.carousel-control-next{
+  width: 5%;
+  color: rgba(195, 195, 195, 0.6) !important;
+  background-color: rgba(195, 195, 195, 0.6) !important;
+}
 
+
+
+
+
+.project-content-btn{
+  height: 33px;
+  width: 33px;
+
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  border: 1px solid #323232;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 20px;
+  background-color: #D7D7D7;
+  float: right;
+}
+
+.project-content-btn a {
+  color: #000000 !important;
+}
+
+.project-content-btn:hover{
+  background-color: #ca0820;
+  color: white;
+  border: white;
+}
+
+.project-content-btn:hover a{
+  background-color: #ca0820;
+  color: white !important;
+  border: white;
+}
+
+
+/*
+footer
+=======================================================
+ */
+
+
+
+
+footer .media-icons{
+  height: 40px;
+  width: 40px;
+
+  margin-top: 25%;
+  margin-right: 5%;
+  border: 2px solid white;
+  font-size: 25px;
+  padding-top: 6px;
+}
+
+footer a{
+  color: white;
+}
+
+footer a:hover{
+  color: white;
+}
+
+
+/*
+FOOTER START////////////////////////////////////
+ */
+
+
+
+.footer {
+  padding: 50px 0 20px 0;
+  background-color: #5D5D5D;
+  color: white;
+}
+.footer .title{
+  text-align: left;
+  color:#fff;
+  font-size:25px;
+}
+
+
+.footer .social-icon{padding:0px;margin:0px;}
+.footer .social-icon a{display:inline-block;color:#fff;font-size:25px;padding:5px;}
+
+
+
+.footer .category a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 20px;
+  margin: 1px;
+  border-radius:4px;
+  margin-top: 6px;
+  background-color: #393939;
+  border: solid 1px #fff;
+}
+.footer .category a:hover  {
+  background-color: #E85245;
+}
+
+
+.footer .payment{
+  margin:0px;
+  padding:0px;
+  list-style-type:none
+}
+.footer .payment li{
+  list-style-type:none;
+}
+.footer .payment li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  float: left;
+  font-size: 25px;
+  padding: 10px 10px;
+}
+.footer hr{
+  background-color: #393939;
+}
+.footer .links-img{
+  height: 20px;
+  padding-right: 15px;
+}
+
+@media  screen and (max-device-width : 700px) {
+  .footer  .title{
+    padding-top: 25px;
+  }
+
+  #copyright{
+    text-align: center !important;
+  }
+
+  #copyright .text-right{
+    text-align: center !important;
+  }
+}
+
+
+/*
+clients
+=============================
+ */
+
+.clients-img{
+    width: 370px;
+    height: 140px;
+}
