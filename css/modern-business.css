@@ -350,8 +350,7 @@ buttons
 
   -moz-border-radius: 50%;
   border-radius: 50%;
-
-  border: 1px solid #323232;
+  border:none;
   text-align: center;
   padding-bottom: 10px;
   font-size: 20px;
@@ -490,4 +489,25 @@ clients
 .clients-img{
     width: 370px;
     height: 140px;
+}
+
+
+
+
+/*
+arrows
+==========================
+ */
+
+
+#left-arrow, #right-arrow{
+  font-size: 70px;
+  color: #AEAEAE;
+  position: absolute;
+  top: 48%;
+  list-style: none;
+  z-index: 99;
+}
+#right-arrow{
+  right: 0;
 }
