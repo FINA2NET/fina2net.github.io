@@ -80,7 +80,7 @@
                 Clients
               </a>
               <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdownBlog">
-                <a class="dropdown-item" href="https://www.google.com/maps/d/u/0/viewer?hl=en&msa=0&z=3&ie=UTF8&mid=1wre4tb-h9Chft-IvHSbmJvON3G8&ll=17.602139095447118%2C35.37597674999995" target="_blank">FINA User Map</a>
+                <a class="dropdown-item" href="fina_map.html" target="_blank">FINA User Map</a>
                 <a class="dropdown-item" href="Clients.html#fina@Georgia">FINA@ Georgia</a>
                 <a class="dropdown-item" href="Clients.html#fina@Kyrgyzstan">FINA@ Kosovo</a>
                 <a class="dropdown-item" href="Clients.html#fina@Rwanda">FINA@ Rwanda</a>
@@ -120,92 +120,99 @@
 
 
 
-<div id="social_side_links">
+<div class="container-fluid" id="contact-page">
 
-  <div class="social-links-class" id="social-links-container">
-    <a href="https://www.facebook.com/FINA2.NET/?ref=br_rs"><i class="fa fa-facebook-square"></i></a>
-    <a href="https://www.youtube.com/user/fina2net"><i class="fa fa-youtube"></i></a>
-    <a href="https://twitter.com/fina2"><i class="fa fa-twitter"></i></a>
-    <a href="https://www.linkedin.com/company/fina-ltd/"><i class="fa fa-linkedin"></i></a>
-  </div>
-  <a  class="icon-btn" onclick="myFunction()"><i class="fa fa-plus"></i></a>
-
-</div>
+  <!-- Page Heading/Breadcrumbs -->
 
 
-<!-- Page Content -->
-    <div class="container">
+  <!-- Content Row -->
+  <div class="row">
+    <!-- Map Column -->
+
+    <div class="col-lg-5 offset-lg-1 mb-4">
 
 
-      <!-- Content Row -->
-      <div class="row">
-        <!-- Map Column -->
-        <div class="col-lg-8 mb-4">
-          <!-- Embedded Google Map -->
-          <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=shartava 40&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.mapouter{overflow:hidden;height:500px;width:600px;}.gmap_canvas {background:none!important;height:500px;width:600px;}</style></div>
+
+
+
+
+      <form name="sentMessage" action="https://formspree.io/akaki@fina2.net"
+            method="POST" id="" novalidate>
+
+        <div class="control-group form-group">
+          <div class="controls">
+            <label>Full Name:</label>
+            <input type="text" class="form-control" name="name" required
+                   data-validation-required-message="Please enter your name.">
+            <p class="help-block"></p>
+          </div>
         </div>
-        <!-- Contact Details Column -->
-        <div class="col-lg-4 mb-4">
-          <p>&nbsp;</p>
-          <p>&nbsp;</p>
-          <h3>Contact Details</h3>
-          <p>
-            Shartava N40 str. Tbilisi
-          </p>
-          <p>
-            Phone: + 995 598 757 080
-          </p>
-          <p>
-            Email:
-            <a href="mailto:INFO@FINA2.NET">Info@Fina2.net
-            </a>
-          </p>
-
+        <div class="control-group form-group">
+          <div class="controls">
+            <label>Phone Number:</label>
+            <input type="tel" class="form-control" name="phone" required
+                   data-validation-required-message="Please enter your phone number.">
+          </div>
         </div>
+        <div class="control-group form-group">
+          <div class="controls">
+            <label>Email Addresse:</label>
+            <input type="email" class="form-control" name="email" required
+                   data-validation-required-message=" Please enter your email address. ">
+          </div>
+        </div>
+        <div class="control-group form-group">
+          <div class="controls">
+            <label>Messege:</label>
+            <textarea type="text" class="form-control" name="message"></textarea>
+          </div>
+        </div>
+        <div id="success"></div>
+        <!-- For success/fail messages -->
+
+        <input type="submit" class="btn contact-btn" value="Send Message">
+
+      </form>
+    </div>
+
+
+    <!-- Contact Details Column -->
+    <div class="col-lg-6 mb-4">
+
+      <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="360" id="gmap_canvas" src="https://maps.google.com/maps?q=shartava 40&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.mapouter{overflow:hidden;height:350px;width:100%;}.gmap_canvas {background:none!important;height:360px;width:100%;}</style></div>
+
+      <div id="contact-page-details">
+        <p>
+          <span style="color: white;font-weight: bold">Address:</span>
+          40
+          Zhiuli Shartava St, Tbilisi
+          <br>
+        </p>
+        <p>
+          <span style="color: white;font-weight: bold"> Phone:</span> + 123 457 756
+        </p>
+        <p>
+          <span style="color: white;font-weight: bold"> Email:</span> support@fina2.net
+        </p>
+        <hr style="background-color: white;">
+        <ul class="social-icon contact-soc-icon text-center">
+          <a href="https://www.facebook.com/FINA2.NET/?ref=br_rs" target="_blank" class=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/fina2" target="_blank" class=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="https://www.youtube.com/user/fina2net" target="_blank" class="social"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/company/fina-ltd/" target="_blank" class="social"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </ul>
       </div>
-      <!-- /.row -->
-
-      <!-- Contact Form -->
-      <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-      <div class="row">
-        <div class="col-lg-8 mb-4">
-          <h3>Send us a Message</h3>
-          <form name="sentMessage" id="contactForm" novalidate>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Full Name:</label>
-                <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
-                <p class="help-block"></p>
-              </div>
-            </div>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Phone Number:</label>
-                <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
-              </div>
-            </div>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Email Address:</label>
-                <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
-              </div>
-            </div>
-            <div class="control-group form-group">
-              <div class="controls">
-                <label>Message:</label>
-                <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
-              </div>
-            </div>
-            <div id="success"></div>
-            <!-- For success/fail messages -->
-            <button type="submit" class="btn btn-danger" id="sendMessageButton">Send Message</button>
-          </form>
-        </div>
-
-      </div>
-      <!-- /.row -->
 
     </div>
+  </div>
+
+  <!-- /.row -->
+
+  <!-- Contact Form -->
+  <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+  <!-- /.row -->
+
+</div>
     <!-- /.container contact_me.php" -->
 
 
@@ -264,7 +271,6 @@
         <p style="font-size: 12px">Developed by: <a href="http://fina.bi">FINA LLC</a></p>
       </div>
     </div>
-
   </div>
 
 </footer>
