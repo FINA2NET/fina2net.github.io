@@ -244,7 +244,7 @@ footer
  */
 #social_side_links {
   position: fixed;
-  bottom: 50%;
+  bottom: 28%;
   right: 0;
   padding: 0;
   list-style: none;
@@ -510,4 +510,9 @@ arrows
 }
 #right-arrow{
   right: 0;
+}
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
 }
