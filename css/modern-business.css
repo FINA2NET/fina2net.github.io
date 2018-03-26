@@ -487,8 +487,6 @@ clients
  */
 
 .clients-img{
-    width: 370px;
-    height: 140px;
 }
 
 
@@ -547,16 +545,16 @@ contacts
 
 #contact-page-details{
   background-color: #E85245;
-  padding: 20px;
+  padding-top: 10px;
 }
 
 #contact-page input[type=text], #contact-page input[type=tel], #contact-page input[type=email]{
-  width: 80%;
+  width: 100%;
   border-width: 0 0 1px 0;
 }
 
 #contact-page textarea{
-  width: 80%;
+  width: 100%;
   height: 150px;
   border-width: 0 0 1px 0;
 
@@ -571,9 +569,6 @@ contacts
   outline: 0;
 }
 
-.some2:focus {
-  box-shadow: 0 4px 2px -2px rgba(228, 97, 92, 0.5)!important;
-}
 
 #contact-page .contact-btn{
   border-radius: 2em;
@@ -588,6 +583,6 @@ contacts
 .contact-soc-icon a{
   color: white;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   padding-right: 40px;
 }
