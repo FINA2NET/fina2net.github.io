@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
- */
-
 
 .carousel-item {
   height: 65vh;
@@ -30,6 +24,10 @@ a:hover{
 
 nav a{
   text-decoration: none !important;
+}
+nav{
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 /*
@@ -62,12 +60,7 @@ nav{
   }
 }
 
-.nav-second-row{
-  width: 100%;
-  background-color: #f8f8f8;
-  padding-left: 5%;
-  padding-right: 5%;
-}
+
 
 
 .navbar-toggler{
@@ -90,22 +83,6 @@ nav{
   color: #5D5D5D;
 }
 
-#fr-content{
-  float:right;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-#fr-content a{
-  color: #363636;
-  padding-right: 6px;
-}
-#fl-content{
-  padding-top: 15px;
-  padding-bottom: 5px;
-}
-
-
 #sr-content{
   float:right;
 }
@@ -119,22 +96,15 @@ nav{
   padding-bottom: 4%;
 }
 
-
 #sl-content{
   font-size: 20px;
-  padding-left: 4%;
   float: left;
 }
-
 
 .nav-second-row a{
   color: #ca0820 !important;
   font-weight: bold;
 }
-
-
-
-
 
 .portfolio-item {
   margin-bottom: 30px;
@@ -180,6 +150,9 @@ nav{
 
 }
 
+.lang-btn{
+  text-decoration: underline  #ca0820!important;
+}
 
 /*
 slider
@@ -228,10 +201,8 @@ Marketing Icons Section
 
 /*
 footer
-=============================================================
+================================================================================
  */
-
-
 
 
 #f i{
@@ -250,7 +221,7 @@ footer
  */
 #social_side_links {
   position: fixed;
-  bottom: 28%;
+  bottom: 25%;
   right: 0;
   padding: 0;
   list-style: none;
@@ -262,18 +233,23 @@ footer
 }
 
 
-#social_side_links i{
+#social_side_links2{
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+
+
   color: white;
-  font-size: 20px;
-  padding: 10px;
+  font-size: 1.8em;
+  margin: 1px;
+  text-align: center;
   border-radius: 50%;
   background-color: #ca0820;
 }
 
-#social_side_links i:hover{
+#social_side_links2:hover{
   background-color: #bdbdbd;
   color: #ca0820;
-  padding-right: 10px;
 }
 
 
@@ -385,8 +361,7 @@ buttons
 footer
 =======================================================
  */
-
-
+e
 
 
 footer .media-icons{
@@ -416,7 +391,7 @@ FOOTER START////////////////////////////////////
 
 
 .footer {
-  padding: 50px 0 20px 0;
+  padding: 50px 5% 20px 5%;
   background-color: #5D5D5D;
   color: white;
 }
@@ -426,9 +401,6 @@ FOOTER START////////////////////////////////////
   font-size:25px;
 }
 
-
-.footer .social-icon{padding:0px;margin:0px;}
-.footer .social-icon a{display:inline-block;color:#fff;font-size:25px;padding:5px;}
 
 
 
@@ -447,10 +419,9 @@ FOOTER START////////////////////////////////////
   background-color: #E85245;
 }
 
-
 .footer .payment{
-  margin:0px;
-  padding:0px;
+  margin:0;
+  padding:0;
   list-style-type:none
 }
 .footer .payment li{
@@ -470,6 +441,16 @@ FOOTER START////////////////////////////////////
 .footer .links-img{
   height: 20px;
   padding-right: 15px;
+}
+
+.footer-contact-info i{
+  padding-right: 10px;
+}
+.footer-contact-info p{
+  padding: 0;
+  margin: 0;
+
+  font-size:18px;
 }
 
 @media  screen and (max-device-width : 700px) {
@@ -591,3 +572,264 @@ contacts
   font-size: 20px;
   padding-right: 40px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.padding-top{
+  padding-top: 30px;
+}
+.padding-bottom{
+  padding-bottom: 30px;
+}
+
+
+.img-size{
+  width: 250px;
+  height: 200px;
+}
+.nbg{
+  background: url('../images/clients/nbg.png') no-repeat center;
+  background-size: 250px 175px;
+}
+.eiec{
+  background: url('../images/clients/eiec.png') no-repeat center;
+  background-size: 200px 165px;
+}
+.rawanda{
+  background: url('../images/clients/a25d2714d4998f58930de4981832c7571454518973153968140620170715114747.jpg') no-repeat center;
+  background-size: 200px 200px;
+}
+.kyrgyzstan{
+    background: url('../images/clients/NBKR.jpg') no-repeat center;
+    background-size: 200px 165px;
+}
+.laos{
+  background: url('../images/clients/bol logo.png') no-repeat center;
+  background-size: 200px 200px;
+}
+.mongolia{
+  background: url('../images/clients/BankMongolia.png') no-repeat center;
+    background-size: 200px 165px;
+}
+.congo{
+  background: url('../images/clients/BCCongo.jpg') no-repeat center;
+    background-size: 180px 155px;
+}
+.azerbaijan{
+  background: url('../images/clients/BankAzerbaijan.png') no-repeat center;
+  background-size: 250px 175px;
+}
+.tajikistan{
+  background: url('../images/clients/NBT.png') no-repeat center;
+  background-size: 200px 180px;
+}
+
+.hvrbox * {
+  box-sizing: border-box;
+}
+.hvrbox {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 100%;
+  height: 100%;
+}
+.hvrbox img {
+  max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+  display: block;
+}
+.hvrbox .hvrbox-layer_top {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(202, 8, 32, 0.8);
+  color: #fff;
+  padding: 15px;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -ms-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+  opacity: 1;
+}
+.hvrbox .hvrbox-text {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  -moz-transform: translate(-10%, -10%);
+  -webkit-transform: translate(-10%, -10%);
+  -ms-transform: translate(-10%, -10%);
+}
+.hvrbox .hvrbox-text_mobile {
+  font-size: 15px;
+  border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+  border-top: 1px solid rgba(179, 179, 179, 0.7);
+  margin-top: 5px;
+  padding-top: 2px;
+  display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+  display: block;
+}
+.hvrbox .hvrbox-layer_slideup {
+  -moz-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+}
+.hvrbox:hover .hvrbox-layer_slideup,
+.hvrbox.active .hvrbox-layer_slideup {
+  -moz-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+
+
+
+
+/*
+wiki
+===================================================
+ */
+
+.wiki-item{
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+  margin-bottom: 30px;
+  color: white;
+  font-weight: bold;
+}
+.wiki-item i{
+  font-size: 40px;
+}
+.pdf{
+  background-color: #bd2130;
+}
+.zip{
+  background-color: #faa52c;
+}
+.word{
+  background-color: #1f57bd;
+}
+.excel{
+  background-color: #499035;
+}
+
+
+
+
+
+
+
+
+/*---- Genral classes end -------*/
+
+/*Change icons size here*/
+.social-icons .fa {
+  font-size: 1.8em;
+}
+/*Change icons circle size and color here*/
+.social-icons .fa {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #FFF;
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icons.icon-circle .fa{
+  border-radius: 50%;
+}
+.social-icons.icon-rounded .fa{
+  border-radius:5px;
+}
+.social-icons.icon-flat .fa{
+  border-radius: 0;
+}
+
+.social-icons .fa:hover, .social-icons .fa:active {
+  color: #FFF;
+  -webkit-box-shadow: 1px 1px 3px #333;
+  -moz-box-shadow: 1px 1px 3px #333;
+  box-shadow: 1px 1px 3px #333;
+}
+.social-icons.icon-zoom .fa:hover, .social-icons.icon-zoom .fa:active {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.social-icons.icon-rotate .fa:hover, .social-icons.icon-rotate .fa:active {
+  -webkit-transform: scale(1.1) rotate(360deg);
+  -moz-transform: scale(1.1) rotate(360deg);
+  -ms-transform: scale(1.1) rotate(360deg);
+  -o-transform: scale(1.1) rotate(360deg);
+  transform: scale(1.1) rotate(360deg);
+}
+
+.social-icons .fa-adn{background-color:#504e54;}
+.social-icons .fa-apple{background-color:#aeb5c5;}
+.social-icons .fa-android{background-color:#A5C63B;}
+.social-icons .fa-bitbucket,.social-icons .fa-bitbucket-square{background-color:#003366;}
+.social-icons .fa-bitcoin,.social-icons .fa-btc{background-color:#F7931A;}
+.social-icons .fa-css3{background-color:#1572B7;}
+.social-icons .fa-dribbble{background-color:#F46899;}
+.social-icons .fa-dropbox{background-color:#018BD3;}
+.social-icons .fa-facebook,.social-icons .fa-facebook-square{background-color:#3C599F;}
+.social-icons .fa-flickr{background-color:#FF0084;}
+.social-icons .fa-foursquare{background-color:#0086BE;}
+.social-icons .fa-github,.social-icons .fa-github-alt,.social-icons .fa-github-square{background-color:#070709;}
+.social-icons .fa-google-plus,.social-icons .fa-google-plus-square{background-color:#CF3D2E;}
+.social-icons .fa-html5{background-color:#E54D26;}
+.social-icons .fa-instagram{background-color:#A1755C;}
+.social-icons .fa-linkedin,.social-icons .fa-linkedin-square{background-color:#0085AE;}
+.social-icons .fa-linux{background-color:#FBC002;color:#333;}
+.social-icons .fa-maxcdn{background-color:#F6AE1C;}
+.social-icons .fa-pagelines{background-color:#241E20;color:#3984EA;}
+.social-icons .fa-pinterest,.social-icons .fa-pinterest-square{background-color:#CC2127;}
+.social-icons .fa-renren{background-color:#025DAC;}
+.social-icons .fa-skype{background-color:#01AEF2;}
+.social-icons .fa-stack-exchange{background-color:#245590;}
+.social-icons .fa-stack-overflow{background-color:#FF7300;}
+.social-icons .fa-trello{background-color:#265A7F;}
+.social-icons .fa-tumblr,.social-icons .fa-tumblr-square{background-color:#314E6C;}
+.social-icons .fa-twitter,.social-icons .fa-twitter-square{background-color:#32CCFE;}
+.social-icons .fa-vimeo-square{background-color:#229ACC;}
+.social-icons .fa-vk{background-color:#375474;}
+.social-icons .fa-weibo{background-color:#D72B2B;}
+.social-icons .fa-windows{background-color:#12B6F3;}
+.social-icons .fa-xing,.social-icons .fa-xing-square{background-color:#00555C;}
+.social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-color:#C52F30;}

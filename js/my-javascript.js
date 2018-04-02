@@ -24,3 +24,14 @@ $(document).ready(function(){
 });
 
 
+$(document).ready(function() {
+    $('#lang_en').click(function() {
+        $(this).addClass('lang-btn');
+        $('#lang_ka').removeClass('lang-btn')
+    });
+
+    $('#lang_ka').click(function() {
+        $(this).addClass('lang-btn');
+        $('#lang_en').removeClass('lang-btn');
+    });
+});
