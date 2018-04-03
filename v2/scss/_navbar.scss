@@ -1,0 +1,35 @@
+nav{
+  padding-left: 5%;
+  padding-right: 5%;
+
+  background-color: $dark-white;
+
+  a {
+    color: #ca0820 !important;
+    font-weight: bold;
+  }
+  .navbar-toggler{
+    font-size: 20px;
+    color: white;
+    background-color: $light-red;
+
+    .navbar-toggler-icon {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background-color: white;
+      border-radius: 1px;
+      margin-top: 5px;
+      margin-bottom: 2px;
+    }
+  }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  .dropdown-menu{
+    background-color: #f8f8f8;
+    a{
+      font-weight: bold;
+    }
+  }
+}

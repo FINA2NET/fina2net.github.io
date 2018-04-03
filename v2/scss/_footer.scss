@@ -1,23 +1,79 @@
-footer.sticky-footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
 
-  width: 100%;
-  height: $sticky-footer-height;
+footer {
 
-  background-color: $gray-200;
+}
 
-  line-height: 55px;
-  @media (min-width: 992px) {
-    width: calc(100% - #{$sidenav-base-width});
+.footer {
+  padding: 50px 5% 20px 5%;
+  background-color: $grey;
+  color: white;
+  .title {
+    text-align: left;
+    font-size: 25px;
+  }
+  .category {
+    a {
+      color: white !important;
+      display: inline-block;
+      padding: 5px 20px;
+      margin: 2px;
+      border-radius: 4px;
+      background-color: #393939;
+      border: solid 1px #fff;
+      &:hover {
+        background-color: $light-red;
+      }
+    }
+  }
+
+  .payment {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    li {
+      list-style-type: none;
+      a {
+        text-decoration: none;
+        display: inline-block;
+        color: #fff;
+        float: left;
+        font-size: 25px;
+        padding: 10px 10px;
+      }
+    }
+  }
+
+  hr {
+    background-color: #393939;
+  }
+  .links-img {
+    height: 20px;
+    padding-right: 15px;
+  }
+  a{
+    color: white;
   }
 }
 
-body.sidenav-toggled {
-  @media (min-width: 992px) {
-    footer.sticky-footer {
-      width: calc(100% - #{$sidenav-collapsed-width});
+.footer-contact-info {
+  i {
+    padding-right: 10px;
+  }
+  p {
+    padding: 0;
+    margin: 0;
+
+    font-size: 18px;
+  }
+}
+@media screen and (max-device-width: 700px) {
+  .footer .title {
+    padding-top: 25px;
+  }
+  #copyright {
+    text-align: center !important;
+    .text-right {
+      text-align: center !important;
     }
   }
 }

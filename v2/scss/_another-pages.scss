@@ -1,0 +1,20 @@
+//fina overview
+#fina-overview-nav{
+  a{
+    margin: 10px;
+    font-size: 20px;
+  }
+}
+
+// slick slider arrows
+#left-arrow, #right-arrow{
+  font-size: 70px;
+  color: #AEAEAE;
+  position: absolute;
+  top: 48%;
+  list-style: none;
+  z-index: 99;
+}
+#right-arrow{
+  right: 0;
+}

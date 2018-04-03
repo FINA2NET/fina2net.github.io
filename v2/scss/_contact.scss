@@ -1,0 +1,30 @@
+#contact-page-details{
+  background-color: #E85245;
+  padding-top: 10px;
+}
+
+#contact-page{
+  input {
+    &[type=text], &[type=tel], &[type=email] {
+      width: 100%;
+      border-width: 0 0 1px 0;
+    }
+  }
+  textarea{
+    width: 100%;
+    border-width: 0 0 1px 0;
+    height: 150px;
+  }
+
+  .form-control{
+    &:focus {
+      color: #495057;
+      background-color: #fff;
+      border-color: #faa52c;
+      box-shadow: 0 4px 2px -2px rgba(228, 97, 92, 0.5)!important;
+      outline: 0;
+    }
+  }
+}
+
+

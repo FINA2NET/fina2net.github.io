@@ -123,3 +123,10 @@ gulp.task('dev', ['css', 'js', 'pug', 'browserSync'], function() {
   gulp.watch('./js/*.js', ['js']);
   gulp.watch('./*.html', browserSync.reload);
 });
+
+
+
+gulp.task('watch', ['css', 'js', 'pug'], function() {
+    gulp.watch('./pug/**/*', ['pug']);
+    gulp.watch('./scss/**/*.scss', ['css']);
+});

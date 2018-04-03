@@ -1,0 +1,30 @@
+
+.project-content-btn{
+  height: 33px;
+  width: 33px;
+
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border:none;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 20px;
+  background-color: $bef-btn-color;
+  float: right;
+
+  &:hover{
+    background-color: $aft-btn-color;
+    color: $btn-content;
+    border: $btn-border;
+  }
+}
+
+.my-btn{
+  border-radius: 2em;
+  background-color: $light-red !important;
+  color: white !important;
+
+  &:hover{
+    background-color: $red !important;;
+  }
+}
