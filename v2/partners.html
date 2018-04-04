@@ -15,6 +15,7 @@
     <link href="css/slick.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo|Oswald|Ubuntu">
+    <link rel="stylesheet" href="assets/css/material-kit.css">
     <!-- Page level plugin CSS-->
     <!-- Custom styles for this template-->
     <link href="css/main.css" rel="stylesheet">
@@ -23,15 +24,15 @@
 <body>
     <!-- Navigation-->
     <nav class="sticky-top">
-        <div class="navbar navbar-expand-lg container-fluid"><span class="nav-item" id="sl-content"><a href="index.html">FINA LLC</a></span><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        <div class="navbar navbar-expand-lg container-fluid navbar-container"><span class="nav-item" id="sl-content"><a href="./">FINA LLC</a></span><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span><span class="navbar-toggler-icon"></span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto nav-second-row">
-                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
-                        <div class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdownBlog"><a class="dropdown-item" href="about_fina.html">Team</a><a class="dropdown-item" href="partners.html">Partners</a></div>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="index.html" data-toggle="dropdown">Home</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownBlog"><a class="dropdown-item" href="about_fina.html">Team</a><a class="dropdown-item" href="partners.html">Partners</a></div>
                     </li>
-                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
-                        <div class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdownBlog"><a class="dropdown-item" href="FINA_overview.html"> FINA IRP</a><a class="dropdown-item" href=""> FINA BI</a><a class="dropdown-item" href=""> FINA STAT</a><a class="dropdown-item" href=""> FINA EMS</a><a class="dropdown-item"
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" data-toggle="dropdown">Products</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownBlog"><a class="dropdown-item" href="FINA_overview.html"> FINA IRP</a><a class="dropdown-item" href=""> FINA BI</a><a class="dropdown-item" href=""> FINA STAT</a><a class="dropdown-item" href=""> FINA EMS</a><a class="dropdown-item"
                                 href=""> DKMS</a></div>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="clients.html">Clients</a></li>
@@ -83,10 +84,10 @@
     <!-- Footer-->
     <footer class="footer">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row" id="footer-main-content">
                 <div class="col-md-3">
                     <h4 class="title">FINA LLC</h4>
-                    <p>Don't miss what happens around us, follow us on our social channels</p>
+                    <p class="text-left">Don't miss what happens around us, follow us on our social channels</p>
                     <div class="social-icons icon-circle"><a href="https://www.facebook.com/FINA2.NET/?ref=br_rs"><i class="fa fa-facebook-square"></i></a><a href="https://www.youtube.com/user/fina2net"><i class="fa fa-youtube"></i></a><a href="https://twitter.com/fina2"><i class="fa fa-twitter"></i></a>
                         <a
                             href="https://www.linkedin.com/company/fina-ltd/"><i class="fa fa-linkedin"></i></a>
@@ -94,10 +95,10 @@
                 </div>
                 <div class="col-md-3">
                     <h4 class="title">Menu</h4>
-                    <div class="category"><a href="about_fina.html">Team</a><a href="partners.html">Partners</a><a href="clients-changed.html">Clients</a><a href="http://summit2015.fina2.net">Workshops</a></div>
+                    <div class="category"><a href="about_fina.html">Team</a><a href="partners.html">Partners</a><a href="clients.html">Clients</a><a href="http://summit2015.fina2.net">Workshops</a></div>
                 </div>
                 <div class="col-md-3">
-                    <h4 class="title Products"></h4>
+                    <h4 class="title">Products</h4>
                     <div class="category"><a href="FINA_overview.html">FINA IRP</a><a href="">FINA BI</a><a href="">FINA STAT</a><a href="">FINA EMS</a><a href="">DKMS</a></div>
                 </div>
                 <div class="col-md-3">
@@ -111,7 +112,7 @@
             </div>
             <hr>
             <div class="row" id="copyright">
-                <div class="col-sm-6">
+                <div class="col-sm-6 text-left">
                     <p style="font-size: 12px">Copyright 2018. All right reserved</p>
                 </div>
                 <div class="col-sm-6 text-right">
@@ -121,10 +122,16 @@
         </div>
     </footer>
     <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!--script(src='vendor/jquery-easing/jquery.easing.min.js')-->
+    <script src="assets/js/core/jquery.min.js"></script>
+    <script src="assets/js/core/popper.min.js"></script>
+    <script src="assets/js/bootstrap-material-design.js"></script>
+    <script src="assets/js/material-kit.js"></script>
+    <script src="assets/js/plugins/bootstrap-datetimepicker.min.js"></script>
+    <script src="assets/js/plugins/moment.min.js"></script>
+    <script src="assets/js/plugins/nouislider.min.js"></script>
     <!-- Custom scripts for all pages-->
     <script src="js/my-javascript.js"></script>
 </body>

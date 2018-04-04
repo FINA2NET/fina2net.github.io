@@ -16,8 +16,8 @@ $(function () {
                 settings: 'unslick'
             }
         ],
-        prevArrow:'<i class="fa fa-angle-left" id="left-arrow></i>',
-        nextArrow:'<i class="fa fa-angle-right" id="right-arrow></i>'
+        prevArrow:'<i class="fa fa-angle-left" id="left-arrow"></i>',
+        nextArrow:'<i class="fa fa-angle-right" id="right-arrow"></i>'
 
     });
 });

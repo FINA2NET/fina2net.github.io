@@ -1,24 +1,24 @@
 // Navigation
 nav.sticky-top
-  .navbar.navbar-expand-lg.container-fluid
+  .navbar.navbar-expand-lg.container-fluid.navbar-container
     span#sl-content.nav-item
-      a(href='index.html') FINA LLC
+      a(href='./') FINA LLC
     button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
       span.navbar-toggler-icon
       span.navbar-toggler-icon
       span.navbar-toggler-icon
     #navbarResponsive.collapse.navbar-collapse
-      ul.navbar-nav.ml-auto.nav-second-row
+      ul.navbar-nav.ml-auto
         li.nav-item.dropdown
-          a#navbarDropdownBlog.nav-link.dropdown-toggle(href='index.html', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+          a#navbarDropdownBlog.nav-link.dropdown-toggle(href='index.html', data-toggle='dropdown')
             | Home
-          .dropdown-menu.dropdown-menu(aria-labelledby='navbarDropdownBlog')
+          .dropdown-menu(aria-labelledby='navbarDropdownBlog')
             a.dropdown-item(href='about_fina.html') Team
             a.dropdown-item(href='partners.html') Partners
         li.nav-item.dropdown
-          a#navbarDropdownBlog.nav-link.dropdown-toggle(href='#', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+          a#navbarDropdownBlog.nav-link.dropdown-toggle(href='#', data-toggle='dropdown')
             | Products
-          .dropdown-menu.dropdown-menu(aria-labelledby='navbarDropdownBlog')
+          .dropdown-menu(aria-labelledby='navbarDropdownBlog')
             a.dropdown-item(href='FINA_overview.html')  FINA IRP
             a.dropdown-item(href='')  FINA BI
             a.dropdown-item(href='')  FINA STAT

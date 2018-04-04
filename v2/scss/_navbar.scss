@@ -1,35 +1,36 @@
 nav{
-  padding-left: 5%;
-  padding-right: 5%;
 
-  background-color: $dark-white;
+
+  background-color: white;
 
   a {
-    color: #ca0820 !important;
-    font-weight: bold;
+    color: $red !important;
+    font-weight: bold!important;
   }
   .navbar-toggler{
     font-size: 20px;
-    color: white;
+    color: white!important;
     background-color: $light-red;
 
     .navbar-toggler-icon {
       display: block;
       width: 22px;
       height: 2px;
-      background-color: white;
+      background-color: white!important;
       border-radius: 1px;
       margin-top: 5px;
       margin-bottom: 2px;
     }
   }
-  .dropdown:hover .dropdown-menu {
-    display: block;
-  }
+
   .dropdown-menu{
     background-color: #f8f8f8;
     a{
       font-weight: bold;
     }
   }
+}
+.navbar-container{
+  padding-left: 5%;
+  padding-right: 5%;
 }

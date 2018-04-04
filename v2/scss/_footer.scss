@@ -4,11 +4,12 @@ footer {
 }
 
 .footer {
+
   padding: 50px 5% 20px 5%;
   background-color: $grey;
   color: white;
   .title {
-    text-align: left;
+    color: white;
     font-size: 25px;
   }
   .category {
@@ -54,6 +55,11 @@ footer {
     color: white;
   }
 }
+#footer-main-content{
+  *{
+    float: left;
+  }
+}
 
 .footer-contact-info {
   i {
@@ -72,8 +78,13 @@ footer {
   }
   #copyright {
     text-align: center !important;
-    .text-right {
+    .text-right, .text-left {
       text-align: center !important;
     }
   }
+}
+
+.asd{
+  color: #E85245 ;
+;
 }

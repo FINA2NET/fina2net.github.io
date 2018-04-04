@@ -8,6 +8,10 @@ var pug = require('gulp-pug');
 var beautify = require('gulp-html-beautify');
 var pkg = require('./package.json');
 var browserSync = require('browser-sync').create();
+var sitemap = require('gulp-sitemap');
+var save = require('gulp-save');
+var robots = require('gulp-robots');
+
 // Set the banner content
 var banner = ['/*!\n',
   ' * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
@@ -129,4 +133,45 @@ gulp.task('dev', ['css', 'js', 'pug', 'browserSync'], function() {
 gulp.task('watch', ['css', 'js', 'pug'], function() {
     gulp.watch('./pug/**/*', ['pug']);
     gulp.watch('./scss/**/*.scss', ['css']);
+});
+
+
+//sitemap.xml generator --------------------------------------------------------------
+gulp.task('sitemap', function() {
+    gulp.src('*.html', {
+        read: false
+    })
+        .pipe(save('before-sitemap'))
+        .pipe(sitemap({
+            siteUrl: 'http://fina.bi/',
+            mappings:[{
+                pages:['clients.html','partners.html'],
+                changefreq: 'hourly',
+                priority:0.5
+            },{
+                pages:['contact.html'],
+                changefreq: 'always'
+            }
+            ]
+        }))
+        .pipe(gulp.dest('./'))
+        .pipe(save.restore('before-sitemap'));
+});
+
+// robot.txt generator --------------------------------------------------------------
+gulp.task('robot', function () {
+    gulp.src('./*.html')
+        .pipe(robots({
+            useragent: '*',
+            allow: ['./'],
+            disallow: ['cgi-bin/'],
+            sitemap:'sitemap.xml'
+        }))
+        .pipe(gulp.dest('./'));
+});
+
+
+
+gulp.task('material',function () {
+   gulp.src('./assets/scss/material-kit.scss').pipe(sass()).pipe(gulp.dest('./assets/css'));
 });

@@ -1,5 +1,12 @@
 // Global styling for this template
 
+body{
+  background-color: white!important;
+}
+*{
+  font-family: 'Arimo', sans-serif;
+}
+
 a{
   text-decoration: none!important;
   color: $red;
@@ -21,11 +28,4 @@ a{
   padding-right: 30px;
 }
 
-*{
 
-
-
-
-  font-family: 'Arimo', sans-serif;
-
-}

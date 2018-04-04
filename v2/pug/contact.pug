@@ -29,25 +29,25 @@ html(lang='en')
                     form(name='sentMessage', action='https://formspree.io/info@fina2.net', method='POST')
                         .control-group.form-group
                             .controls
-                                label Full Name:
+                                label.bmd-label-floating Full Name:
                                 input(type="text", class="form-control", name="name", data-validation-required-message="Please enter your name.")
                                 p.help-block
                         .control-group.form-group
                             .controls
-                                label Phone Number:
+                                label.bmd-label-floating Phone Number:
                                 input(type="tel", class="form-control", name="phone", data-validation-required-message="Please enter your phone number.")
-                        .control-group.form-group
+                        .form-group
                             .controls
-                                label Email Address:
+                                label.bmd-label-floating Email Address:
                                 input(type="email", class="form-control", name="email", data-validation-required-message="Please enter your email address")
                         .control-group.form-group
                             .controls
-                                label Message:
+                                label.bmd-label-floating Message:
                                 textarea(type="text", class="form-control", name="message")
                         #success
                         .text-center
                             input(type="submit", class="btn my-btn", value="Send Message")
-                div(style="background-color: #E85245; border-radius: 2em;").col-lg-6
+                div(style="background-color: #F85749; border-radius: 2em;").col-lg-6
                     .padding-left
                         .padding-top
                             span(style="color: white;font-weight: bold") Address:
@@ -70,6 +70,7 @@ html(lang='en')
                                 i.fa.fa-twitter
                             a(href='https://www.linkedin.com/company/fina-ltd/')
                                 i.fa.fa-linkedin
+
 
         include includes/footer.pug
         include includes/js/core.pug

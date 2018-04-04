@@ -1,10 +1,18 @@
+body {
+  background-color: white !important;
+}
+
+* {
+  font-family: 'Arimo', sans-serif;
+}
+
 a {
   text-decoration: none !important;
-  color: #ca0820;
+  color: #ea0000;
 }
 
 a:hover {
-  color: #ca0820;
+  color: #ea0000;
 }
 
 .padding-top {
@@ -23,24 +31,18 @@ a:hover {
   padding-right: 30px;
 }
 
-* {
-  font-family: 'Arimo', sans-serif;
-}
-
 nav {
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f8f8f8;
+  background-color: white;
 }
 
 nav a {
-  color: #ca0820 !important;
-  font-weight: bold;
+  color: #ea0000 !important;
+  font-weight: bold !important;
 }
 
 nav .navbar-toggler {
   font-size: 20px;
-  color: white;
+  color: white !important;
   background-color: #E85245;
 }
 
@@ -48,14 +50,10 @@ nav .navbar-toggler .navbar-toggler-icon {
   display: block;
   width: 22px;
   height: 2px;
-  background-color: white;
+  background-color: white !important;
   border-radius: 1px;
   margin-top: 5px;
   margin-bottom: 2px;
-}
-
-nav .dropdown:hover .dropdown-menu {
-  display: block;
 }
 
 nav .dropdown-menu {
@@ -66,9 +64,14 @@ nav .dropdown-menu a {
   font-weight: bold;
 }
 
+.navbar-container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 #social_side_links {
   position: fixed;
-  bottom: 25%;
+  bottom: 20%;
   right: 0;
   padding: 0;
   list-style: none;
@@ -119,6 +122,7 @@ nav .dropdown-menu a {
 }
 
 .social-icons .fa {
+  margin: 1px;
   font-size: 1.8em;
   width: 50px;
   height: 50px;
@@ -310,11 +314,12 @@ nav .dropdown-menu a {
 }
 
 .card-title a {
-  color: #ca0820;
+  color: #ea0000;
 }
 
 .card-header {
   text-align: center;
+  color: #ea0000;
 }
 
 .card-text {
@@ -347,6 +352,10 @@ nav .dropdown-menu a {
 }
 
 .my-btn:hover {
+  background-color: #ea0000 !important;
+}
+
+.btn-danger {
   background-color: #ca0820 !important;
 }
 
@@ -357,7 +366,7 @@ nav .dropdown-menu a {
 }
 
 .footer .title {
-  text-align: left;
+  color: white;
   font-size: 25px;
 }
 
@@ -407,6 +416,10 @@ nav .dropdown-menu a {
   color: white;
 }
 
+#footer-main-content * {
+  float: left;
+}
+
 .footer-contact-info i {
   padding-right: 10px;
 }
@@ -424,9 +437,13 @@ nav .dropdown-menu a {
   #copyright {
     text-align: center !important;
   }
-  #copyright .text-right {
+  #copyright .text-right, #copyright .text-left {
     text-align: center !important;
   }
+}
+
+.asd {
+  color: #E85245;
 }
 
 #contact-page-details {
@@ -442,15 +459,15 @@ nav .dropdown-menu a {
 #contact-page textarea {
   width: 100%;
   border-width: 0 0 1px 0;
-  height: 150px;
+  height: 150px !important;
 }
 
 #contact-page .form-control:focus {
-  color: #495057;
-  background-color: #fff;
-  border-color: #faa52c;
-  box-shadow: 0 4px 2px -2px rgba(228, 97, 92, 0.5) !important;
-  outline: 0;
+  box-shadow: none;
+}
+
+.bmd-label-floating {
+  color: #3e3e3e !important;
 }
 
 #fina-overview-nav a {
@@ -462,7 +479,7 @@ nav .dropdown-menu a {
   font-size: 70px;
   color: #AEAEAE;
   position: absolute;
-  top: 48%;
+  top: 40%;
   list-style: none;
   z-index: 99;
 }
