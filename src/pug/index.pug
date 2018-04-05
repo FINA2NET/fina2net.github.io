@@ -116,27 +116,26 @@ html(lang='en')
                   button.btn.my-btn(type='submit') more
       h2.text-center.padding-top Recent Projects
       hr
-      .wrapper
-        .module-slider
-          div
-            a
-              img.card-img-top(src='assets/img/FINA.png', alt='')
+      .row
+        div.col-lg-4.mb-4
+          .card
+            img.card-img-top(src='assets/img/FINA.png', alt='')
             .card-body
               h4.card-title
                 a(href='Clients.html#fina@Georgia') Integrated Regulatory Platform at National Bank of Georgia
               p.card-text
                 | FINA LLC Implemented Financial Supervision Database system called “FINA” in Bank Supervision Department which included: DCS(Data Collection Server) - Web portal to collect data from financial institutions, FINA IRP - Mainc system to manage forms of financial reports, schedules, validation rules... and FINA Report Designer - based on LibreOffice Addin to create beautiful reports.
-          div
-            a
-              img.card-img-top(src='assets/img/FINA1.png', alt='')
+        div.col-lg-4.mb-4
+          .card
+            img.card-img-top(src='assets/img/FINA1.png', alt='')
             .card-body
               h4.card-title
                 a(href='Clients.html#fina@Georgia2') Knowledge Management for Environmental Protection
               p.card-text
                 | DKMS (Dynamic Knowledge Management System) Climate Modul was implemented in Environmental Center of Georgia, system creates user friendly dashboards and reports for monitoring climate changes in Georgia
-          div
-            a
-              img.card-img-top(src='assets/img/FINAK.png', alt='')
+        div.col-lg-4.mb-4
+          .card
+            img.card-img-top(src='assets/img/FINAK.png', alt='')
             .card-body
               h4.card-title
                 a(href='Clients.html#fina@Kosovo') Integrated Regulatory Platform at Central Bank of Kosovo
@@ -150,9 +149,6 @@ html(lang='en')
 
     include includes/js/core
 
-    script(src='assets/js/slick.min.js')
-
     include includes/js/custom
 
-    script(src='assets/js/slider.js')
 
