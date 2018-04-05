@@ -1,0 +1,82 @@
+doctype html
+html(lang='en')
+
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title FINA LLC
+
+        include includes/css/core
+
+        // Page level plugin CSS
+
+        include includes/css/custom
+
+    body
+        include includes/navbar
+
+        #contact-map.mapouter
+            .gmap_canvas
+                iframe(width="100%", height="420", id="gmap_canvas", src="https://maps.google.com/maps?q=shartava 40&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0", scrolling="no", marginheight="0", marginwidth="0")
+
+        #contact-page.container.padding-bottom
+            .row
+                .col-lg-6
+                    form(name='sentMessage', action='https://formspree.io/info@fina2.net', method='POST')
+                        .control-group.form-group
+                            .controls
+                                label.bmd-label-floating Full Name:
+                                input(type="text", class="form-control", name="name", data-validation-required-message="Please enter your name.")
+                                p.help-block
+                        .control-group.form-group
+                            .controls
+                                label.bmd-label-floating Phone Number:
+                                input(type="tel", class="form-control", name="phone", data-validation-required-message="Please enter your phone number.")
+                        .form-group
+                            .controls
+                                label.bmd-label-floating Email Address:
+                                input(type="email", class="form-control", name="email", data-validation-required-message="Please enter your email address")
+                        .control-group.form-group
+                            .controls
+                                label.bmd-label-floating Message:
+                                textarea(type="text", class="form-control", name="message")
+                        #success
+                        .text-center
+                            input(type="submit", class="btn my-btn", value="Send Message")
+                div(style="background-color: #F85749; border-radius: 0 2em 2em 0;").col-lg-6
+                    .padding-left
+                        .padding-top
+                            span(style="color: white;font-weight: bold") Address:
+                            span Shartava N40 str. Tbilisi
+                        .padding-top
+                            span(style="color: white;font-weight: bold") Phone:
+                            span + 995 032 2 42 03 18
+                        .padding-top
+                            span(style="color: white;font-weight: bold") Email:
+                            span info@fina2.net
+
+                    .col-lg-12
+                        hr(style="background-color: white;")
+                        .social-icons.icon-circle.text-center
+                            a(href='https://www.facebook.com/FINA2.NET/?ref=br_rs')
+                                i.fa.fa-facebook-square
+                            a(href='https://www.youtube.com/user/fina2net')
+                                i.fa.fa-youtube
+                            a(href='https://twitter.com/fina2')
+                                i.fa.fa-twitter
+                            a(href='https://www.linkedin.com/company/fina-ltd/')
+                                i.fa.fa-linkedin
+
+
+        include includes/footer
+        include includes/js/core
+
+        script(src='js/slick.min.js')
+
+        include includes/js/custom
+
+        script(src='js/slider.js')
