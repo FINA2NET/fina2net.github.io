@@ -2,8 +2,8 @@ body {
   background-color: white !important;
 }
 
-* {
-  font-family: 'Arimo', sans-serif;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ruda', sans-serif !important;
 }
 
 a {
@@ -62,6 +62,10 @@ nav .dropdown-menu {
 
 nav .dropdown-menu a {
   font-weight: bold;
+}
+
+nav .dropdown-menu a:hover {
+  color: white !important;
 }
 
 .navbar-container {
@@ -310,11 +314,18 @@ nav .dropdown-menu a {
 }
 
 .card-title {
+  font-weight: normal;
   text-align: center;
 }
 
 .card-title a {
   color: #ea0000;
+}
+
+.card-header {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
 .card-header {
@@ -451,6 +462,12 @@ nav .dropdown-menu a {
   padding-top: 10px;
 }
 
+#contact-page {
+  border-radius: 2em;
+  margin-top: 28%;
+  background-color: white;
+}
+
 #contact-page input[type=text], #contact-page input[type=tel], #contact-page input[type=email] {
   width: 100%;
   border-width: 0 0 1px 0;
@@ -468,6 +485,12 @@ nav .dropdown-menu a {
 
 .bmd-label-floating {
   color: #3e3e3e !important;
+}
+
+#contact-map {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
 }
 
 #fina-overview-nav a {
@@ -586,4 +609,9 @@ nav .dropdown-menu a {
 .client-padding {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.img-size {
+  width: 400px;
+  height: 180pxx;
 }

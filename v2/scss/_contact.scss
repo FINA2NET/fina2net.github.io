@@ -4,6 +4,9 @@
 }
 
 #contact-page{
+  border-radius: 2em;
+  margin-top:28%;
+  background-color: white;
   input {
     &[type=text], &[type=tel], &[type=email] {
       width: 100%;
@@ -27,3 +30,8 @@
   color: #3e3e3e !important;
 }
 
+#contact-map{
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+}

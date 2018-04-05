@@ -27,6 +27,9 @@ nav{
     background-color: #f8f8f8;
     a{
       font-weight: bold;
+      &:hover{
+        color:white!important;
+      }
     }
   }
 }
@@ -34,3 +37,4 @@ nav{
   padding-left: 5%;
   padding-right: 5%;
 }
+

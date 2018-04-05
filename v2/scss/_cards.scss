@@ -1,10 +1,17 @@
 // Styling for custom cards
 // Custom class for the background icon in card blocks
 .card-title {
+  font-weight: normal;
   text-align: center;
   a {
     color: $red;
   }
+
+}
+.card-header{
+  text-transform:uppercase;
+  margin:0;
+  padding:0;
 }
 
 .card-header{
@@ -14,4 +21,5 @@
 
 .card-text{
   text-align: justify;
+
 }
