@@ -37,7 +37,6 @@ a:hover {
 }
 
 nav {
-  padding-bottom: 10px !important;
   background-color: white;
 }
 
@@ -113,23 +112,23 @@ nav .dropdown-menu a:hover {
   color: #ca0820;
 }
 
-.responsive-class {
+.responsive-media-icon {
   bottom: 1% !important;
 }
 
-.responsive-class .icon-btn {
+.responsive-media-icon .icon-btn {
   display: block !important;
 }
 
-.responsive-class .icon-btn:hover a {
+.responsive-media-icon .icon-btn:hover a {
   display: block;
 }
 
-.responsive-class .social-links-class {
+.responsive-media-icon .social-links-class {
   display: none;
 }
 
-.responsive-class .social-links-class-response {
+.responsive-media-icon .social-links-class-response {
   display: block;
 }
 
@@ -289,10 +288,6 @@ nav .dropdown-menu a:hover {
 
 .social-icons .fa-youtube, .social-icons .social-icons .fa-youtube-play, .social-icons .social-icons .fa-youtube-square {
   background-color: #C52F30;
-}
-
-.ssk-bottom {
-  font-size: 10px !important;
 }
 
 .carousel-control-next-icon {
@@ -465,6 +460,10 @@ nav .dropdown-menu a:hover {
 
 .asd {
   color: #E85245;
+}
+
+.responsive-class * {
+  float: none !important;
 }
 
 #contact-page-details {

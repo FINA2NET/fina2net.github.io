@@ -57,7 +57,7 @@ footer {
 }
 #footer-main-content{
   *{
-    float: left;
+    float:left;
   }
 }
 
@@ -86,5 +86,10 @@ footer {
 
 .asd{
   color: #E85245 ;
-;
+}
+
+.responsive-class{
+  *{
+    float: none!important;
+  }
 }

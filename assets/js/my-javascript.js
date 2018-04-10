@@ -8,19 +8,19 @@ function myFunction(){
 }
 
 window.onresize=()=>{
-    responsiveIcons();
+    responsiveFooter();
 };
 
 $( document ).ready(function() {
-    responsiveIcons();
+    responsiveFooter();
 });
 
 
-function responsiveIcons() {
-    if(window.innerWidth<640)
-        $("#social_side_links").addClass("responsive-class");
+function responsiveFooter() {
+    if(window.innerWidth<780)
+        $("#footer-main-content").addClass("responsive-class");
     else
-        $("#social_side_links").removeClass("responsive-class");
+        $("#footer-main-content").removeClass("responsive-class");
 }
 //acordian
 
