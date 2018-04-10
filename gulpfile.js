@@ -171,5 +171,5 @@ gulp.task('robot', function () {
 
 
 gulp.task('material', function () {
-    gulp.src('./assets/scss/material-kit.scss').pipe(sass()).pipe(gulp.dest('./assets/css'));
+    gulp.src('./assets/scss/material-kit.scss').pipe(sass()).pipe(gulp.dest('./'));
 });
