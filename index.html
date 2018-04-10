@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo|Ruda|Oswald|Ubuntu">
     <link rel="stylesheet" href="assets/css/material-kit.css">
+    <link rel="stylesheet" href="assets/css/social-share-kit.css">
     <!-- Page level plugin CSS-->
     <!-- Custom styles for this template-->
     <link href="assets/css/main.css" rel="stylesheet">
@@ -42,13 +43,27 @@
             </div>
         </div>
     </nav>
-    <div id="social_side_links">
-        <div class="social-links-class" id="social-links-container">
-            <div class="social-icons icon-circle"><a href="https://www.facebook.com/FINA2.NET/?ref=br_rs"><i class="fa fa-facebook-square"></i></a><a href="https://www.youtube.com/user/fina2net"><i class="fa fa-youtube"></i></a><a href="https://twitter.com/fina2"><i class="fa fa-twitter"></i></a>
-                <a
-                    href="https://www.linkedin.com/company/fina-ltd/"><i class="fa fa-linkedin"></i></a>
-            </div>
-        </div><a class="icon-btn" onclick="myFunction()"><i class="fa fa-plus" id="social_side_links-btn"></i></a></div>
+    <!--#social_side_links
+#social-links-container.social-links-class
+  .social-icons.icon-circle
+    a(href='https://www.facebook.com/FINA2.NET/?ref=br_rs')
+      i.fa.fa-facebook-square
+    a(href='https://www.youtube.com/user/fina2net')
+      i.fa.fa-youtube
+    a(href='https://twitter.com/fina2')
+      i.fa.fa-twitter
+    a(href='https://www.linkedin.com/company/fina-ltd/')
+      i.fa.fa-linkedin
+a.icon-btn(onclick='myFunction()')
+  i#social_side_links-btn.fa.fa-plus
+
+-->
+    <div class="container">
+        <div class="ssk-sticky ssk-right ssk-bottom ssk-lg"><a class="ssk ssk-facebook" href="https://www.facebook.com/FINA2.NET/?ref=br_rs"></a><a class="ssk ssk-youtube" href="https://www.youtube.com/user/fina2net" style="background-color:red"></a><a class="ssk ssk-twitter" href="https://twitter.com/fina2"></a>
+            <a
+                class="ssk ssk-linkedin" href="https://www.linkedin.com/company/fina-ltd/"></a>
+        </div>
+    </div>
     <header>
         <div class="carousel slide" id="carouselExampleIndicators" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -89,7 +104,7 @@
                 href="#carouselExampleIndicators" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span></a></div>
     </header>
     <!-- Page Content-->
-    <div class="container">
+    <div class="container-fluid container-padding">
         <h2 class="text-center padding-top padding-bottom">Our Products</h2>
         <div class="row padding-bottom">
             <div class="col-lg-4 col-sm-6 portfolio-item">
@@ -161,7 +176,7 @@
         <hr>
         <div class="row">
             <div class="col-lg-4 mb-4">
-                <div class="card"><img class="card-img-top" src="assets/img/FINA.png" alt="">
+                <div class="card h-100"><img class="card-img-top" src="assets/img/FINA.png" alt="">
                     <div class="card-body">
                         <h4 class="card-title"><a href="Clients.html#fina@Georgia">Integrated Regulatory Platform at National Bank of Georgia</a></h4>
                         <p class="card-text">FINA LLC Implemented Financial Supervision Database system called “FINA” in Bank Supervision Department which included: DCS(Data Collection Server) - Web portal to collect data from financial institutions, FINA IRP - Mainc system
@@ -170,7 +185,7 @@
                 </div>
             </div>
             <div class="col-lg-4 mb-4">
-                <div class="card"><img class="card-img-top" src="assets/img/FINA1.png" alt="">
+                <div class="card h-100"><img class="card-img-top" src="assets/img/FINA1.png" alt="">
                     <div class="card-body">
                         <h4 class="card-title"><a href="Clients.html#fina@Georgia2">Knowledge Management for Environmental Protection</a></h4>
                         <p class="card-text">DKMS (Dynamic Knowledge Management System) Climate Modul was implemented in Environmental Center of Georgia, system creates user friendly dashboards and reports for monitoring climate changes in Georgia</p>
@@ -178,7 +193,7 @@
                 </div>
             </div>
             <div class="col-lg-4 mb-4">
-                <div class="card"><img class="card-img-top" src="assets/img/FINAK.png" alt="">
+                <div class="card h-100"><img class="card-img-top" src="assets/img/FINAK.png" alt="">
                     <div class="card-body">
                         <h4 class="card-title"><a href="Clients.html#fina@Kosovo">Integrated Regulatory Platform at Central Bank of Kosovo</a></h4>
                         <p class="card-text">FINA LLC Implemented Financial Supervision Database system called “FINA” in Bank Supervision Department which included: DCS(Data Collection Server) - Web portal to collect data from financial institutions, FINA IRP - Mainc system
@@ -241,6 +256,7 @@
     <script src="assets/js/plugins/moment.min.js"></script>
     <script src="assets/js/plugins/bootstrap-datetimepicker.min.js"></script>
     <script src="assets/js/plugins/nouislider.min.js"></script>
+    <script src="assets/js/plugins/social-share-kit.js"></script>
     <!-- Custom scripts for all pages-->
     <script src="assets/js/my-javascript.js"></script>
 </body>

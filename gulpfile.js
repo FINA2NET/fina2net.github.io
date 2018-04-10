@@ -129,7 +129,7 @@ gulp.task('dev', ['css', 'js', 'pug', 'browserSync'], function () {
 });
 
 
-gulp.task('watch', ['css', 'js', 'pug'], function () {
+gulp.task('watch', ['css', 'pug'], function () {
     gulp.watch('./src/pug/**/*', ['pug']);
     gulp.watch('./src/scss/**/*.scss', ['css']);
 });

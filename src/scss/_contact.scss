@@ -4,8 +4,7 @@
 }
 
 #contact-page{
-  border-radius: 2em;
-  margin-top:28%;
+  margin-top:55vh;
   background-color: white;
   input {
     &[type=text], &[type=tel], &[type=email] {
@@ -34,4 +33,8 @@
   z-index: -1;
   position: absolute;
   width: 100%;
+}
+.contact-right-side{
+  background: $light-red;
+  padding-bottom: 20px;
 }

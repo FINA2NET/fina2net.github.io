@@ -1,5 +1,5 @@
 function myFunction(){
-    var x = document.getElementById("social-links-container");
+    let x = document.getElementById("social-links-container");
 
     if(x.className==="social-links-class")
         x.className="social-links-class-response";
@@ -7,6 +7,21 @@ function myFunction(){
         x.className="social-links-class";
 }
 
+window.onresize=()=>{
+    responsiveIcons();
+};
+
+$( document ).ready(function() {
+    responsiveIcons();
+});
+
+
+function responsiveIcons() {
+    if(window.innerWidth<640)
+        $("#social_side_links").addClass("responsive-class");
+    else
+        $("#social_side_links").removeClass("responsive-class");
+}
 //acordian
 
 var createAccordian = function(accordianElem) {
@@ -23,7 +38,7 @@ $(document).ready(function(){
     });
 });
 
-
+/*
 $(document).ready(function() {
     $('#lang_en').click(function() {
         $(this).addClass('lang-btn');
@@ -35,3 +50,5 @@ $(document).ready(function() {
         $('#lang_en').removeClass('lang-btn');
     });
 });
+
+*/

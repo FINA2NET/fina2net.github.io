@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo|Ruda|Oswald|Ubuntu">
     <link rel="stylesheet" href="assets/css/material-kit.css">
+    <link rel="stylesheet" href="assets/css/social-share-kit.css">
     <!-- Custom styles for this template-->
     <link href="assets/css/main.css" rel="stylesheet">
 </head>
@@ -36,13 +37,27 @@
             </div>
         </div>
     </nav>
-    <div id="social_side_links">
-        <div class="social-links-class" id="social-links-container">
-            <div class="social-icons icon-circle"><a href="https://www.facebook.com/FINA2.NET/?ref=br_rs"><i class="fa fa-facebook-square"></i></a><a href="https://www.youtube.com/user/fina2net"><i class="fa fa-youtube"></i></a><a href="https://twitter.com/fina2"><i class="fa fa-twitter"></i></a>
-                <a
-                    href="https://www.linkedin.com/company/fina-ltd/"><i class="fa fa-linkedin"></i></a>
-            </div>
-        </div><a class="icon-btn" onclick="myFunction()"><i class="fa fa-plus" id="social_side_links-btn"></i></a></div>
+    <!--#social_side_links
+#social-links-container.social-links-class
+  .social-icons.icon-circle
+    a(href='https://www.facebook.com/FINA2.NET/?ref=br_rs')
+      i.fa.fa-facebook-square
+    a(href='https://www.youtube.com/user/fina2net')
+      i.fa.fa-youtube
+    a(href='https://twitter.com/fina2')
+      i.fa.fa-twitter
+    a(href='https://www.linkedin.com/company/fina-ltd/')
+      i.fa.fa-linkedin
+a.icon-btn(onclick='myFunction()')
+  i#social_side_links-btn.fa.fa-plus
+
+-->
+    <div class="container">
+        <div class="ssk-sticky ssk-right ssk-bottom ssk-lg"><a class="ssk ssk-facebook" href="https://www.facebook.com/FINA2.NET/?ref=br_rs"></a><a class="ssk ssk-youtube" href="https://www.youtube.com/user/fina2net" style="background-color:red"></a><a class="ssk ssk-twitter" href="https://twitter.com/fina2"></a>
+            <a
+                class="ssk ssk-linkedin" href="https://www.linkedin.com/company/fina-ltd/"></a>
+        </div>
+    </div>
     <div>
         <div class="container-fluid">
             <div class="row padding-top">
@@ -128,6 +143,7 @@
     <script src="assets/js/plugins/moment.min.js"></script>
     <script src="assets/js/plugins/bootstrap-datetimepicker.min.js"></script>
     <script src="assets/js/plugins/nouislider.min.js"></script>
+    <script src="assets/js/plugins/social-share-kit.js"></script>
     <!-- Custom scripts for all pages-->
     <script src="assets/js/my-javascript.js"></script>
 </body>

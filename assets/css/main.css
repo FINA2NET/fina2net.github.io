@@ -31,6 +31,11 @@ a:hover {
   padding-right: 30px;
 }
 
+.container-padding {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 nav {
   background-color: white;
 }
@@ -91,11 +96,11 @@ nav .dropdown-menu a:hover {
 }
 
 #social_side_links-btn {
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
   color: white;
-  font-size: 1.8em;
+  font-size: 1.6em;
   margin: 1px;
   text-align: center;
   border-radius: 50%;
@@ -107,30 +112,32 @@ nav .dropdown-menu a:hover {
   color: #ca0820;
 }
 
-@media screen and (max-device-width: 640px) {
-  #social_side_links {
-    bottom: 1% !important;
-  }
-  #social_side_links .icon-btn {
-    display: block;
-  }
-  #social_side_links .icon-btn:hover a {
-    display: block;
-  }
-  #social_side_links .social-links-class {
-    display: none;
-  }
-  #social_side_links .social-links-class-response {
-    display: block;
-  }
+.responsive-class {
+  bottom: 1% !important;
+}
+
+.responsive-class .icon-btn {
+  display: block !important;
+}
+
+.responsive-class .icon-btn:hover a {
+  display: block;
+}
+
+.responsive-class .social-links-class {
+  display: none;
+}
+
+.responsive-class .social-links-class-response {
+  display: block;
 }
 
 .social-icons .fa {
   margin: 1px;
-  font-size: 1.8em;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
+  font-size: 1.6em;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
   text-align: center;
   color: white;
   color: rgba(255, 255, 255, 0.8);
@@ -294,13 +301,11 @@ nav .dropdown-menu a:hover {
 .carousel-control-prev {
   width: 5%;
   color: rgba(195, 195, 195, 0.6) !important;
-  background-color: rgba(195, 195, 195, 0.6) !important;
 }
 
 .carousel-control-next {
   width: 5%;
   color: rgba(195, 195, 195, 0.6) !important;
-  background-color: rgba(195, 195, 195, 0.6) !important;
 }
 
 .carousel-item {
@@ -463,8 +468,7 @@ nav .dropdown-menu a:hover {
 }
 
 #contact-page {
-  border-radius: 2em;
-  margin-top: 28%;
+  margin-top: 55vh;
   background-color: white;
 }
 
@@ -491,6 +495,11 @@ nav .dropdown-menu a:hover {
   z-index: -1;
   position: absolute;
   width: 100%;
+}
+
+.contact-right-side {
+  background: #E85245;
+  padding-bottom: 20px;
 }
 
 #fina-overview-nav a {

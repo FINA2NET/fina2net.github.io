@@ -15,12 +15,12 @@
 }
 
 #social_side_links-btn{
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
 
   color: white;
-  font-size: 1.8em;
+  font-size: 1.6em;
   margin: 1px;
   text-align: center;
   border-radius: 50%;
@@ -31,11 +31,11 @@
     color: #ca0820;
   }
 }
-@media  screen and (max-device-width : 640px) {
-  #social_side_links{
+.responsive-class{
+
     bottom: 1%!important;
     .icon-btn{
-      display: block;
+      display: block!important;
 
       &:hover a{
         display: block;
@@ -47,16 +47,16 @@
     .social-links-class-response{
       display: block;
     }
-  }
+
 }
 
 .social-icons{
   .fa {
     margin: 1px;
-    font-size: 1.8em;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
+    font-size: 1.6em;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
     text-align: center;
     color: white;
     color: rgba(255, 255, 255, 0.8);
