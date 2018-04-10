@@ -37,6 +37,7 @@ a:hover {
 }
 
 nav {
+  padding-bottom: 10px !important;
   background-color: white;
 }
 
