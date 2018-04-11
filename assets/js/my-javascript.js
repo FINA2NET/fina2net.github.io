@@ -22,6 +22,7 @@ function responsiveFooter() {
     else
         $("#footer-main-content").removeClass("responsive-class");
 }
+
 //acordian
 
 var createAccordian = function(accordianElem) {
@@ -52,3 +53,4 @@ $(document).ready(function() {
 });
 
 */
+

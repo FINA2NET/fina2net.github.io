@@ -24,11 +24,15 @@ html(lang='en')
         .container-fluid
             .row
                 .col-lg-10.offset-lg-1.portfolio-item
-                    #fina-overview-nav.container-fluid.text-center.padding-top
-                        a(href='#fina-overview')  Overview
-                        a(href='#fina-har-req')  Hardware Requirements
-                        a(href='#fina-sof-req')  Software Requirements
-                        a(href='#fina-net-req')  Network Requirements
+                    #fina-overview-nav.row.container-fluid.padding-top
+                        div.col-lg-3.col-md-3.text-center
+                            a(href='#fina-overview')  Overview
+                        div.col-lg-3.col-md-3.text-center
+                            a(href='#fina-har-req')  Hardware Requirements
+                        div.col-lg-3.col-md-3.text-center
+                            a(href='#fina-sof-req')  Software Requirements
+                        div.col-lg-3.col-md-3.text-center
+                            a(href='#fina-net-req')  Network Requirements
             hr
         .container-fluid
             .row

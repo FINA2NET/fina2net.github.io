@@ -83,6 +83,10 @@ nav .dropdown-menu a:hover {
   padding-top: 0 !important;
 }
 
+.dropdown-menu {
+  top: 90% !important;
+}
+
 #social_side_links {
   position: fixed;
   bottom: 20%;
@@ -356,7 +360,6 @@ nav .dropdown-menu a:hover {
   border-radius: 50%;
   border: none;
   text-align: center;
-  padding-bottom: 10px;
   font-size: 20px;
   background-color: #D7D7D7;
   float: right;
@@ -372,6 +375,7 @@ nav .dropdown-menu a:hover {
   border-radius: 2em;
   background-color: #E85245 !important;
   color: white !important;
+  padding-bottom: 6px !important;
 }
 
 .my-btn:hover {
@@ -396,7 +400,7 @@ nav .dropdown-menu a:hover {
 .footer .category a {
   color: white !important;
   display: inline-block;
-  padding: 5px 20px;
+  padding: 5px 20px 0 20px;
   margin: 2px;
   border-radius: 4px;
   background-color: #393939;
@@ -514,21 +518,7 @@ nav .dropdown-menu a:hover {
 }
 
 #fina-overview-nav a {
-  margin: 10px;
   font-size: 20px;
-}
-
-#left-arrow, #right-arrow {
-  font-size: 70px;
-  color: #AEAEAE;
-  position: absolute;
-  top: 40%;
-  list-style: none;
-  z-index: 99;
-}
-
-#right-arrow {
-  right: 0;
 }
 
 .hvrbox {
