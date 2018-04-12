@@ -49,6 +49,7 @@ nav .navbar-toggler {
   font-size: 20px;
   color: white !important;
   background-color: #E85245;
+  margin: 1px !important;
 }
 
 nav .navbar-toggler .navbar-toggler-icon {
@@ -87,215 +88,137 @@ nav .dropdown-menu a:hover {
   top: 90% !important;
 }
 
-#social_side_links {
-  position: fixed;
-  bottom: 20%;
-  right: 0;
-  padding: 0;
-  list-style: none;
-  z-index: 99;
-}
-
-#social_side_links a {
-  display: block;
-}
-
-#social_side_links .icon-btn {
-  display: none;
-}
-
-#social_side_links-btn {
-  width: 42px;
-  height: 42px;
-  line-height: 42px;
-  color: white;
-  font-size: 1.6em;
-  margin: 1px;
-  text-align: center;
-  border-radius: 50%;
-  background-color: #ca0820;
-}
-
-#social_side_links-btn:hover {
-  background-color: #bdbdbd;
-  color: #ca0820;
-}
-
-.responsive-media-icon {
-  bottom: 1% !important;
-}
-
-.responsive-media-icon .icon-btn {
-  display: block !important;
-}
-
-.responsive-media-icon .icon-btn:hover a {
-  display: block;
-}
-
-.responsive-media-icon .social-links-class {
-  display: none;
-}
-
-.responsive-media-icon .social-links-class-response {
-  display: block;
-}
-
-.social-icons .fa {
-  margin: 1px;
-  font-size: 1.6em;
-  width: 42px;
-  height: 42px;
-  line-height: 42px;
-  text-align: center;
-  color: white;
-  color: rgba(255, 255, 255, 0.8);
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  border-radius: 50%;
-}
-
-.social-icons .fa:hover, .social-icons .fa:active {
-  color: #FFF;
-  -webkit-box-shadow: 1px 1px 3px #333;
-  -moz-box-shadow: 1px 1px 3px #333;
-  box-shadow: 1px 1px 3px #333;
-}
-
-.social-icons .fa-adn {
+.fa-adn {
   background-color: #504e54;
 }
 
-.social-icons .fa-apple {
+.fa-apple {
   background-color: #aeb5c5;
 }
 
-.social-icons .fa-android {
+.fa-android {
   background-color: #A5C63B;
 }
 
-.social-icons .fa-bitbucket, .social-icons .social-icons .fa-bitbucket-square {
+.fa-bitbucket, .social-icons .fa-bitbucket-square {
   background-color: #003366;
 }
 
-.social-icons .fa-bitcoin, .social-icons .social-icons .fa-btc {
+.fa-bitcoin, .social-icons .fa-btc {
   background-color: #F7931A;
 }
 
-.social-icons .fa-css3 {
+.fa-css3 {
   background-color: #1572B7;
 }
 
-.social-icons .fa-dribbble {
+.fa-dribbble {
   background-color: #F46899;
 }
 
-.social-icons .fa-dropbox {
+.fa-dropbox {
   background-color: #018BD3;
 }
 
-.social-icons .fa-facebook-square, .social-icons .fa-facebook, .social-icons .social-icons {
+.fa-facebook-square, .fa-facebook, .social-icons {
   background-color: #3C599F;
 }
 
-.social-icons .fa-flickr {
+.fa-flickr {
   background-color: #FF0084;
 }
 
-.social-icons .fa-foursquare {
+.fa-foursquare {
   background-color: #0086BE;
 }
 
-.social-icons .fa-github, .social-icons .social-icons .fa-github-alt, .social-icons .social-icons .fa-github-square {
+.fa-github, .social-icons .fa-github-alt, .social-icons .fa-github-square {
   background-color: #070709;
 }
 
-.social-icons .fa-google-plus, .social-icons .social-icons .fa-google-plus-square {
+.fa-google-plus, .social-icons .fa-google-plus-square {
   background-color: #CF3D2E;
 }
 
-.social-icons .fa-html5 {
+.fa-html5 {
   background-color: #E54D26;
 }
 
-.social-icons .fa-instagram {
+.fa-instagram {
   background-color: #A1755C;
 }
 
-.social-icons .fa-linkedin, .social-icons .social-icons .fa-linkedin-square {
+.fa-linkedin, .social-icons .fa-linkedin-square {
   background-color: #0085AE;
 }
 
-.social-icons .fa-linux {
+.fa-linux {
   background-color: #FBC002;
   color: #333;
 }
 
-.social-icons .fa-maxcdn {
+.fa-maxcdn {
   background-color: #F6AE1C;
 }
 
-.social-icons .fa-pagelines {
+.fa-pagelines {
   background-color: #241E20;
   color: #3984EA;
 }
 
-.social-icons .fa-pinterest, .social-icons .social-icons .fa-pinterest-square {
+.fa-pinterest, .social-icons .fa-pinterest-square {
   background-color: #CC2127;
 }
 
-.social-icons .fa-renren {
+.fa-renren {
   background-color: #025DAC;
 }
 
-.social-icons .fa-skype {
+.fa-skype {
   background-color: #01AEF2;
 }
 
-.social-icons .fa-stack-exchange {
+.fa-stack-exchange {
   background-color: #245590;
 }
 
-.social-icons .fa-stack-overflow {
+.fa-stack-overflow {
   background-color: #FF7300;
 }
 
-.social-icons .fa-trello {
+.fa-trello {
   background-color: #265A7F;
 }
 
-.social-icons .fa-tumblr, .social-icons .social-icons .fa-tumblr-square {
+.fa-tumblr, .social-icons .fa-tumblr-square {
   background-color: #314E6C;
 }
 
-.social-icons .fa-twitter, .social-icons .social-icons .fa-twitter-square {
+.fa-twitter, .social-icons .fa-twitter-square {
   background-color: #32CCFE;
 }
 
-.social-icons .fa-vimeo-square {
+.fa-vimeo-square {
   background-color: #229ACC;
 }
 
-.social-icons .fa-vk {
+.fa-vk {
   background-color: #375474;
 }
 
-.social-icons .fa-weibo {
+.fa-weibo {
   background-color: #D72B2B;
 }
 
-.social-icons .fa-windows {
+.fa-windows {
   background-color: #12B6F3;
 }
 
-.social-icons .fa-xing, .social-icons .social-icons .fa-xing-square {
+.fa-xing, .social-icons .fa-xing-square {
   background-color: #00555C;
 }
 
-.social-icons .fa-youtube, .social-icons .social-icons .fa-youtube-play, .social-icons .social-icons .fa-youtube-square {
+.fa-youtube, .social-icons .fa-youtube-play, .social-icons .fa-youtube-square {
   background-color: #C52F30;
 }
 
@@ -457,24 +380,20 @@ nav .dropdown-menu a:hover {
   font-size: 18px;
 }
 
-@media screen and (max-device-width: 700px) {
-  .footer .title {
-    padding-top: 25px;
-  }
-  #copyright {
-    text-align: center !important;
-  }
-  #copyright .text-right, #copyright .text-left {
-    text-align: center !important;
-  }
-}
-
 .asd {
   color: #E85245;
 }
 
 .responsive-class * {
   float: none !important;
+}
+
+.responsive-copyright {
+  text-align: center !important;
+}
+
+.responsive-copyright .text-right, .responsive-copyright .text-left {
+  text-align: center !important;
 }
 
 #contact-page-details {
@@ -619,9 +538,4 @@ nav .dropdown-menu a:hover {
 .client-padding {
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-.img-size {
-  width: 400px;
-  height: 180pxx;
 }

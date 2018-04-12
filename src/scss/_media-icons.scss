@@ -1,79 +1,3 @@
-#social_side_links {
-  position: fixed;
-  bottom: 20%;
-  right: 0;
-  padding: 0;
-  list-style: none;
-  z-index: 99;
-
-  a {
-    display: block;
-  }
-  .icon-btn{
-    display: none;
-  }
-}
-
-#social_side_links-btn{
-  width: 42px;
-  height: 42px;
-  line-height: 42px;
-
-  color: white;
-  font-size: 1.6em;
-  margin: 1px;
-  text-align: center;
-  border-radius: 50%;
-  background-color: #ca0820;
-
-  &:hover{
-    background-color: #bdbdbd;
-    color: #ca0820;
-  }
-}
-.responsive-media-icon{
-
-    bottom: 1%!important;
-    .icon-btn{
-      display: block!important;
-
-      &:hover a{
-        display: block;
-      }
-    }
-    .social-links-class {
-      display: none;
-    }
-    .social-links-class-response{
-      display: block;
-    }
-
-}
-
-.social-icons{
-  .fa {
-    margin: 1px;
-    font-size: 1.6em;
-    width: 42px;
-    height: 42px;
-    line-height: 42px;
-    text-align: center;
-    color: white;
-    color: rgba(255, 255, 255, 0.8);
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    border-radius: 50%;
-
-    &:hover, &:active{
-      color: #FFF;
-      -webkit-box-shadow: 1px 1px 3px #333;
-      -moz-box-shadow: 1px 1px 3px #333;
-      box-shadow: 1px 1px 3px #333;
-    }
-  }
 
   .fa-adn{background-color:#504e54;}
   .fa-apple{background-color:#aeb5c5;}
@@ -108,5 +32,5 @@
   .fa-windows{background-color:#12B6F3;}
   .fa-xing,.social-icons .fa-xing-square{background-color:#00555C;}
   .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-color:#C52F30;}
-}
+
 

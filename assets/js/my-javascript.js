@@ -1,12 +1,3 @@
-function myFunction(){
-    let x = document.getElementById("social-links-container");
-
-    if(x.className==="social-links-class")
-        x.className="social-links-class-response";
-    else
-        x.className="social-links-class";
-}
-
 window.onresize=()=>{
     responsiveFooter();
 };
@@ -17,15 +8,20 @@ $( document ).ready(function() {
 
 
 function responsiveFooter() {
-    if(window.innerWidth<780)
+    if(window.innerWidth<780) {
         $("#footer-main-content").addClass("responsive-class");
-    else
+        $('#copyright').addClass('responsive-copyright');
+    }
+    else{
         $("#footer-main-content").removeClass("responsive-class");
+        $('#copyright').removeClass('responsive-copyright');
+    }
 }
+
 
 //acordian
 
-var createAccordian = function(accordianElem) {
+let createAccordian = function(accordianElem) {
     if(accordianElem.is( ":hidden" ))
         accordianElem.slideDown();
     else
@@ -39,18 +35,4 @@ $(document).ready(function(){
     });
 });
 
-/*
-$(document).ready(function() {
-    $('#lang_en').click(function() {
-        $(this).addClass('lang-btn');
-        $('#lang_ka').removeClass('lang-btn')
-    });
-
-    $('#lang_ka').click(function() {
-        $(this).addClass('lang-btn');
-        $('#lang_en').removeClass('lang-btn');
-    });
-});
-
-*/
 

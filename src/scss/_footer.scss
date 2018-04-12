@@ -72,17 +72,6 @@ footer {
     font-size: 18px;
   }
 }
-@media screen and (max-device-width: 700px) {
-  .footer .title {
-    padding-top: 25px;
-  }
-  #copyright {
-    text-align: center !important;
-    .text-right, .text-left {
-      text-align: center !important;
-    }
-  }
-}
 
 .asd{
   color: #E85245 ;
@@ -92,4 +81,11 @@ footer {
   *{
     float: none!important;
   }
+}
+
+.responsive-copyright{
+    text-align: center !important;
+    .text-right, .text-left {
+      text-align: center !important;
+    }
 }
