@@ -353,6 +353,11 @@ nav .dropdown-menu a:hover {
   padding: 10px 10px;
 }
 
+.footer .container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
 .footer hr {
   background-color: #393939;
 }
