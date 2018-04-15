@@ -32,6 +32,8 @@
     "chart.js": "2.7.1",
     "datatables.net-bs4": "1.10.16",
     "font-awesome": "4.7.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-sourcemaps": "^2.6.4",
     "jquery": "3.3.1",
     "jquery.easing": "^1.4.1",
     "npm": "^5.8.0"
