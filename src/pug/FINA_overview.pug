@@ -144,202 +144,199 @@ html(lang='en')
                                 | independent from underlying authentication technologies. More details about JAAS API you can
                                 | find
                             p
-                        .clr
+
+
+
         .container-fluid
             .row
                 .col-lg-8.offset-lg-2.portfolio-item
                     .card.h-100
-                        .card-body
-                            p#fina-har-req.card-text
-                            h2.my-4  FINA Hardware Requirements
+                        #fina-har-req.card-body
+                            h2.card-title  FINA Hardware Requirements
                             .itemBody
                                 // Plugins: BeforeDisplayContent
                                 // Item text
                                 .itemFullText
-                                    table
+                                    p
+                                        strong APPLICATION & DATABASE SERVER(s)
+                                    p
+                                        | This is an estimated minimum required for the application server’s files and
+                                        | database containing one year worth of data typical for a small size banking
+                                        | system. In such environment FinA Database Server and Application Server can
+                                        | be
+                                        | installed on same machine. The amount of RAM and CPU speed to adequately run
+                                        | the
+                                        | FinA database is highly dependent on the amount of data being processed and
+                                        | should be estimated during the capacity planning phase. See minimum and
+                                        | recommended specifications below:
+                                    table.contentpaneopen
                                         tbody
                                             tr
                                                 td
                                                     p
-                                                        strong APPLICATION & DATABASE SERVER(s)
+                                                        strong Requirement
+                                                td
                                                     p
-                                                        | This is an estimated minimum required for the application server’s files and
-                                                        | database containing one year worth of data typical for a small size banking
-                                                        | system. In such environment FinA Database Server and Application Server can
-                                                        | be
-                                                        | installed on same machine. The amount of RAM and CPU speed to adequately run
-                                                        | the
-                                                        | FinA database is highly dependent on the amount of data being processed and
-                                                        | should be estimated during the capacity planning phase. See minimum and
-                                                        | recommended specifications below:
-                                                    table
-                                                        tbody
-                                                            tr
-                                                                td
-                                                                    p
-                                                                        strong Requirement
-                                                                td
-                                                                    p
-                                                                        strong Minimum
-                                                                td
-                                                                    p
-                                                                        strong Recommended
-                                                            tr
-                                                                td
-                                                                    p CPU
-                                                                td
-                                                                    p AMD/Celeron/Intel 1.0 MGH +
-                                                                td
-                                                                    p Two 4-Core Intel® Xeon®
-                                                            tr
-                                                                td
-                                                                    p RAM
-                                                                td
-                                                                    p 8 GB
-                                                                td
-                                                                    p 32 GB
-                                                            tr
-                                                                td
-                                                                    p HDD
-                                                                td
-                                                                    p 200 GB HDD
-                                                                td
-                                                                    p 500 GB RAID 10 with 5(+) x 15 rpm or SSD HDDs
-                                                            tr
-                                                                td
-                                                                    p NIC
-                                                                td
-                                                                    p 1 Mbps+
-                                                                td
-                                                                    p 1 Gbps
-                                                            tr
-                                                                td
-                                                                    p Monitor/Screen
-                                                                td
-                                                                    p 1024x768 +
-                                                                td
-                                                                    p 1280 x1024 +
-                                                    br
-                                                    | For minimum and recommended configurations see also useful links
-                                                    |                                         below:
-                                                    br
-                                                    ol
-                                                        li
-                                                            | Microsoft® SQL Server (MS SQL Server):
-                                                            a(href='http://www.microsoft.com/sql/default.mspx') http://www.microsoft.com/sql/default.mspx
-                                                        li
-                                                            | Oracle® Database (Oracle):
-                                                            a(href='http://www.oracle.com/database/index.html') http://www.oracle.com/database/index.html
-                                                        li
-                                                            | MySQL:
-                                                            a(href='http://www.mysql.com/') http://www.mysql.com
-                                                    strong DCS | Data Collection Server(s)
-                                                    table
-                                                        tbody
-                                                            tr
-                                                                td
-                                                                    p
-                                                                        strong Requirement
-                                                                td
-                                                                    p
-                                                                        strong Minimum
-                                                                td
-                                                                    p
-                                                                        strong Recommended
-                                                            tr
-                                                                td
-                                                                    p CPU
-                                                                td
-                                                                    p AMD/Celeron/Intel 1.0 MGH +
-                                                                td
-                                                                    p Two 4-Core Intel® Xeon®
-                                                            tr
-                                                                td
-                                                                    p RAM
-                                                                td
-                                                                    p 6 GB
-                                                                td
-                                                                    p 16 GB
-                                                            tr
-                                                                td
-                                                                    p HDD
-                                                                td
-                                                                    p 100 GB HDD
-                                                                td
-                                                                    p 500 GB +
-                                                            tr
-                                                                td
-                                                                    p NIC
-                                                                td
-                                                                    p 1 Mbps+ (DMZ)
-                                                                td
-                                                                    p 100 + Mbps (DMZ)
-                                                            tr
-                                                                td
-                                                                    p Monitor/Screen
-                                                                td
-                                                                    p 1024x768 +
-                                                                td
-                                                                    p 1280 x1024 +
-                                                    strong
-                                                        br
-                                                    | DCS server has to be installed in
-                                                    |                                         DMZ
-                                                    strong
-                                                        br
-                                                    br
-                                                    strong CLIENT WORKSTATION
-                                                    table
-                                                        tbody
-                                                            tr
-                                                                td
-                                                                    p
-                                                                        strong Requirement
-                                                                td
-                                                                    p
-                                                                        strong Minimum
-                                                                td
-                                                                    p
-                                                                        strong Recommended
-                                                        tbody
-                                                            tr
-                                                                td(colspan='3')
-                                                                    p
-                                                            tr
-                                                                td
-                                                                    p CPU
-                                                                td 1 GHZ
-                                                                td
-                                                                    p 2 + GHZ
-                                                            tr
-                                                                td
-                                                                    p RAM
-                                                                td
-                                                                    p 2 GB
-                                                                td
-                                                                    p 4 + GB
-                                                            tr
-                                                                td
-                                                                    p HDD Free Space
-                                                                td
-                                                                    p 1 GB
-                                                                td
-                                                                    p 10 GB
-                                                            tr
-                                                                td
-                                                                    p NIC
-                                                                td
-                                                                    p 1 Mbps
-                                                                td
-                                                                    p 1 + Gbps
-                                                            tr
-                                                                td
-                                                                    p Monitor/Screen
-                                                                td
-                                                                    p SVGA 1024x768
-                                                                td
-                                                                    p 1280 x1024 +
-                                    p
+                                                        strong Minimum
+                                                td
+                                                    p
+                                                        strong Recommended
+                                            tr
+                                                td
+                                                    p CPU
+                                                td
+                                                    p AMD/Celeron/Intel 1.0 MGH +
+                                                td
+                                                    p Two 4-Core Intel® Xeon®
+                                            tr
+                                                td
+                                                    p RAM
+                                                td
+                                                    p 8 GB
+                                                td
+                                                    p 32 GB
+                                            tr
+                                                td
+                                                    p HDD
+                                                td
+                                                    p 200 GB HDD
+                                                td
+                                                    p 500 GB RAID 10 with 5(+) x 15 rpm or SSD HDDs
+                                            tr
+                                                td
+                                                    p NIC
+                                                td
+                                                    p 1 Mbps+
+                                                td
+                                                    p 1 Gbps
+                                            tr
+                                                td
+                                                    p Monitor/Screen
+                                                td
+                                                    p 1024x768 +
+                                                td
+                                                    p 1280 x1024 +
+                                    br
+                                    | For minimum and recommended configurations see also useful links
+                                    |                                         below:
+                                    br
+                                    ol
+                                        li
+                                            | Microsoft® SQL Server (MS SQL Server):
+                                            a(href='http://www.microsoft.com/sql/default.mspx') http://www.microsoft.com/sql/default.mspx
+                                        li
+                                            | Oracle® Database (Oracle):
+                                            a(href='http://www.oracle.com/database/index.html') http://www.oracle.com/database/index.html
+                                        li
+                                            | MySQL:
+                                            a(href='http://www.mysql.com/') http://www.mysql.com
+                                    strong DCS | Data Collection Server(s)
+                                    table.contentpaneopen
+                                        tbody
+                                            tr
+                                                td
+                                                    p
+                                                        strong Requirement
+                                                td
+                                                    p
+                                                        strong Minimum
+                                                td
+                                                    p
+                                                        strong Recommended
+                                            tr
+                                                td
+                                                    p CPU
+                                                td
+                                                    p AMD/Celeron/Intel 1.0 MGH +
+                                                td
+                                                    p Two 4-Core Intel® Xeon®
+                                            tr
+                                                td
+                                                    p RAM
+                                                td
+                                                    p 6 GB
+                                                td
+                                                    p 16 GB
+                                            tr
+                                                td
+                                                    p HDD
+                                                td
+                                                    p 100 GB HDD
+                                                td
+                                                    p 500 GB +
+                                            tr
+                                                td
+                                                    p NIC
+                                                td
+                                                    p 1 Mbps+ (DMZ)
+                                                td
+                                                    p 100 + Mbps (DMZ)
+                                            tr
+                                                td
+                                                    p Monitor/Screen
+                                                td
+                                                    p 1024x768 +
+                                                td
+                                                    p 1280 x1024 +
+                                    strong
+                                        br
+                                    | DCS server has to be installed in
+                                    |                                         DMZ
+                                    strong
+                                        br
+                                    br
+                                    strong CLIENT WORKSTATION
+                                    table.contentpaneopen
+                                        tbody
+                                            tr
+                                                td
+                                                    p
+                                                        strong Requirement
+                                                td
+                                                    p
+                                                        strong Minimum
+                                                td
+                                                    p
+                                                        strong Recommended
+                                        tbody
+                                            tr
+                                                td(colspan='3')
+                                                    p
+                                            tr
+                                                td
+                                                    p CPU
+                                                td 1 GHZ
+                                                td
+                                                    p 2 + GHZ
+                                            tr
+                                                td
+                                                    p RAM
+                                                td
+                                                    p 2 GB
+                                                td
+                                                    p 4 + GB
+                                            tr
+                                                td
+                                                    p HDD Free Space
+                                                td
+                                                    p 1 GB
+                                                td
+                                                    p 10 GB
+                                            tr
+                                                td
+                                                    p NIC
+                                                td
+                                                    p 1 Mbps
+                                                td
+                                                    p 1 + Gbps
+                                            tr
+                                                td
+                                                    p Monitor/Screen
+                                                td
+                                                    p SVGA 1024x768
+                                                td
+                                                    p 1280 x1024 +
+                                p
                                 // Plugins: AfterDisplayContent
                                 // End body
                                 // End Social sharing
@@ -444,9 +441,8 @@ html(lang='en')
             .row
                 .col-lg-8.offset-lg-2.portfolio-item
                     .card.h-100
-                        .card-body
-                            p#fina-sof-req.card-text
-                            h2.my-4  FINA Software Requirements
+                        #fina-sof-req.card-body
+                            h2.card-title  FINA Software Requirements
                             .itemBody
                                 // Plugins: BeforeDisplayContent
                                 // Item text
@@ -559,196 +555,193 @@ html(lang='en')
                                                 | Super
                                                 | User
                                         .itemRelIntrotext
-                                            table
+
+                                            p
+                                                strong APPLICATION & DATABASE SERVER(s)
+                                            p
+                                                | This is an estimated minimum required for the application server’s
+                                                | files
+                                                | and database containing one year worth of data typical for a small
+                                                | size
+                                                | banking system. In such environment FinA Database Server and
+                                                | Application
+                                                | Server can be installed on same machine. The amount of RAM and CPU
+                                                | speed
+                                                | to adequately run the FinA database is highly dependent on the
+                                                | amount of
+                                                | data being processed and should be estimated during the capacity
+                                                | planning phase. See minimum and recommended specifications
+                                                | below:
+                                            p
+                                            table.contentpaneopen
                                                 tbody
                                                     tr
                                                         td
                                                             p
-                                                                strong APPLICATION & DATABASE SERVER(s)
+                                                                strong Requirement
+                                                        td
                                                             p
-                                                                | This is an estimated minimum required for the application server’s
-                                                                | files
-                                                                | and database containing one year worth of data typical for a small
-                                                                | size
-                                                                | banking system. In such environment FinA Database Server and
-                                                                | Application
-                                                                | Server can be installed on same machine. The amount of RAM and CPU
-                                                                | speed
-                                                                | to adequately run the FinA database is highly dependent on the
-                                                                | amount of
-                                                                | data being processed and should be estimated during the capacity
-                                                                | planning phase. See minimum and recommended specifications
-                                                                | below:
+                                                                strong Minimum
+                                                        td
                                                             p
-                                                            table
-                                                                tbody
-                                                                    tr
-                                                                        td
-                                                                            p
-                                                                                strong Requirement
-                                                                        td
-                                                                            p
-                                                                                strong Minimum
-                                                                        td
-                                                                            p
-                                                                                strong Recommended
-                                                                    tr
-                                                                        td
-                                                                            p CPU
-                                                                        td
-                                                                            p AMD/Celeron/Intel 1.0 MGH +
-                                                                        td
-                                                                            p Two 4-Core Intel® Xeon®
-                                                                    tr
-                                                                        td
-                                                                            p RAM
-                                                                        td
-                                                                            p 8 GB
-                                                                        td
-                                                                            p 32 GB
-                                                                    tr
-                                                                        td
-                                                                            p HDD
-                                                                        td
-                                                                            p 200 GB HDD
-                                                                        td
-                                                                            p 500 GB RAID 10 with 5(+) x 15 rpm or SSD HDDs
-                                                                    tr
-                                                                        td
-                                                                            p NIC
-                                                                        td
-                                                                            p 1 Mbps+
-                                                                        td
-                                                                            p 1 Gbps
-                                                                    tr
-                                                                        td
-                                                                            p Monitor/Screen
-                                                                        td
-                                                                            p 1024x768 +
-                                                                        td
-                                                                            p 1280 x1024 +
-                                                            br
-                                                            | For minimum and recommended configurations see also useful links
-                                                            |                                                 below:
-                                                            br
-                                                            ol
-                                                                li
-                                                                    | Microsoft® SQL Server (MS SQL Server):
-                                                                    a(href='http://www.microsoft.com/sql/default.mspx') http://www.microsoft.com/sql/default.mspx
-                                                                li
-                                                                    | Oracle® Database (Oracle):
-                                                                    a(href='http://www.oracle.com/database/index.html') http://www.oracle.com/database/index.html
-                                                                li
-                                                                    | MySQL:
-                                                                    a(href='http://www.mysql.com/') http://www.mysql.com
-                                                            |                                                 .
-                                                            strong DCS | Data Collection Server(s)
-                                                            table
-                                                                tbody
-                                                                    tr
-                                                                        td
-                                                                            p
-                                                                                strong Requirement
-                                                                        td
-                                                                            p
-                                                                                strong Minimum
-                                                                        td
-                                                                            p
-                                                                                strong Recommended
-                                                                    tr
-                                                                        td
-                                                                            p CPU
-                                                                        td
-                                                                            p AMD/Celeron/Intel 1.0 MGH +
-                                                                        td
-                                                                            p Two 4-Core Intel® Xeon®
-                                                                    tr
-                                                                        td
-                                                                            p RAM
-                                                                        td
-                                                                            p 6 GB
-                                                                        td
-                                                                            p 16 GB
-                                                                    tr
-                                                                        td
-                                                                            p HDD
-                                                                        td
-                                                                            p 100 GB HDD
-                                                                        td
-                                                                            p 500 GB +
-                                                                    tr
-                                                                        td
-                                                                            p NIC
-                                                                        td
-                                                                            p 1 Mbps+ (DMZ)
-                                                                        td
-                                                                            p 100 + Mbps (DMZ)
-                                                                    tr
-                                                                        td
-                                                                            p Monitor/Screen
-                                                                        td
-                                                                            p 1024x768 +
-                                                                        td
-                                                                            p 1280 x1024 +
-                                                            strong
-                                                                br
-                                                            | DCS server has to be installed in
-                                                            |                                                 DMZ
-                                                            strong
-                                                                br
-                                                            br
-                                                            strong CLIENT WORKSTATION
-                                                            table
-                                                                tbody
-                                                                    tr
-                                                                        td
-                                                                            p
-                                                                                strong Requirement
-                                                                        td
-                                                                            p
-                                                                                strong Minimum
-                                                                        td
-                                                                            p
-                                                                                strong Recommended
-                                                                tbody
-                                                                    tr
-                                                                        td(colspan='3')
-                                                                            p
-                                                                    tr
-                                                                        td
-                                                                            p CPU
-                                                                        td 1 GHZ
-                                                                        td
-                                                                            p 2 + GHZ
-                                                                    tr
-                                                                        td
-                                                                            p RAM
-                                                                        td
-                                                                            p 2 GB
-                                                                        td
-                                                                            p 4 + GB
-                                                                    tr
-                                                                        td
-                                                                            p HDD Free Space
-                                                                        td
-                                                                            p 1 GB
-                                                                        td
-                                                                            p 10 GB
-                                                                    tr
-                                                                        td
-                                                                            p NIC
-                                                                        td
-                                                                            p 1 Mbps
-                                                                        td
-                                                                            p 1 + Gbps
-                                                                    tr
-                                                                        td
-                                                                            p Monitor/Screen
-                                                                        td
-                                                                            p SVGA 1024x768
-                                                                        td
-                                                                            p 1280 x1024 +
-                                            p
+                                                                strong Recommended
+                                                    tr
+                                                        td
+                                                            p CPU
+                                                        td
+                                                            p AMD/Celeron/Intel 1.0 MGH +
+                                                        td
+                                                            p Two 4-Core Intel® Xeon®
+                                                    tr
+                                                        td
+                                                            p RAM
+                                                        td
+                                                            p 8 GB
+                                                        td
+                                                            p 32 GB
+                                                    tr
+                                                        td
+                                                            p HDD
+                                                        td
+                                                            p 200 GB HDD
+                                                        td
+                                                            p 500 GB RAID 10 with 5(+) x 15 rpm or SSD HDDs
+                                                    tr
+                                                        td
+                                                            p NIC
+                                                        td
+                                                            p 1 Mbps+
+                                                        td
+                                                            p 1 Gbps
+                                                    tr
+                                                        td
+                                                            p Monitor/Screen
+                                                        td
+                                                            p 1024x768 +
+                                                        td
+                                                            p 1280 x1024 +
+                                            br
+                                            | For minimum and recommended configurations see also useful links
+                                            |                                                 below:
+                                            br
+                                            ol
+                                                li
+                                                    | Microsoft® SQL Server (MS SQL Server):
+                                                    a(href='http://www.microsoft.com/sql/default.mspx') http://www.microsoft.com/sql/default.mspx
+                                                li
+                                                    | Oracle® Database (Oracle):
+                                                    a(href='http://www.oracle.com/database/index.html') http://www.oracle.com/database/index.html
+                                                li
+                                                    | MySQL:
+                                                    a(href='http://www.mysql.com/') http://www.mysql.com
+                                            |                                                 .
+                                            strong DCS | Data Collection Server(s)
+                                            table.contentpaneopen
+                                                tbody
+                                                    tr
+                                                        td
+                                                            p
+                                                                strong Requirement
+                                                        td
+                                                            p
+                                                                strong Minimum
+                                                        td
+                                                            p
+                                                                strong Recommended
+                                                    tr
+                                                        td
+                                                            p CPU
+                                                        td
+                                                            p AMD/Celeron/Intel 1.0 MGH +
+                                                        td
+                                                            p Two 4-Core Intel® Xeon®
+                                                    tr
+                                                        td
+                                                            p RAM
+                                                        td
+                                                            p 6 GB
+                                                        td
+                                                            p 16 GB
+                                                    tr
+                                                        td
+                                                            p HDD
+                                                        td
+                                                            p 100 GB HDD
+                                                        td
+                                                            p 500 GB +
+                                                    tr
+                                                        td
+                                                            p NIC
+                                                        td
+                                                            p 1 Mbps+ (DMZ)
+                                                        td
+                                                            p 100 + Mbps (DMZ)
+                                                    tr
+                                                        td
+                                                            p Monitor/Screen
+                                                        td
+                                                            p 1024x768 +
+                                                        td
+                                                            p 1280 x1024 +
+                                            strong
+                                                br
+                                            | DCS server has to be installed in
+                                            |                                                 DMZ
+                                            strong
+                                                br
+                                            br
+                                            strong CLIENT WORKSTATION
+                                            table.contentpaneopen
+                                                tbody
+                                                    tr
+                                                        td
+                                                            p
+                                                                strong Requirement
+                                                        td
+                                                            p
+                                                                strong Minimum
+                                                        td
+                                                            p
+                                                                strong Recommended
+                                                tbody
+                                                    tr
+                                                        td(colspan='3')
+                                                            p
+                                                    tr
+                                                        td
+                                                            p CPU
+                                                        td 1 GHZ
+                                                        td
+                                                            p 2 + GHZ
+                                                    tr
+                                                        td
+                                                            p RAM
+                                                        td
+                                                            p 2 GB
+                                                        td
+                                                            p 4 + GB
+                                                    tr
+                                                        td
+                                                            p HDD Free Space
+                                                        td
+                                                            p 1 GB
+                                                        td
+                                                            p 10 GB
+                                                    tr
+                                                        td
+                                                            p NIC
+                                                        td
+                                                            p 1 Mbps
+                                                        td
+                                                            p 1 + Gbps
+                                                    tr
+                                                        td
+                                                            p Monitor/Screen
+                                                        td
+                                                            p SVGA 1024x768
+                                                        td
+                                                            p 1280 x1024 +
+                                        p
                                         .itemRelFulltext
                                         .itemRelMedia
                                         .itemRelImageGallery

@@ -110,7 +110,6 @@
                         </p>
                         <p></p>
                     </div>
-                    <div class="clr"></div>
                 </div>
             </div>
         </div>
@@ -119,249 +118,240 @@
         <div class="row">
             <div class="col-lg-8 offset-lg-2 portfolio-item">
                 <div class="card h-100">
-                    <div class="card-body">
-                        <p class="card-text" id="fina-har-req"></p>
-                        <h2 class="my-4"> FINA Hardware Requirements</h2>
+                    <div class="card-body" id="fina-har-req">
+                        <h2 class="card-title"> FINA Hardware Requirements</h2>
                         <div class="itemBody">
                             <!-- Plugins: BeforeDisplayContent-->
                             <!-- Item text-->
                             <div class="itemFullText">
-                                <table>
+                                <p><strong>APPLICATION & DATABASE SERVER(s)</strong></p>
+                                <p>This is an estimated minimum required for the application server’s files and database containing one year worth of data typical for a small size banking system. In such environment FinA Database Server and Application Server
+                                    can be installed on same machine. The amount of RAM and CPU speed to adequately run the FinA database is highly dependent on the amount of data being processed and should be estimated during the capacity planning phase.
+                                    See minimum and recommended specifications below:</p>
+                                <table class="contentpaneopen">
                                     <tbody>
                                         <tr>
                                             <td>
-                                                <p><strong>APPLICATION & DATABASE SERVER(s)</strong></p>
-                                                <p>This is an estimated minimum required for the application server’s files and database containing one year worth of data typical for a small size banking system. In such environment FinA Database Server and
-                                                    Application Server can be installed on same machine. The amount of RAM and CPU speed to adequately run the FinA database is highly dependent on the amount of data being processed and should be estimated
-                                                    during the capacity planning phase. See minimum and recommended specifications below:</p>
-                                                <table>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>
-                                                                <p><strong>Requirement</strong></p>
-                                                            </td>
-                                                            <td>
-                                                                <p><strong>Minimum</strong></p>
-                                                            </td>
-                                                            <td>
-                                                                <p><strong>Recommended</strong></p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <p>CPU</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>AMD/Celeron/Intel 1.0 MGH +</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>Two 4-Core Intel® Xeon®</p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <p>RAM</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>8 GB</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>32 GB</p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <p>HDD</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>200 GB HDD</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>500 GB RAID 10 with 5(+) x 15 rpm or SSD HDDs</p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <p>NIC</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>1 Mbps+</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>1 Gbps</p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <p>Monitor/Screen</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>1024x768 +</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>1280 x1024 +</p>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table><br>For minimum and recommended configurations see also useful links below:
-                                                <br>
-                                                <ol>
-                                                    <li>Microsoft® SQL Server (MS SQL Server):<a href="http://www.microsoft.com/sql/default.mspx">http://www.microsoft.com/sql/default.mspx</a></li>
-                                                    <li>Oracle® Database (Oracle):<a href="http://www.oracle.com/database/index.html">http://www.oracle.com/database/index.html</a></li>
-                                                    <li>MySQL:<a href="http://www.mysql.com/">http://www.mysql.com</a></li>
-                                                </ol><strong>DCS | Data Collection Server(s)</strong>
-                                                <table>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>
-                                                                <p><strong>Requirement</strong></p>
-                                                            </td>
-                                                            <td>
-                                                                <p><strong>Minimum</strong></p>
-                                                            </td>
-                                                            <td>
-                                                                <p><strong>Recommended</strong></p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <p>CPU</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>AMD/Celeron/Intel 1.0 MGH +</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>Two 4-Core Intel® Xeon®</p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <p>RAM</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>6 GB</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>16 GB</p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <p>HDD</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>100 GB HDD</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>500 GB +</p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <p>NIC</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>1 Mbps+ (DMZ)</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>100 + Mbps (DMZ)</p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <p>Monitor/Screen</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>1024x768 +</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>1280 x1024 +</p>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table><strong><br></strong>DCS server has to be installed in DMZ
-                                                <strong><br></strong><br><strong>CLIENT WORKSTATION</strong>
-                                                <table>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>
-                                                                <p><strong>Requirement</strong></p>
-                                                            </td>
-                                                            <td>
-                                                                <p><strong>Minimum</strong></p>
-                                                            </td>
-                                                            <td>
-                                                                <p><strong>Recommended</strong></p>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td colspan="3">
-                                                                <p></p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <p>CPU</p>
-                                                            </td>
-                                                            <td>1 GHZ</td>
-                                                            <td>
-                                                                <p>2 + GHZ</p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <p>RAM</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>2 GB</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>4 + GB</p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <p>HDD Free Space</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>1 GB</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>10 GB</p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <p>NIC</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>1 Mbps</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>1 + Gbps</p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-                                                                <p>Monitor/Screen</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>SVGA 1024x768</p>
-                                                            </td>
-                                                            <td>
-                                                                <p>1280 x1024 +</p>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
+                                                <p><strong>Requirement</strong></p>
+                                            </td>
+                                            <td>
+                                                <p><strong>Minimum</strong></p>
+                                            </td>
+                                            <td>
+                                                <p><strong>Recommended</strong></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>CPU</p>
+                                            </td>
+                                            <td>
+                                                <p>AMD/Celeron/Intel 1.0 MGH +</p>
+                                            </td>
+                                            <td>
+                                                <p>Two 4-Core Intel® Xeon®</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>RAM</p>
+                                            </td>
+                                            <td>
+                                                <p>8 GB</p>
+                                            </td>
+                                            <td>
+                                                <p>32 GB</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>HDD</p>
+                                            </td>
+                                            <td>
+                                                <p>200 GB HDD</p>
+                                            </td>
+                                            <td>
+                                                <p>500 GB RAID 10 with 5(+) x 15 rpm or SSD HDDs</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>NIC</p>
+                                            </td>
+                                            <td>
+                                                <p>1 Mbps+</p>
+                                            </td>
+                                            <td>
+                                                <p>1 Gbps</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Monitor/Screen</p>
+                                            </td>
+                                            <td>
+                                                <p>1024x768 +</p>
+                                            </td>
+                                            <td>
+                                                <p>1280 x1024 +</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table><br>For minimum and recommended configurations see also useful links below:
+                                <br>
+                                <ol>
+                                    <li>Microsoft® SQL Server (MS SQL Server):<a href="http://www.microsoft.com/sql/default.mspx">http://www.microsoft.com/sql/default.mspx</a></li>
+                                    <li>Oracle® Database (Oracle):<a href="http://www.oracle.com/database/index.html">http://www.oracle.com/database/index.html</a></li>
+                                    <li>MySQL:<a href="http://www.mysql.com/">http://www.mysql.com</a></li>
+                                </ol><strong>DCS | Data Collection Server(s)</strong>
+                                <table class="contentpaneopen">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Requirement</strong></p>
+                                            </td>
+                                            <td>
+                                                <p><strong>Minimum</strong></p>
+                                            </td>
+                                            <td>
+                                                <p><strong>Recommended</strong></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>CPU</p>
+                                            </td>
+                                            <td>
+                                                <p>AMD/Celeron/Intel 1.0 MGH +</p>
+                                            </td>
+                                            <td>
+                                                <p>Two 4-Core Intel® Xeon®</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>RAM</p>
+                                            </td>
+                                            <td>
+                                                <p>6 GB</p>
+                                            </td>
+                                            <td>
+                                                <p>16 GB</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>HDD</p>
+                                            </td>
+                                            <td>
+                                                <p>100 GB HDD</p>
+                                            </td>
+                                            <td>
+                                                <p>500 GB +</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>NIC</p>
+                                            </td>
+                                            <td>
+                                                <p>1 Mbps+ (DMZ)</p>
+                                            </td>
+                                            <td>
+                                                <p>100 + Mbps (DMZ)</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Monitor/Screen</p>
+                                            </td>
+                                            <td>
+                                                <p>1024x768 +</p>
+                                            </td>
+                                            <td>
+                                                <p>1280 x1024 +</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table><strong><br></strong>DCS server has to be installed in DMZ
+                                <strong><br></strong><br><strong>CLIENT WORKSTATION</strong>
+                                <table class="contentpaneopen">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <p><strong>Requirement</strong></p>
+                                            </td>
+                                            <td>
+                                                <p><strong>Minimum</strong></p>
+                                            </td>
+                                            <td>
+                                                <p><strong>Recommended</strong></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="3">
+                                                <p></p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>CPU</p>
+                                            </td>
+                                            <td>1 GHZ</td>
+                                            <td>
+                                                <p>2 + GHZ</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>RAM</p>
+                                            </td>
+                                            <td>
+                                                <p>2 GB</p>
+                                            </td>
+                                            <td>
+                                                <p>4 + GB</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>HDD Free Space</p>
+                                            </td>
+                                            <td>
+                                                <p>1 GB</p>
+                                            </td>
+                                            <td>
+                                                <p>10 GB</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>NIC</p>
+                                            </td>
+                                            <td>
+                                                <p>1 Mbps</p>
+                                            </td>
+                                            <td>
+                                                <p>1 + Gbps</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>Monitor/Screen</p>
+                                            </td>
+                                            <td>
+                                                <p>SVGA 1024x768</p>
+                                            </td>
+                                            <td>
+                                                <p>1280 x1024 +</p>
                                             </td>
                                         </tr>
                                     </tbody>
                                 </table>
-                                <p></p>
                             </div>
+                            <p></p>
                             <!-- Plugins: AfterDisplayContent-->
                             <!-- End body-->
                             <!-- End Social sharing--><a class="itemRelTitle" href="/index.php/en/2014-03-17-15-53-25/2014-03-17-15-53-29/2013-01-31-07-09-58/item/38-fina-administrator-skills-requirements">FinA
@@ -436,9 +426,8 @@ User</a></div>
         <div class="row">
             <div class="col-lg-8 offset-lg-2 portfolio-item">
                 <div class="card h-100">
-                    <div class="card-body">
-                        <p class="card-text" id="fina-sof-req"></p>
-                        <h2 class="my-4"> FINA Software Requirements</h2>
+                    <div class="card-body" id="fina-sof-req">
+                        <h2 class="card-title"> FINA Software Requirements</h2>
                         <div class="itemBody">
                             <!-- Plugins: BeforeDisplayContent-->
                             <!-- Item text-->
@@ -512,244 +501,236 @@ Hardware Requirements</a>
                                     <div class="itemRelAuthor">By<a rel="author" href="/index.php/en/2014-03-17-15-53-25/2014-03-17-15-53-29/2013-01-31-07-09-60/itemlist/user/236-superuser">Super
 User</a></div>
                                     <div class="itemRelIntrotext">
-                                        <table>
+                                        <p><strong>APPLICATION & DATABASE SERVER(s)</strong></p>
+                                        <p>This is an estimated minimum required for the application server’s files and database containing one year worth of data typical for a small size banking system. In such environment FinA Database Server and Application
+                                            Server can be installed on same machine. The amount of RAM and CPU speed to adequately run the FinA database is highly dependent on the amount of data being processed and should be estimated during the capacity
+                                            planning phase. See minimum and recommended specifications below:
+                                        </p>
+                                        <p></p>
+                                        <table class="contentpaneopen">
                                             <tbody>
                                                 <tr>
                                                     <td>
-                                                        <p><strong>APPLICATION & DATABASE SERVER(s)</strong></p>
-                                                        <p>This is an estimated minimum required for the application server’s files and database containing one year worth of data typical for a small size banking system. In such environment FinA Database
-                                                            Server and Application Server can be installed on same machine. The amount of RAM and CPU speed to adequately run the FinA database is highly dependent on the amount of data being processed and
-                                                            should be estimated during the capacity planning phase. See minimum and recommended specifications below:
-                                                        </p>
+                                                        <p><strong>Requirement</strong></p>
+                                                    </td>
+                                                    <td>
+                                                        <p><strong>Minimum</strong></p>
+                                                    </td>
+                                                    <td>
+                                                        <p><strong>Recommended</strong></p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>CPU</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>AMD/Celeron/Intel 1.0 MGH +</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Two 4-Core Intel® Xeon®</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>RAM</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>8 GB</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>32 GB</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>HDD</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>200 GB HDD</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>500 GB RAID 10 with 5(+) x 15 rpm or SSD HDDs</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>NIC</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>1 Mbps+</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>1 Gbps</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Monitor/Screen</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>1024x768 +</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>1280 x1024 +</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table><br>For minimum and recommended configurations see also useful links below:
+                                        <br>
+                                        <ol>
+                                            <li>Microsoft® SQL Server (MS SQL Server):<a href="http://www.microsoft.com/sql/default.mspx">http://www.microsoft.com/sql/default.mspx</a></li>
+                                            <li>Oracle® Database (Oracle):<a href="http://www.oracle.com/database/index.html">http://www.oracle.com/database/index.html</a></li>
+                                            <li>MySQL:<a href="http://www.mysql.com/">http://www.mysql.com</a></li>
+                                        </ol> .<strong>DCS | Data Collection Server(s)</strong>
+                                        <table class="contentpaneopen">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <p><strong>Requirement</strong></p>
+                                                    </td>
+                                                    <td>
+                                                        <p><strong>Minimum</strong></p>
+                                                    </td>
+                                                    <td>
+                                                        <p><strong>Recommended</strong></p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>CPU</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>AMD/Celeron/Intel 1.0 MGH +</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Two 4-Core Intel® Xeon®</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>RAM</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>6 GB</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>16 GB</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>HDD</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>100 GB HDD</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>500 GB +</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>NIC</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>1 Mbps+ (DMZ)</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>100 + Mbps (DMZ)</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Monitor/Screen</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>1024x768 +</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>1280 x1024 +</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table><strong><br></strong>DCS server has to be installed in DMZ
+                                        <strong><br></strong><br><strong>CLIENT WORKSTATION</strong>
+                                        <table class="contentpaneopen">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <p><strong>Requirement</strong></p>
+                                                    </td>
+                                                    <td>
+                                                        <p><strong>Minimum</strong></p>
+                                                    </td>
+                                                    <td>
+                                                        <p><strong>Recommended</strong></p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tbody>
+                                                <tr>
+                                                    <td colspan="3">
                                                         <p></p>
-                                                        <table>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>
-                                                                        <p><strong>Requirement</strong></p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p><strong>Minimum</strong></p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p><strong>Recommended</strong></p>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <p>CPU</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>AMD/Celeron/Intel 1.0 MGH +</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>Two 4-Core Intel® Xeon®</p>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <p>RAM</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>8 GB</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>32 GB</p>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <p>HDD</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>200 GB HDD</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>500 GB RAID 10 with 5(+) x 15 rpm or SSD HDDs</p>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <p>NIC</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>1 Mbps+</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>1 Gbps</p>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <p>Monitor/Screen</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>1024x768 +</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>1280 x1024 +</p>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table><br>For minimum and recommended configurations see also useful links below:
-                                                        <br>
-                                                        <ol>
-                                                            <li>Microsoft® SQL Server (MS SQL Server):<a href="http://www.microsoft.com/sql/default.mspx">http://www.microsoft.com/sql/default.mspx</a></li>
-                                                            <li>Oracle® Database (Oracle):<a href="http://www.oracle.com/database/index.html">http://www.oracle.com/database/index.html</a></li>
-                                                            <li>MySQL:<a href="http://www.mysql.com/">http://www.mysql.com</a></li>
-                                                        </ol> .<strong>DCS | Data Collection Server(s)</strong>
-                                                        <table>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>
-                                                                        <p><strong>Requirement</strong></p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p><strong>Minimum</strong></p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p><strong>Recommended</strong></p>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <p>CPU</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>AMD/Celeron/Intel 1.0 MGH +</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>Two 4-Core Intel® Xeon®</p>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <p>RAM</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>6 GB</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>16 GB</p>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <p>HDD</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>100 GB HDD</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>500 GB +</p>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <p>NIC</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>1 Mbps+ (DMZ)</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>100 + Mbps (DMZ)</p>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <p>Monitor/Screen</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>1024x768 +</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>1280 x1024 +</p>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table><strong><br></strong>DCS server has to be installed in DMZ
-                                                        <strong><br></strong><br><strong>CLIENT WORKSTATION</strong>
-                                                        <table>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>
-                                                                        <p><strong>Requirement</strong></p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p><strong>Minimum</strong></p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p><strong>Recommended</strong></p>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td colspan="3">
-                                                                        <p></p>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <p>CPU</p>
-                                                                    </td>
-                                                                    <td>1 GHZ</td>
-                                                                    <td>
-                                                                        <p>2 + GHZ</p>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <p>RAM</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>2 GB</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>4 + GB</p>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <p>HDD Free Space</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>1 GB</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>10 GB</p>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <p>NIC</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>1 Mbps</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>1 + Gbps</p>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <p>Monitor/Screen</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>SVGA 1024x768</p>
-                                                                    </td>
-                                                                    <td>
-                                                                        <p>1280 x1024 +</p>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>CPU</p>
+                                                    </td>
+                                                    <td>1 GHZ</td>
+                                                    <td>
+                                                        <p>2 + GHZ</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>RAM</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>2 GB</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>4 + GB</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>HDD Free Space</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>1 GB</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>10 GB</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>NIC</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>1 Mbps</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>1 + Gbps</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p>Monitor/Screen</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>SVGA 1024x768</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>1280 x1024 +</p>
                                                     </td>
                                                 </tr>
                                             </tbody>
                                         </table>
-                                        <p></p>
                                     </div>
+                                    <p></p>
                                     <div class="itemRelFulltext"></div>
                                     <div class="itemRelMedia"></div>
                                     <div class="itemRelImageGallery"></div>
