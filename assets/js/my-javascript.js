@@ -25,7 +25,7 @@ function responsiveFooter() {
 
 //acordian
 
-let createAccordian = function(accordianElem) {
+let createAccordian = (accordianElem)=>{
     if(accordianElem.is( ":hidden" ))
         accordianElem.slideDown();
     else
@@ -38,5 +38,4 @@ $(document).ready(function(){
         createAccordian($(this).next());
     });
 });
-
 
