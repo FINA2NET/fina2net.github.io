@@ -4,7 +4,7 @@
 }
 
 #contact-page{
-  margin-top:55vh;
+  margin-top:calc(300px + 10vh);
   background-color: white;
   input {
     &[type=text], &[type=tel], &[type=email] {

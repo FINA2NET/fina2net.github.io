@@ -6,6 +6,10 @@ $( document ).ready(function() {
     responsiveFooter();
 });
 
+/*
+responsive footer
+=========================================================
+ */
 
 function responsiveFooter() {
     if(window.innerWidth<780) {

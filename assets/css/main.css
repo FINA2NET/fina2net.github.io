@@ -36,6 +36,11 @@ a:hover {
   padding-right: 5%;
 }
 
+.responsive-IRP {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
 nav {
   background-color: white;
 }
@@ -407,7 +412,7 @@ nav .dropdown-menu a:hover {
 }
 
 #contact-page {
-  margin-top: 55vh;
+  margin-top: calc(300px + 10vh);
   background-color: white;
 }
 
