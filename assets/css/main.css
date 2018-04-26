@@ -549,3 +549,46 @@ nav .dropdown-menu a:hover {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+.vacancies-title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.vacancies-img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.vacancies-form {
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.vacancies-form a {
+  color: white !important;
+  background-color: red;
+  border-radius: 2em;
+  padding: 5px 10px 5px 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.vacancies-form:hover a {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.vacancies-hr {
+  background-color: red;
+}
+
+.vacancies-card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.vacancies-card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}

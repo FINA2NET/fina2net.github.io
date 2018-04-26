@@ -1,0 +1,31 @@
+doctype html
+html(lang='en')
+
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title FINA LLC
+
+        include includes/css/core
+
+        // Page level plugin CSS
+
+        include includes/css/custom
+
+    body
+        include includes/navbar
+
+        .container-fluid.padding-top.padding-bottom
+            .row
+                .col-lg-10.offset-lg-1
+                    .container-fluid.vacancies-head
+
+        include includes/footer
+        include includes/js/core
+        include includes/js/custom
+        script(src='assets/js/vacancies.js')
+

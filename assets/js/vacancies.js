@@ -1,0 +1,21 @@
+
+
+$(document).ready(function () {
+    $.getJSON("vacancies.json", function(json) {
+        console.log(json);
+        for(let i=0; i<json.vacancies.length;i++)
+            $('.vacancies-head').append(
+                '<div class="row padding-top padding-bottom vacancies-card">'
+                +'<div class="col-lg-4 col-md-4">'
+                +'<img class="vacancies-img" src="'+json.vacancies[i].img +'">'
+                +'</div>'
+                +'<div class="col-lg-8 col-md-8">'
+                +'<div class="vacancies-title">'+json.vacancies[i].title +'</div>'
+                +'<hr class="vacancies-hr">'
+                +'<div class="vacancies-text">'+json.vacancies[i].description+'</div>'
+                +'<div class="vacancies-form"><a href="'+json.vacancies[i].formLink+'" target="_blank">Application Form</a></div>'
+                +'</div>'
+                +'</div>'
+            );
+    });
+});
