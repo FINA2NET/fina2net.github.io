@@ -13,7 +13,7 @@ $(document).ready(function () {
                 +'<div class="vacancies-title">'+json.vacancies[i].title +'</div>'
                 +'<hr class="vacancies-hr">'
                 +'<div class="vacancies-text">'+json.vacancies[i].description+'</div>'
-                +'<div class="vacancies-form"><a href="'+json.vacancies[i].formLink+'" target="_blank">Application Form</a></div>'
+                +'<div class="text-center"><div class="btn my-btn"><a href="'+json.vacancies[i].formLink+'" target="_blank" style="color:white!important;"><strong>Application Form</strong></a></div></div>'
                 +'</div>'
                 +'</div>'
             );

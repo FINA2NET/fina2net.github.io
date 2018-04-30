@@ -236,13 +236,11 @@ nav .dropdown-menu a:hover {
 }
 
 .carousel-control-prev {
-  padding-left: 3vw !important;
   width: 10%;
   color: rgba(195, 195, 195, 0.6) !important;
 }
 
 .carousel-control-next {
-  padding-right: 3vw !important;
   width: 10%;
   color: rgba(195, 195, 195, 0.6) !important;
 }
@@ -378,6 +376,37 @@ nav .dropdown-menu a:hover {
 
 #footer-main-content * {
   float: left;
+}
+
+#footer-main-content .list-group {
+  width: 100% !important;
+}
+
+#footer-main-content .list-group-item {
+  padding: 0 !important;
+}
+
+#footer-main-content ul {
+  padding-top: 0;
+}
+
+#footer-main-content ul li a {
+  padding-left: 0;
+  padding-bottom: 10px;
+  padding-top: 7px;
+  text-decoration: underline;
+}
+
+#footer-main-content .footer-underline {
+  border-top: solid 1px white;
+}
+
+#footer-main-content .footer-item:hover {
+  background-color: white;
+}
+
+#footer-main-content .footer-item:hover a {
+  color: #5D5D5D;
 }
 
 .footer-contact-info i {
@@ -576,7 +605,7 @@ nav .dropdown-menu a:hover {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.vacancies-form:hover a {
+.vacancies-form a:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 

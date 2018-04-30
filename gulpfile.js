@@ -80,6 +80,7 @@ gulp.task('css:minify', ['css:compile'], function () {
         .pipe(rename({
             suffix: '.min'
         }))
+        .pipe(cleanCSS())
         .pipe(gulp.dest('./assets/css'))
         .pipe(browserSync.stream());
 });
@@ -104,7 +105,6 @@ gulp.task('js', ['js:minify']);
 gulp.task('pug', function buildHTML() {
     return gulp.src('./src/pug/*.pug')
         .pipe(pug())
-        .pipe(beautify())
         .pipe(gulp.dest('./'))
         .pipe(browserSync.reload({
             stream: true
