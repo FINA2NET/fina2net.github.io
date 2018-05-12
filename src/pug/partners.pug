@@ -2,6 +2,14 @@ doctype html
 html(lang='en')
 
     head
+        script(src="https://www.googletagmanager.com/gtag/js?id=UA-6079561-7" async)
+        script().
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-6079561-7');
+
         meta(charset='utf-8')
         meta(http-equiv='X-UA-Compatible', content='IE=edge')
         meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
@@ -39,6 +47,13 @@ html(lang='en')
                                 strong Oracle
                                 a(href="http://www.oracle.com/") [www.oracle.com]
                             p Oracle is shifting the complexity from IT, moving it out of the enterprise by engineering hardware and software to work together—in the cloud and in the data center. By eliminating complexity and simplifying IT, Oracle enables its customers—400,000 of them in more than 145 countries around the world—to accelerate innovation and create added value for their customers.
+                            hr
+                            a(href="#")
+                                img(src="assets/img/part/Redhat.png").card-img-top
+                            p
+                                strong Redhat
+                                a(href="http://www.redhat.com/en") [www.redhat.com]
+                            p Red Hat, Inc. is an American multinational software company providing open-source software products to the enterprise community. Founded in 1993, Red Hat has its corporate headquarters in Raleigh, North Carolina, with satellite offices worldwide.
                             hr
                             a(href="#")
                                 img(src="assets/img/part/VizKey.png").card-img-top
