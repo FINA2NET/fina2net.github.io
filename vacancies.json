@@ -2,22 +2,22 @@
   "vacancies":[
     {
       "id":"ProjectManager",
-      "title":"პროექტების მენეჯერი",
-      "description":"<span style=\"font-weight: bold\">ძირითადი ფუნქცია-მოვალეობები:</span><br>- პროექტის ყველა ეტაპის დაგეგმვა,  ბიუჯეტის მართვა და შესრულების პროგრესის მუდმივი შეფასება;<br>- პროექტში დაინტერესებულ პირებთან ურთიერთობების დამყარება, მათი პროექტში ჩართულობისა  და ეფექტური კომუნიკაციის უზრუნველყოფა;<br>- ჯგუფის წევრებისთვის საქმიანობების განსაზღვრა და დაგეგმვა;<br>- პროექტის რისკების, რეპორტინგის და პრობლემების აქტიურად მართვა;<br>- ხელშეკრულებებთან/პროექტებთან დაკავშირებული სხვადასხვა სახის ადმინისტრაციული და ფინანსური საკითხების მართვა;<br><span style=\"font-weight: bold\">მოთხოვნები:</span><br>- კომუნიკაბელურობა,  ორგანიზაციის ყველა დონეზე ეფექტური კომუნიკაციის უნარი;<br>- ინფორმაციული ტექნოლოგიების პროექტების მენეჯმენტში მუშაობის მინიმუმ 1 წლიანი გამოცდილება;<br>- ამოცანის ანალიზის, კრიტიკული შეფასების, საკვანძო და პრობლემური საკითხების დადგენის და მათი გადაწყვეტის უნარი;",
+      "title":"Project Manager",
+      "description":"<span style=\"font-weight: bold\">Job Description:</span><br>- Planning all stages of the project, budget management and constant evaluation of progress;<br>- Establishment of relationships with interested persons,managing their involvement in project and effective communication;<br>- Define and plan activities for group members;<br>- Actively manage project risks,problems and report them;<br>- Management of various types of administrative and financial issues related to agreements / projects;<br><span style=\"font-weight: bold\">Requirements:</span><br>- Communication skills, ability to communicate effectively at all levels of the organization.<br>- Minimum one year experience in IT project management;<br>- Ability to analyze, critically evaluate and resolve important issues",
       "img":"assets/img/vacancies/project-management.png",
       "formLink":"https://docs.google.com/forms/d/e/1FAIpQLScjPpxSJiK70o4BIntwj3zpQJNuDJQqpX6F9CK4B2WglLmQOg/viewform"
     },
     {
       "id":"BusinessAnalyst",
-      "title":"ბიზნეს ანალიტოკოსი",
-      "description":"<span style=\"font-weight: bold\">ძირითადი ფუნქცია-მოვალეობები:</span><br>- ბიზნეს მოთხოვნების  იდენტიფიკაცია და ანალიზი. არსებული პროცესებისა და სისტემების განხილვა;<br>- ორგანიზაციაში არსებული სისტემების განვითარების, დანერგვისა და ფუნქციონირების მიზნით საპროექტო დოკუმენტაციის მომზადება;<br>- არსებული პროექტების მართვაში ჩართვა;<br>- პროგრამული გადაწყვეტილების ფუნქციონალური ტესტირების მხარდაჭერა და ტესტირების გუნდთან ერთად  შედეგების ანალიზში მონაწილეობა;<br>- ბიზნეს მოთხოვნების საფუძველზე სტანდარტების მომზადება/შეცვლა;<br>- ახალი პროექტების  ანალიზი და დეველოპერებისთვის ზუსტი ტექნიკური დავალების შედგენა;<br>- კომპანიის სტანდარტების გამოყენება მოთხოვნების გაფორმების პროცესში (JIRA)",
+      "title":"Business Analyst",
+      "description":"<span style=\"font-weight: bold\">Job Description:</span><br>- Identification and analysis of business requirements, review existing processes and systems;<br>- Preparation of project documentation for development, implementeton and functionality purposes<br>- Engage in existing projects management;<br>- Supporting functional testing of software and analyzing results with test team<br>- Prepare / modify standards based on business requirements;<br>- Analysis of new projects and drawing up a proper technical task for developers;<br>- Use of company standards in the process of clarification (JIRA)",
       "img":"assets/img/vacancies/Business-Analyst.png",
       "formLink":"https://docs.google.com/a/fina2.net/forms/d/1rkyLCWW9H0BpVcCw_kgdWqGgQyA6PBpwk8tVi6tvZYE/edit?usp=drive_web"
     },
     {
       "id":"OfficeManager",
-      "title":"ოფის მენეჯერი",
-      "description":"<span style=\"font-weight: bold\"> ძირითადი ფუნქცია-მოვალეობები:</span><br>- კორესპონდენციის და დოკუმენტაციის მართვა -ადმინისტრირება;<br>- შეხვედრების დაგეგმვა/ორგანიზება (Google Calendar-ით);<br>- შემოსულ სატელეფონო ზარებზე და მეილებზე დროული რეაგირება;<br>- ოფისის მარაგების მართვა.<br><span style=\"font-weight: bold\">სავალდებულო მოთხოვნები:</span><br>- Excel, Word, PowerPoint, Project;<br>- ინგლისური და რუსულის ცოდნა სავალდებულოა;<br>- ტექნიკასთან და ტექნოლოგიებთან friendly დამოკიდებულება; <br>- სოციალური მედიის მართვის გამოცდილება; <br>- მართვის მოწმობა (სასურველია). ",
+      "title":"Office Manager",
+      "description":"<span style=\"font-weight: bold\">Job Description:</span><br>- Managing correspondence and documentation management;<br>- Timely reaction to received phone calls and emails;<br>- Planning / organizing meetings with Google Calendar;<br>- Procurement and inventory of stationery items;<br>- Various activities related to office management.<br><span style=\"font-weight: bold\">Requirements:</span><br>- Knowledge of Excel, Word, PowerPoint, Project programs on high level;<br>- Knowledge of English and Russian is mandatory;<br>- Friendly attitude to technologies;<br>- Social Media Management experience<br>- Driving license is desirable;",
       "img":"assets/img/vacancies/om.png",
       "formLink":"https://docs.google.com/forms/d/e/1FAIpQLScLoJ9jr-Y4pyTSFRsKPNxRQ3gGI2Z5565KXPAcYKg0ecOL4w/viewform"
     }
