@@ -5,7 +5,7 @@ $(document).ready(function () {
         console.log(json);
         for(let i=0; i<json.vacancies.length;i++)
             $('.vacancies-head').append(
-                '<div class="row padding-top padding-bottom vacancies-card">'
+                '<div id="'+json.vacancies[i].id+'" class="row padding-top padding-bottom vacancies-card">'
                 +'<div class="col-lg-4 col-md-4">'
                 +'<img class="vacancies-img" src="'+json.vacancies[i].img +'">'
                 +'</div>'
