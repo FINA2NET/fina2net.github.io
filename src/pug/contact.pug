@@ -29,34 +29,32 @@ html(lang='en')
         include includes/media-icons
 
 
-        #contact-page.container-fluid(style="padding-bottom:40px;position: absolute;z-index:10")
+        #contact-page.container-fluid()
             .row
-                div(style="background: rgba(255, 255, 255, 0.8);padding-left:5%!important;padding-right:5%!important;").contact-right-side.col-lg-4
+                div.contact-right-side.col-md-4
                     div
                         .padding-top.text-center
-                            span(style="color: rgba(0, 0, 0, 0.75); font-weight:bold") Address
-                            hr(style="background-color:#FF0000")
+                            span(style="font-weight:bold") Address
+                            hr
                         .text-center
-                            span(style="color: rgba(0, 0, 0, 0.75)") Zhiuli Shartava str 40
+                            span Zhiuli Shartava str 40
                         .padding-top.text-center
-                            span(style="color: rgba(0, 0, 0, 0.75)") Floor 9, Room 913
+                            span Floor 9, Room 913
                         .padding-top.text-center
-                            span(style="color: rgba(0, 0, 0, 0.75)") 0160 Tbilisi, Georgia
+                            span 0160 Tbilisi, Georgia
                         .padding-top.text-center(style="padding-top:38px!important")
-                            span(style="color: rgba(0, 0, 0, 0.75); font-weight:bold")  Phone
-                            hr(style="background-color:#FF0000")
+                            span(style="font-weight:bold")  Phone
+                            hr
                         .text-center
-                            span(style="color: rgba(0, 0, 0, 0.75)") + 995 032 2 42 03 18
+                            span + 995 032 2 42 03 18
                         .padding-top.text-center(style="padding-top:38px!important")
-                            span(style="color: rgba(0, 0, 0, 0.75); font-weight:bold") Mail
-                            hr(style="background-color:#FF0000")
+                            span(style="font-weight:bold") Mail
+                            hr
                         .text-center
-                            span(style="color: rgba(0, 0, 0, 0.75)") info@fina2.net
+                            span info@fina2.net
 
-                    //img(src="assets/img/building.jpg" , style='padding-bottom:15px;').img-fluid
-        #contact-map-container.container-fluid(style="padding:0 0 418px 0; margin: 0!important")
+        #contact-map-container.container-fluid(style="padding:0 0 0 0; margin: 0!important")
             #contact-map(style="width:100%;height:418px;")
-
             script.
                 function myMap() {
                     var uluru = {lat: 41.730297, lng: 44.7695915};
@@ -67,7 +65,6 @@ html(lang='en')
                     var marker = new google.maps.Marker({
                         position: uluru,
                         map: map,
-                        title: "Zhiuli Shartava N40 str",
                     });
                 }
 
@@ -80,14 +77,14 @@ html(lang='en')
 
         script().
             $(document).ready(function () {
-                if(window.innerWidth < 990)
+                if(window.innerWidth < 750)
                     $('#contact-map-container').addClass("map-padding");
                 else
                     $('#contact-map-container').removeClass("map-padding");
             })
 
             window.onresize = () => {
-                if (window.innerWidth < 990)
+                if (window.innerWidth < 750)
                     $('#contact-map-container').addClass("map-padding");
                 else
                     $('#contact-map-container').removeClass("map-padding");
