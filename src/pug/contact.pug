@@ -29,9 +29,9 @@ html(lang='en')
         include includes/media-icons
 
 
-        #contact-page.container-fluid(style="padding-left:5%!important;padding-right:5%!important; padding-bottom:40px")
+        #contact-page.container-fluid(style="padding-bottom:40px;position: absolute;z-index:10")
             .row
-                div(style="").contact-right-side.col-lg-4
+                div(style="background: rgba(255, 255, 255, 0.8);padding-left:5%!important;padding-right:5%!important;").contact-right-side.col-lg-4
                     div
                         .padding-top.text-center
                             span(style="color: rgba(0, 0, 0, 0.75); font-weight:bold") Address
@@ -52,10 +52,10 @@ html(lang='en')
                             hr(style="background-color:#FF0000")
                         .text-center
                             span(style="color: rgba(0, 0, 0, 0.75)") info@fina2.net
-                .col-lg-8
+
                     //img(src="assets/img/building.jpg" , style='padding-bottom:15px;').img-fluid
-                    .container-fluid(style="padding:0 0 400px 0!important; margin: 0!important")
-                        #contact-map(style="width:100%;height:420px;")
+        #contact-map-container.container-fluid(style="padding:0 0 418px 0; margin: 0!important")
+            #contact-map(style="width:100%;height:418px;")
 
             script.
                 function myMap() {
@@ -78,3 +78,17 @@ html(lang='en')
 
         include includes/js/custom
 
+        script().
+            $(document).ready(function () {
+                if(window.innerWidth < 990)
+                    $('#contact-map-container').addClass("map-padding");
+                else
+                    $('#contact-map-container').removeClass("map-padding");
+            })
+
+            window.onresize = () => {
+                if (window.innerWidth < 990)
+                    $('#contact-map-container').addClass("map-padding");
+                else
+                    $('#contact-map-container').removeClass("map-padding");
+            }

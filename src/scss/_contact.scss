@@ -4,8 +4,6 @@
 }
 
 #contact-page{
-  margin-top:calc(300px + 10vh);
-  background-color: white;
   input {
     &[type=text], &[type=tel], &[type=email] {
       width: 100%;
@@ -23,6 +21,9 @@
       box-shadow: none;
     }
   }
+  .padding-top{
+    padding-top: 10px!important;
+  }
 }
 
 .bmd-label-floating{
@@ -35,6 +36,16 @@
   width: 100%;
 }
 .contact-right-side{
-  background: $light-red;
   padding-bottom: 20px;
+
+}
+
+#building{
+  background-image: url('../../assets/img/building.jpg');
+  width: 400px;
+  height: 400px;
+}
+
+.map-padding{
+  padding-top: 418px!important;
 }

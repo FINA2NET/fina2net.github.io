@@ -440,11 +440,6 @@ nav .dropdown-menu a:hover {
   padding-top: 10px;
 }
 
-#contact-page {
-  margin-top: calc(300px + 10vh);
-  background-color: white;
-}
-
 #contact-page input[type=text], #contact-page input[type=tel], #contact-page input[type=email] {
   width: 100%;
   border-width: 0 0 1px 0;
@@ -460,6 +455,10 @@ nav .dropdown-menu a:hover {
   box-shadow: none;
 }
 
+#contact-page .padding-top {
+  padding-top: 10px !important;
+}
+
 .bmd-label-floating {
   color: #3e3e3e !important;
 }
@@ -471,8 +470,17 @@ nav .dropdown-menu a:hover {
 }
 
 .contact-right-side {
-  background: #E85245;
   padding-bottom: 20px;
+}
+
+#building {
+  background-image: url("../../assets/img/building.jpg");
+  width: 400px;
+  height: 400px;
+}
+
+.map-padding {
+  padding-top: 418px !important;
 }
 
 #fina-overview-nav a {
