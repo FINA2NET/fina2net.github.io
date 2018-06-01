@@ -26,55 +26,52 @@ html(lang='en')
 
     body
         include includes/navbar
+        include includes/media-icons
 
-        #contact-map.mapouter
-            .gmap_canvas
-                iframe(width="100%", height="420", id="gmap_canvas", src="https://maps.google.com/maps?q=shartava 40&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0", scrolling="no", marginheight="0", marginwidth="0")
 
-        #contact-page.container.padding-bottom
+        #contact-page.container-fluid(style="padding-left:5%!important;padding-right:5%!important; padding-bottom:40px")
             .row
-                .col-lg-6
-                    form(name='sentMessage', action='https://formspree.io/info@fina2.net', method='POST')
-                        .control-group.form-group
-                            .controls
-                                label.bmd-label-floating Full Name:
-                                input(type="text", class="form-control", name="name", data-validation-required-message="Please enter your name.")
-                                p.help-block
-                        .control-group.form-group
-                            .controls
-                                label.bmd-label-floating Phone Number:
-                                input(type="tel", class="form-control", name="phone", data-validation-required-message="Please enter your phone number.")
-                        .form-group
-                            .controls
-                                label.bmd-label-floating Email Address:
-                                input(type="email", class="form-control", name="email", data-validation-required-message="Please enter your email address")
-                        .control-group.form-group
-                            .controls
-                                label.bmd-label-floating Message:
-                                textarea(class="form-control", name="message")
-                        #success
+                div(style="").contact-right-side.col-lg-4
+                    div
+                        .padding-top.text-center
+                            span(style="color: rgba(0, 0, 0, 0.75); font-weight:bold") Address
+                            hr(style="background-color:#FF0000")
                         .text-center
-                            input(type="submit", class="btn my-btn", value="Send Message")
-                div(style="").contact-right-side.col-lg-6
-                    .padding-left
-                        .padding-top
-                            span(style="color: white;font-weight: bold") Address:
-                            span Shartava N40 str. Tbilisi
-                        .padding-top
-                            span(style="color: white;font-weight: bold") Phone:
-                            span + 995 032 2 42 03 18
-                        .padding-top
-                            span(style="color: white;font-weight: bold") Email:
-                            span info@fina2.net
+                            span(style="color: rgba(0, 0, 0, 0.75)") Zhiuli Shartava str 40
+                        .padding-top.text-center
+                            span(style="color: rgba(0, 0, 0, 0.75)") Floor 9, Room 913
+                        .padding-top.text-center
+                            span(style="color: rgba(0, 0, 0, 0.75)") 0160 Tbilisi, Georgia
+                        .padding-top.text-center(style="padding-top:38px!important")
+                            span(style="color: rgba(0, 0, 0, 0.75); font-weight:bold")  Phone
+                            hr(style="background-color:#FF0000")
+                        .text-center
+                            span(style="color: rgba(0, 0, 0, 0.75)") + 995 032 2 42 03 18
+                        .padding-top.text-center(style="padding-top:38px!important")
+                            span(style="color: rgba(0, 0, 0, 0.75); font-weight:bold") Mail
+                            hr(style="background-color:#FF0000")
+                        .text-center
+                            span(style="color: rgba(0, 0, 0, 0.75)") info@fina2.net
+                .col-lg-8
+                    //img(src="assets/img/building.jpg" , style='padding-bottom:15px;').img-fluid
+                    .container-fluid(style="padding:0 0 400px 0!important; margin: 0!important")
+                        #contact-map(style="width:100%;height:420px;")
 
-                    .col-lg-12
-                        hr(style="background-color: white;")
-                        .container
-                            .ssk-right.ssk-bottom.ssk-lg.text-center
-                                a(href='https://www.facebook.com/FINA2.NET/?ref=br_rs' target="_blank").ssk.ssk-facebook
-                                a(href='https://www.youtube.com/user/fina2net' style='background-color:red' target="_blank").ssk.ssk-youtube
-                                a(href='https://twitter.com/fina2' target="_blank").ssk.ssk-twitter
-                                a(href='https://www.linkedin.com/company/fina-ltd/' target="_blank").ssk.ssk-linkedin
+            script.
+                function myMap() {
+                    var uluru = {lat: 41.730297, lng: 44.7695915};
+                    var map = new google.maps.Map(document.getElementById('contact-map'), {
+                        zoom: 15,
+                        center: uluru
+                    });
+                    var marker = new google.maps.Marker({
+                        position: uluru,
+                        map: map,
+                        title: "Zhiuli Shartava N40 str",
+                    });
+                }
+
+            script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB835ntbgAP98-vne6k1NqnyK174Q0xBJo&callback=myMap").
 
         include includes/footer
         include includes/js/core
