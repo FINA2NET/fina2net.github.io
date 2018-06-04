@@ -49,12 +49,6 @@
   }
 }
 
-#building{
-  background-image: url('../../assets/img/building.jpg');
-  width: 400px;
-  height: 400px;
-}
-
 .map-padding{
-  padding-top: 418px!important;
+  padding-top: calc(300px + 30vh)!important;
 }
