@@ -2,7 +2,6 @@
 
 $(document).ready(function () {
     $.getJSON("vacancies.json", function(json) {
-        console.log(json);
         for(let i=0; i<json.vacancies.length;i++)
             $('.vacancies-head').append(
                 '<div id="'+json.vacancies[i].id+'" class="row padding-top padding-bottom vacancies-card">'
