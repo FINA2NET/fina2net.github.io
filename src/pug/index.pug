@@ -4,11 +4,11 @@ html(lang='en')
   head
     script(src="https://www.googletagmanager.com/gtag/js?id=UA-6079561-7" async)
     script().
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-      gtag('config', 'UA-6079561-7');
+        gtag('config', 'UA-6079561-7');
 
 
     meta(http-equiv="Cache-control" content="public")
@@ -30,7 +30,6 @@ html(lang='en')
     include includes/css/core
 
     // Page level plugin CSS
-
     include includes/css/custom
 
   body
@@ -71,95 +70,113 @@ html(lang='en')
           span.carousel-control-next-icon(aria-hidden='true')
           span.sr-only Next
     // Page Content
+    .project-section
+      header(style="margin-top:0")
+        .container.text-center
+          h1 Our Products
+    .container.padding-top
     .container-fluid.container-padding
-      h2.text-center.padding-top.padding-bottom Our Products
-      .row.padding-bottom
-        .col-lg-4.col-sm-6.portfolio-item.padding-bottom
-          .card.h-100
-            a
-              img.card-img-top(src='assets/img/irp.png', alt='')
-            .card-body
-              h3.card-title
-                a(href='prod_fina.html') Integrated Regulatory Platform
-              p.card-text
-                | In response to the need for better bank supervision systems was developed Integrated Regulatory Platform called FINA, Which is the system to collect data from banks, store them in the data base and generate different reports using very flexible report designer tools.
-        .col-lg-4.col-sm-6.portfolio-item.padding-bottom
-          .card.h-100
-            a
-              img.card-img-top(src='assets/img/bi.png', alt='')
-            .card-body
-              h3.card-title
-                a(href='#', style="margin:1px") Business Intelligence (Analytics)
-              p.card-text
-                | The Business Intelligence (BI) developed by FINA refers to technologies, applications and practices for the collection, integration, analysis, and presentation of business information. The purpose of Business Intelligence is to support better business decision making.
-        .col-lg-4.col-sm-6.portfolio-item.padding-bottom
-          .card.h-100
-            a
-              img.card-img-top(src='assets/img/kms.png', alt='')
-            .card-body
-              h3.card-title
-                a(href='#') Knowledge Management System
-              p.card-text
-                | Dynamic Knowledge Management Systems is IT system that stores and retrieves knowledge, improves collaboration, locates knowledge sources, mines repositories for hidden knowledge, captures and uses knowledge, or in some other way enhances the KM process.
-      h2.my-4
-      // Marketing Icons Section
       .row
-        .col-lg-4.col-sm-6.mb-4.padding-top
+        .col-lg-4(style="padding-bottom:50px")
+          .card.h-100
+            .hexagon
+            .vl
+            .circle
+            .some-text
+              i.fa.fa-legal(style="color:white; font-size:25px")
+            div(style="padding:10px 15px 10px calc(50px + 3vw);")
+              a(href='prod_fina.html' style="font-weight:bold; font-size:20px") Integrated Regulatory Platform
+              p.card-text
+                |In response to the need for better bank supervision systems was developed Integrated Regulatory Platform called FINA, Which is the system to collect data from banks, store them in the data base and generate different reports using very flexible report designer tools.
+        .col-lg-4(style="padding-bottom:50px")
+          .card.h-100
+            .hexagon
+            .vl
+            .circle
+            .some-text
+              i.fa.fa-line-chart(style="color:white; font-size:25px")
+            div
+              div(style="padding:10px 15px 10px calc(50px + 3vw);")
+                a(href='prod_fina.html' style="font-weight:bold; font-size:20px") Business Intelligence (Analytics)
+                p.card-text
+                  | The Business Intelligence (BI) developed by FINA refers to technologies, applications and practices for the collection, integration, analysis, and presentation of business information. The purpose of Business Intelligence is to support better business decision making.
+        .col-lg-4(style="padding-bottom:50px")
+          .card.h-100
+            .hexagon
+            .vl
+            .circle
+            .some-text
+              i.fa.fa-lightbulb-o(style="color:white; font-size:30px;margin-left:4px")
+            div
+              div(style="padding:10px 15px 10px calc(50px + 3vw);")
+                a(href='prod_fina.html' style="font-weight:bold; font-size:20px") Knowledge Management System
+                p.card-text
+                  | Dynamic Knowledge Management Systems is IT system that stores and retrieves knowledge, improves collaboration, locates knowledge sources, mines repositories for hidden knowledge, captures and uses knowledge, or in some other way enhances the KM process.
+
+    .project-section
+      header(style="margin-top:0")
+        .container.text-center
+          h1 about us
+    .container-fluid.container-padding
+      .row
+        .col-lg-4.col-md-6.sm-12.padding-top
           .card.h-100
             h4.card-header.card-header-danger FINA
             .card-body
               p.card-text
                 | FINA is a software development and consulting company established in 2006 in Georgia which has developed an open-source regulatory platform for financial supervisors called FINA IRP.
             .card-footer
-                form(method='get', action='FINA-IRP.html')
-                  button.btn.my-btn(type='submit') more
-        .col-lg-4.col-sm-6.mb-4.padding-top
+              form(method='get', action='FINA-IRP.html' style="margin:auto")
+                button.btn.my-btn(type='submit') more
+        .col-lg-4.col-md-6.sm-12.padding-top
           .card.h-100
             h4.card-header.card-header-danger What we do
             .card-body
               p.card-text
                 | The core business line of the company is software development and IT consulting for Financial Supervisors. FINA has carried out about 15 projects in regulatory agencies in more than 10 countries
             .card-footer
-                form(method='get')
-                  button.btn.my-btn(type='submit') more
-        .col-lg-4.col-sm-6.mb-4.padding-top
+              form(method='get' style="margin:auto")
+                button.btn.my-btn(type='submit') more
+        .col-lg-4.col-md-6.sm-12.padding-top
           .card.h-100
             h4.card-header.card-header-danger Who we are
             .card-body
               p.card-text
                 | We belive that it is people who make, run and grow organizations. The primary responsibility of the engineers at our company is to assist your ongoing software development activities.
             .card-footer
-                form(method='get', action='team.html')
-                  button.btn.my-btn(type='submit') more
-      h2.text-center.padding-top Recent Projects
-      hr
-      .row
-        div.col-lg-4.col-sm-6.padding-bottom
-          .card.h-100
-            img.card-img-top(src='assets/img/FINA.png', alt='')
-            .card-body
-              h4.card-title
-                a(href='Clients.html#fina@Georgia') Integrated Regulatory Platform at National Bank of Georgia
-              p.card-text
+              form(method='get', action='team.html' style="margin:auto")
+                button.btn.my-btn(type='submit') more
+
+    .project-section
+      header
+        .container.text-center
+          h1 Recent Projects
+      section.timeline
+        .container-fluid.container-padding
+          .timeline-item
+            .timeline-img
+            .timeline-content.timeline-card.js--fadeInLeft
+              img(src="assets/img/FINA.png").card-img-top
+              p(style="color:red; font-size:20px").text-center Integrated Regulatory Platform at National Bank of Georgia
+              .date 25 MAY 2016
+              p.card-text(style="padding-bottom:20px")
                 | FINA Implemented Financial Supervision Database system called “FINA” in Bank Supervision Department which included: DCS(Data Collection Server) - Web portal to collect data from financial institutions, FINA IRP - Mainc system to manage forms of financial reports, schedules, validation rules... and FINA Report Designer - based on LibreOffice Addin to create beautiful reports.
-        div.col-lg-4.col-sm-6.padding-bottom
-          .card.h-100
-            img.card-img-top(src='assets/img/FINA1.png', alt='')
-            .card-body
-              h4.card-title
-                a(href='Clients.html#fina@Georgia2') Knowledge Management for Environmental Protection
-              p.card-text
+          .timeline-item.target-timeline-item
+            .timeline-img
+            .timeline-content.timeline-card.js--fadeInRight
+              img(src="assets/img/FINA1.png").card-img-top
+              p(style="color:red; font-size:20px").text-center  Knowledge Management for Environmental Protection
+              .date 25 MAY 2016
+              p.card-text(style="padding-bottom:20px")
                 | DKMS (Dynamic Knowledge Management System) Climate Modul was implemented in Environmental Center of Georgia, system creates user friendly dashboards and reports for monitoring climate changes in Georgia
-        div.col-lg-4.col-sm-6.padding-bottom
-          .card.h-100
-            img.card-img-top(src='assets/img/FINAK.png', alt='')
-            .card-body
-              h4.card-title
-                a(href='Clients.html#fina@Kosovo') Integrated Regulatory Platform at Central Bank of Kosovo
-              p.card-text
+          .timeline-item.target-timeline-item
+            .timeline-img
+            .timeline-content.timeline-card.js--fadeInLeft
+              img(src="assets/img/FINAK.png").card-img-top
+              p(style="color:red; font-size:20px").text-center  Integrated Regulatory Platform at Central Bank of Kosovo
+              .date 25 MAY 2016
+              p.card-text(style="padding-bottom:20px")
                 | FINA Implemented Financial Supervision Database system called “FINA” in Bank Supervision Department which included: DCS(Data Collection Server) - Web portal to collect data from financial institutions, FINA IRP - Mainc system to manage forms of financial reports, schedules, validation rules... and FINA Report Designer - based on LibreOffice Addin to create beautiful reports.
-      // /.row
-      hr
 
 
     include includes/footer
@@ -168,4 +185,26 @@ html(lang='en')
 
     include includes/js/custom
 
+    script(src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js")
+    script(type='text/javascript').
+        $(function () {
+
+            window.sr = ScrollReveal({reset: true, scale: 1});
+            sr.reveal('.js--fadeInRight');
+
+            if ($(window).width() < 768) {
+
+                if ($('.timeline-content').hasClass('js--fadeInLeft')) {
+                    $('.timeline-content').removeClass('js--fadeInLeft').addClass('js--fadeInRight');
+                }
+                sr.reveal('.js--fadeInRight');
+            } else {
+                sr.reveal('.js--fadeInLeft');
+                sr.reveal('.js--fadeInRight');
+            }
+            sr.reveal('.js--fadeInLeft');
+            sr.reveal('.js--fadeInRight');
+        });
+
+        responsiveClass('.target-timeline-item', "timeline-margin", false);
 

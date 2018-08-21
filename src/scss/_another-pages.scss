@@ -4,3 +4,61 @@
     font-size: 20px;
   }
 }
+
+.hexagon {
+  z-index: 2;
+  margin-top: -20px;
+  margin-left: 1.5vw;
+  position: absolute;
+
+  width: 50px;
+  height: 28.87px;
+  background-color: #FF0000;
+  color: white;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 14.43px solid #FF0000;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 14.43px solid #FF0000;
+}
+
+.vl{
+  z-index: 2;
+  position: absolute;
+  border-left: 4px solid #FF0000;
+  height: 100px;
+  margin-left: calc(23px + 1.5vw);
+}
+
+.circle{
+  z-index: 2;
+  position: absolute;
+  margin-top: 99px;
+  margin-left: calc(17px + 1.5vw);
+  border: 3px solid #FF0000;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+}
+
+.some-text{
+  z-index: 3;
+  position: absolute;
+  margin-top: -19px;
+  margin-left: calc(12px + 1.5vw);
+}

@@ -1,3 +1,4 @@
+
 #contact-page-details{
   background-color: #E85245;
   padding-top: 10px;
@@ -51,4 +52,21 @@
 
 .map-padding{
   padding-top: calc(300px + 30vh)!important;
+}
+
+.map-padding2{
+  padding-top: calc(580px + 6vh)!important;
+}
+
+.some-cont2{
+  position: absolute;
+  z-index: 1;
+}
+.cont-box{
+  margin-top: 10px;
+  padding-top: calc(30px + 1vh);
+  height: calc(180px + 2vh);
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }

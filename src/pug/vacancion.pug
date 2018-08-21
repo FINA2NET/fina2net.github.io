@@ -1,0 +1,81 @@
+doctype html
+html(lang='en', xmlns="http://www.w3.org/1999/xhtml")
+
+    head
+        script(src="https://www.googletagmanager.com/gtag/js?id=UA-6079561-7" async)
+        script().
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-6079561-7');
+
+        meta(http-equiv="Cache-control" content="public")
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='FINA is a software development and consulting company established in 2006 in Georgia. We are partners with Oracle and Pentaho. FINA has been awarded in two different business award in year nominations "the best complex business solution"(2016) and "The innovative business of the year"(2017)')
+        meta(name='author', content='')
+
+        meta(property="og:url", content="http://fina2.net/vacancies.html" )
+        meta(property="og:type", content="article" )
+        meta(property="og:title", content="Change Title" )
+        meta(property="og:description", content="Change Description" )
+        meta(property="og:image", content="http://fina2.net/assets/img/Giti%20award.png" )
+
+        title FINA LLC
+
+        include includes/css/core
+        // Page level plugin CSS
+        include includes/css/custom
+
+    body
+        include includes/navbar
+
+        .container-fluid.padding-bottom
+            .row
+                .col-lg-10.offset-lg-1
+                    .container-fluid.vacancies-head
+
+
+
+        include includes/footer
+        include includes/js/core
+        include includes/js/custom
+        script().
+            $(document).ready(function () {
+                var vacanID = window.location.href.split('?')[1].split('=')[1];
+                console.log(vacanID)
+                $.getJSON("vacancies.json", function (json) {
+                    for (let i = 0; i < json.vacancies.length; i++)
+                        if (vacanID == i) {
+                            $('.vacancies-head').append(
+                                '<div class="row padding-top padding-bottom vacancies-card">'
+                                + '<div class="col-lg-12 col-md-12">'
+                                + '<div class="vacancies-title">' + json.vacancies[i].title + '</div>'
+                                + '<hr class="vacancies-hr">'
+                                + '</div>'
+                                + '<div class="col-lg-9 col-md-9">'
+                                + '<div class="vacancies-text">' + json.vacancies[i].description + '</div>'
+                                + '</div>'
+                                + '<div class="col-lg-3 col-md-3 mb-5">'
+                                + '<div class="mt-2" style="font-weight: bold">Languages:</div>'
+                                + '<div>English ,  Russian </div>'
+                                + '<div class="mt-2" style="font-weight: bold">Experience:</div>'
+                                + '<div>1 - 2 years </div>'
+                                + '<div class="mt-2" style="font-weight: bold">Education:</div>'
+                                + '<div>Bachelor</div>'
+                                + '</div>'
+                                + '<div class="col-lg-12">'
+                                + '<div class="text-center mt-4"><div class="btn my-btn"><a href="' + json.vacancies[i].formLink + '" target="_blank" style="color:white!important;"><strong>Application Form</strong></a></div></div>'
+                                + '</div>'
+                                + '</div>'
+                            );
+                        }
+
+                });
+            });
+
+

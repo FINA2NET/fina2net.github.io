@@ -27,40 +27,38 @@ html(lang='en')
         include includes/css/core
 
         // Page level plugin CSS
-
         include includes/css/custom
 
     body
         include includes/navbar
         include includes/media-icons
 
-
-        #contact-page.container-fluid()
+        .container-fluid.some-cont2(style="margin-right:5%;margin-left:5%;width:calc(100% - 10%)!important; padding-left:0!important;padding-right:0!important;")
             .row
-                div.contact-right-side.col-md-4
-                    div(style="height:calc(380px + 14vh); margin-top:6vh;")
-                        .padding-top.text-center
-                            span(style="font-weight:bold") Address
-                            hr
-                        .text-center
-                            span Zhiuli Shartava str 40
-                        .padding-top.text-center
-                            span Floor 9, Room 913
-                        .padding-top.text-center
-                            span 0160 Tbilisi, Georgia
-                        .padding-top.text-center(style="padding-top:38px!important")
-                            span(style="font-weight:bold")  Phone
-                            hr
-                        .text-center
-                            span + 995 032 2 42 03 18
-                        .padding-top.text-center(style="padding-top:38px!important")
-                            span(style="font-weight:bold") Mail
-                            hr
-                        .text-center
-                            span info@fina2.net
+                .col-md-4
+                    .cont-box
+                        div
+                            i.fa.fa-map-marker(style="font-size:35px;color:rgb(234, 0, 0)")
+                        div(style="font-weight:bold; color:rgb(234, 0, 0)") Address
+                        div Zhiuli Shartava str 40
+                        div Floor 9, Room 913
+                        div 0160 Tbilisi, Georgia
+                .col-md-4
+                    .cont-box
+                        div
+                            i.fa.fa-phone(style="font-size:35px;color:rgb(234, 0, 0)")
+                        div(style="font-weight:bold; color:rgb(234, 0, 0)")  Phone
+                        div + 995 032 2 42 03 18
+                .col-md-4
+                    .cont-box
+                        div
+                            i.fa.fa-envelope-o(style="font-size:35px;color:rgb(234, 0, 0)")
+                        div(style="font-weight:bold;color:rgb(234, 0, 0)") Mail
+                        div info@fina2.net
 
-        #contact-map-container.container-fluid(style="padding:0 0 0 0; margin: 0!important")
-            #contact-map(style="width:100%;height:calc(400px + 20vh);")
+
+        #contact-map-container.container-fluid(style="padding:110px 0 0 0; margin: 0!important")
+            #contact-map(style="width:100%;height:calc(300px + 18vh);")
             script.
                 function myMap() {
                     var uluru = {lat: 41.730297, lng: 44.7695915};
@@ -82,16 +80,4 @@ html(lang='en')
         include includes/js/custom
 
         script().
-            $(document).ready(function () {
-                if(window.innerWidth < 750)
-                    $('#contact-map-container').addClass("map-padding");
-                else
-                    $('#contact-map-container').removeClass("map-padding");
-            })
-
-            window.onresize = () => {
-                if (window.innerWidth < 750)
-                    $('#contact-map-container').addClass("map-padding");
-                else
-                    $('#contact-map-container').removeClass("map-padding");
-            }
+            responsiveClass('#contact-map-container', "map-padding2", true);

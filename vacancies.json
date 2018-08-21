@@ -1,25 +1,28 @@
 {
   "vacancies":[
     {
-      "id":"ProjectManager",
+      "id":"0",
       "title":"Project Manager",
       "description":"<span style=\"font-weight: bold\">Job Description:</span><br>- Planning all stages of the project, budget management and constant evaluation of progress;<br>- Establishment of relationships with interested persons,managing their involvement in project and effective communication;<br>- Define and plan activities for group members;<br>- Actively manage project risks,problems and report them;<br>- Management of various types of administrative and financial issues related to agreements / projects;<br><span style=\"font-weight: bold\">Requirements:</span><br>- Communication skills, ability to communicate effectively at all levels of the organization.<br>- Minimum one year experience in IT project management;<br>- Ability to analyze, critically evaluate and resolve important issues",
       "img":"assets/img/vacancies/project-management.png",
-      "formLink":"https://docs.google.com/forms/d/e/1FAIpQLScriEM3JPaTDPtX5nqFr0J9byrtlIz2ILtTOQNSH_u6DM1DRQ/viewform?usp=sf_link"
+      "formLink":"https://docs.google.com/forms/d/e/1FAIpQLScriEM3JPaTDPtX5nqFr0J9byrtlIz2ILtTOQNSH_u6DM1DRQ/viewform?usp=sf_link",
+      "shortDescription":"<span style=\"font-weight: bold\">Job Description:</span><br>- Planning all stages of the project, budget management and constant evaluation of progress;<br>- Establishment of relationships with interested persons,managing their involvement in project and effective communication;<br>- Define and plan activities for group members;<br>- Actively manage project risks,problems and report them;<br>- Management of various types of administrative and financial issues related to agreements / projects;"
     },
     {
-      "id":"BusinessAnalyst",
+      "id":"1",
       "title":"Business Analyst",
       "description":"<span style=\"font-weight: bold\">Job Description:</span><br>- Identification and analysis of business requirements, review existing processes and systems;<br>- Preparation of project documentation for development, implementeton and functionality purposes<br>- Engage in existing projects management;<br>- Supporting functional testing of software and analyzing results with test team<br>- Prepare / modify standards based on business requirements;<br>- Analysis of new projects and drawing up a proper technical task for developers;<br>- Use of company standards in the process of clarification (JIRA)<br><span style=\"font-weight: bold\">Requirements:</span><br>- A minimum of 2 years experience in business analysis or a related field;<br>- A history of leading and supporting successful projects;<br>- Experience leading and developing top performing teams;<br>- Competency in MS OFFICE;",
       "img":"assets/img/vacancies/Business-Analyst.png",
-      "formLink":"https://docs.google.com/a/fina2.net/forms/d/1rkyLCWW9H0BpVcCw_kgdWqGgQyA6PBpwk8tVi6tvZYE/edit?usp=drive_web"
+      "formLink":"https://docs.google.com/a/fina2.net/forms/d/1rkyLCWW9H0BpVcCw_kgdWqGgQyA6PBpwk8tVi6tvZYE/edit?usp=drive_web",
+      "shortDescription":"<span style=\"font-weight: bold\">Job Description:</span><br>- Identification and analysis of business requirements, review existing processes and systems;<br>- Preparation of project documentation for development, implementeton and functionality purposes<br>- Engage in existing projects management;<br>- Supporting functional testing of software and analyzing results with test team<br>- Prepare / modify standards based on business requirements;"
     },
     {
-      "id":"OfficeManager",
+      "id":"2",
       "title":"Office Manager",
       "description":"<span style=\"font-weight: bold\">Job Description:</span><br>- Managing correspondence and documentation management;<br>- Timely reaction to received phone calls and emails;<br>- Planning / organizing meetings with Google Calendar;<br>- Procurement and inventory of stationery items;<br>- Various activities related to office management.<br><span style=\"font-weight: bold\">Requirements:</span><br>- Knowledge of Excel, Word, PowerPoint, Project programs on high level;<br>- Knowledge of English and Russian is mandatory;<br>- Friendly attitude to technologies;<br>- Social Media Management experience<br>- Driving license is desirable;",
       "img":"assets/img/vacancies/om.png",
-      "formLink":"https://docs.google.com/forms/d/e/1FAIpQLScLoJ9jr-Y4pyTSFRsKPNxRQ3gGI2Z5565KXPAcYKg0ecOL4w/viewform"
+      "formLink":"https://docs.google.com/forms/d/e/1FAIpQLScLoJ9jr-Y4pyTSFRsKPNxRQ3gGI2Z5565KXPAcYKg0ecOL4w/viewform",
+      "shortDescription":"<span style=\"font-weight: bold\">Job Description:</span><br>- Managing correspondence and documentation management;<br>- Timely reaction to received phone calls and emails;<br>- Planning / organizing meetings with Google Calendar;<br>- Procurement and inventory of stationery items;<br>- Various activities related to office management."
     }
   ]
 }
