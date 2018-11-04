@@ -5,7 +5,9 @@ html(lang='en')
         script(src="https://www.googletagmanager.com/gtag/js?id=UA-6079561-7" async)
         script().
             window.dataLayer = window.dataLayer || [];
-            function gtag() {dataLayer.push(arguments);}
+            function gtag() {
+                dataLayer.push(arguments);
+            }
             gtag('js', new Date());
 
             gtag('config', 'UA-6079561-7');
@@ -35,7 +37,7 @@ html(lang='en')
 
         .container-fluid.some-cont2(style="margin-right:5%;margin-left:5%;width:calc(100% - 10%)!important; padding-left:0!important;padding-right:0!important;")
             .row
-                .col-md-4
+                .col-md-3
                     .cont-box
                         div
                             i.fa.fa-map-marker(style="font-size:35px;color:rgb(234, 0, 0)")
@@ -43,19 +45,24 @@ html(lang='en')
                         div Zhiuli Shartava str 40
                         div Floor 9, Room 913
                         div 0160 Tbilisi, Georgia
-                .col-md-4
+                .col-md-3
                     .cont-box
                         div
                             i.fa.fa-phone(style="font-size:35px;color:rgb(234, 0, 0)")
                         div(style="font-weight:bold; color:rgb(234, 0, 0)")  Phone
                         div + 995 032 2 42 03 18
-                .col-md-4
+                .col-md-3
                     .cont-box
                         div
                             i.fa.fa-envelope-o(style="font-size:35px;color:rgb(234, 0, 0)")
                         div(style="font-weight:bold;color:rgb(234, 0, 0)") Mail
                         div info@fina2.net
-
+                .col-md-3
+                    .cont-box
+                        div
+                            i.fa.fa-comment(style="font-size:35px;color:rgb(234, 0, 0)")
+                        div(style="font-weight:bold;color:rgb(234, 0, 0)") WeChat
+                        div fina2llc
 
         #contact-map-container.container-fluid(style="padding:110px 0 0 0; margin: 0!important")
             #contact-map(style="width:100%;height:calc(300px + 18vh);")
