@@ -46,8 +46,13 @@ html(lang='en', xmlns="http://www.w3.org/1999/xhtml")
         include includes/js/custom
         script().
             $(document).ready(function () {
-                var vacanID = window.location.href.split('?')[1].split('=')[1];
-                console.log(vacanID)
+                var vacanID = "0";
+                window.location.href.split('?')[1].split('&').forEach(function (d) {
+                    let vacan = d.split('=');
+                    if (vacan[0] === "vacan") {
+                        vacanID = vacan[1]
+                    }
+                })
                 $.getJSON("vacancies.json", function (json) {
                     for (let i = 0; i < json.vacancies.length; i++)
                         if (vacanID == i) {
