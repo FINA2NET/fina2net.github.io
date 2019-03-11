@@ -706,6 +706,10 @@ nav .dropdown-menu a:hover {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
+.vacan-btn {
+  width: 214px;
+}
+
 .project-section section {
   padding: 50px 0;
 }
