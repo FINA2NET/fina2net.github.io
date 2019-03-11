@@ -14,7 +14,10 @@ $(document).ready(function () {
                 +'<div class="vacancies-text">'+json.vacancies[i].shortDescription+'</div>'
                 +'</div>'
                 +'<div class="col-sm-9 offset-sm-3 col-12">'
-                +'<div class="text-center"><div class="btn my-btn vacan-btn"  data-vacanID="'+json.vacancies[i].id+'"><strong>Read more</strong></div></div>'
+                +'<div class="text-center">'
+                +'<div class="btn my-btn mr-2"><a href="' + json.vacancies[i].formLink + '" target="_blank" style="color:white!important;"><strong>Application Form</strong></a></div>'
+                +'<div class="btn my-btn vacan-btn"  data-vacanID="'+json.vacancies[i].id+'"><strong>Read more</strong></div>'
+                +'</div>'
                 +'</div>'
                 +'</div>'
             );
