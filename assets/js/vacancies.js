@@ -5,13 +5,15 @@ $(document).ready(function () {
         for(let i=0; i<json.vacancies.length;i++)
             $('.vacancies-head').append(
                 '<div id="'+json.vacancies[i].id+'" class="row padding-top padding-bottom vacancies-card">'
-                +'<div class="col-lg-2 col-sm-3 col-12">'
+                +'<div class="col-lg-3 col-sm-3 col-12">'
                 +'<img class="vacancies-img" src="'+json.vacancies[i].img +'">'
                 +'</div>'
-                +'<div class="col-lg-10 col-sm-9 col-12">'
+                +'<div class="col-lg-9 col-sm-9 col-12">'
                 +'<div class="vacancies-title">'+json.vacancies[i].title +'</div>'
                 +'<hr class="vacancies-hr">'
                 +'<div class="vacancies-text">'+json.vacancies[i].shortDescription+'</div>'
+                +'</div>'
+                +'<div class="col-sm-9 offset-sm-3 col-12">'
                 +'<div class="text-center"><div class="btn my-btn vacan-btn"  data-vacanID="'+json.vacancies[i].id+'"><strong>Read more</strong></div></div>'
                 +'</div>'
                 +'</div>'
