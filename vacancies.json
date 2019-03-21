@@ -1,36 +1,44 @@
 {
-  "vacancies":[
-     {
-      "id":"0",
-      "title":".Net Developer",
-      "description":"Company FINA LLC announces a vacancy for the position of .Net Developer</br></br><span style=\"font-weight: bold\">Knowledge of the following technologies:</span></br> &nbsp;&nbsp;- &nbsp;At least 1 year experience in web development Microsoft .NET technology</br> &nbsp;&nbsp;- &nbsp;Knowledge of Russian and English is desired</br></br><span style=\"font-weight: bold\"> Knowledge of the following technologies will be preferable:</span></br> &nbsp;&nbsp;- &nbsp;Asp.NET MVC/Razor View Engine</br> &nbsp;&nbsp;- &nbsp;Asp.NET Web Forms</br> &nbsp;&nbsp;- &nbsp;JavaScript/JQuery</br> &nbsp;&nbsp;- &nbsp;ExtJS</br> &nbsp;&nbsp;- &nbsp;SQL/TSQL Query Language</br> &nbsp;&nbsp;- &nbsp;Ability to analyze Execution Plans and optimization SQL Scripts</br> &nbsp;&nbsp;- &nbsp;Experience in Ext.NET</br></br>The candidate must have solid understanding OOP programming and the SOLID principles.</br>Experience in design patterns and understanding  Multi Tier architecture.</br></br>Interested candidates, please fill in the Application Form and attach your CV.",
-      "img":"assets/img/vacancies/Im-dotnet.jpg",
-      "formLink":"https://docs.google.com/forms/d/1rnzQkMp2hsG55gfhwdSoJRYWPCrTW8DYWcLFTTYU_M0/edit",
-      "shortDescription":"Company FINA LLC announces a vacancy for the position of .Net Developer</br></br><span style=\"font-weight: bold\">Knowledge of the following technologies:</span></br> &nbsp;&nbsp;- &nbsp;At least 1 year experience in web development Microsoft .NET technology</br> &nbsp;&nbsp;- &nbsp;Knowledge of Russian and English is desired"
+  "vacancies": [
+    {
+      "id": "interns",
+      "title": "interns",
+      "description": "Company \"FINA LLC\" announces internship for students, various and vacant places</br></br>Great advantages will be given to motivated and learning-oriented applicants, even with relatively low qualifications.</br></br> Vacancy for Interns:<br>.NET Developer</br>Java Developer</br>System Integrator</br>Business Analyst</br></br> Interested candidates, please fill in the application form and attach your CV.",
+      "img": "assets/img/vacancies/intern.jpg",
+      "formLink": "https://goo.gl/forms/fyIohCD1kDkwSyBw1",
+      "shortDescription": "Company \"FINA LLC\" announces internship for students, various vacant places</br></br> Great advantages will be given to motivated and learning-oriented applicants, even with relatively low qualifications.\n"
     },
     {
-      "id":"1",
-      "title":"Project Manager",
-      "description":"<span style=\"font-weight: bold\">Job Description:</span><br>- Planning all stages of the project, budget management and constant evaluation of progress;<br>- Establishment of relationships with interested persons,managing their involvement in project and effective communication;<br>- Define and plan activities for group members;<br>- Actively manage project risks,problems and report them;<br>- Management of various types of administrative and financial issues related to agreements / projects;<br><span style=\"font-weight: bold\">Requirements:</span><br>- Communication skills, ability to communicate effectively at all levels of the organization.<br>- Minimum one year experience in IT project management;<br>- Ability to analyze, critically evaluate and resolve important issues",
-      "img":"assets/img/vacancies/project-management.png",
-      "formLink":"https://docs.google.com/forms/d/e/1FAIpQLScriEM3JPaTDPtX5nqFr0J9byrtlIz2ILtTOQNSH_u6DM1DRQ/viewform?usp=sf_link",
-      "shortDescription":"<span style=\"font-weight: bold\">Job Description:</span><br>- Planning all stages of the project, budget management and constant evaluation of progress;<br>- Establishment of relationships with interested persons,managing their involvement in project and effective communication;<br>- Define and plan activities for group members;<br>- Actively manage project risks,problems and report them;<br>- Management of various types of administrative and financial issues related to agreements / projects;"
+      "id": "1",
+      "title": ".Net Developer",
+      "description": "Company FINA LLC announces a vacancy for the position of .Net Developer</br></br><span style=\"font-weight: bold\">Knowledge of the following technologies:</span></br> &nbsp;&nbsp;- &nbsp;At least 1 year experience in web development Microsoft .NET technology</br> &nbsp;&nbsp;- &nbsp;Knowledge of Russian and English is desired</br></br><span style=\"font-weight: bold\"> Knowledge of the following technologies will be preferable:</span></br> &nbsp;&nbsp;- &nbsp;Asp.NET MVC/Razor View Engine</br> &nbsp;&nbsp;- &nbsp;Asp.NET Web Forms</br> &nbsp;&nbsp;- &nbsp;JavaScript/JQuery</br> &nbsp;&nbsp;- &nbsp;ExtJS</br> &nbsp;&nbsp;- &nbsp;SQL/TSQL Query Language</br> &nbsp;&nbsp;- &nbsp;Ability to analyze Execution Plans and optimization SQL Scripts</br> &nbsp;&nbsp;- &nbsp;Experience in Ext.NET</br></br>The candidate must have solid understanding OOP programming and the SOLID principles.</br>Experience in design patterns and understanding  Multi Tier architecture.</br></br>Interested candidates, please fill in the Application Form and attach your CV.",
+      "img": "assets/img/vacancies/Im-dotnet.jpg",
+      "formLink": "https://docs.google.com/forms/d/1rnzQkMp2hsG55gfhwdSoJRYWPCrTW8DYWcLFTTYU_M0/edit",
+      "shortDescription": "Company FINA LLC announces a vacancy for the position of .Net Developer</br></br><span style=\"font-weight: bold\">Knowledge of the following technologies:</span></br> &nbsp;&nbsp;- &nbsp;At least 1 year experience in web development Microsoft .NET technology</br> &nbsp;&nbsp;- &nbsp;Knowledge of Russian and English is desired"
     },
     {
-      "id":"2",
-      "title":"Business Analyst",
-      "description":"<span style=\"font-weight: bold\">Job Description:</span><br>- Identification and analysis of business requirements, review existing processes and systems;<br>- Preparation of project documentation for development, implementeton and functionality purposes<br>- Engage in existing projects management;<br>- Supporting functional testing of software and analyzing results with test team<br>- Prepare / modify standards based on business requirements;<br>- Analysis of new projects and drawing up a proper technical task for developers;<br>- Use of company standards in the process of clarification (JIRA)<br><span style=\"font-weight: bold\">Requirements:</span><br>- A minimum of 2 years experience in business analysis or a related field;<br>- A history of leading and supporting successful projects;<br>- Experience leading and developing top performing teams;<br>- Competency in MS OFFICE;",
-      "img":"assets/img/vacancies/Business-Analyst.png",
-      "formLink":"https://docs.google.com/a/fina2.net/forms/d/1rkyLCWW9H0BpVcCw_kgdWqGgQyA6PBpwk8tVi6tvZYE/edit?usp=drive_web",
-      "shortDescription":"<span style=\"font-weight: bold\">Job Description:</span><br>- Identification and analysis of business requirements, review existing processes and systems;<br>- Preparation of project documentation for development, implementeton and functionality purposes<br>- Engage in existing projects management;<br>- Supporting functional testing of software and analyzing results with test team<br>- Prepare / modify standards based on business requirements;"
+      "id": "2",
+      "title": "Project Manager",
+      "description": "<span style=\"font-weight: bold\">Job Description:</span><br>- Planning all stages of the project, budget management and constant evaluation of progress;<br>- Establishment of relationships with interested persons,managing their involvement in project and effective communication;<br>- Define and plan activities for group members;<br>- Actively manage project risks,problems and report them;<br>- Management of various types of administrative and financial issues related to agreements / projects;<br><span style=\"font-weight: bold\">Requirements:</span><br>- Communication skills, ability to communicate effectively at all levels of the organization.<br>- Minimum one year experience in IT project management;<br>- Ability to analyze, critically evaluate and resolve important issues",
+      "img": "assets/img/vacancies/project-management.png",
+      "formLink": "https://docs.google.com/forms/d/e/1FAIpQLScriEM3JPaTDPtX5nqFr0J9byrtlIz2ILtTOQNSH_u6DM1DRQ/viewform?usp=sf_link",
+      "shortDescription": "<span style=\"font-weight: bold\">Job Description:</span><br>- Planning all stages of the project, budget management and constant evaluation of progress;<br>- Establishment of relationships with interested persons,managing their involvement in project and effective communication;<br>- Define and plan activities for group members;<br>- Actively manage project risks,problems and report them;<br>- Management of various types of administrative and financial issues related to agreements / projects;"
     },
     {
-      "id":"3",
-      "title":"Office Manager",
-      "description":"<span style=\"font-weight: bold\">Job Description:</span><br>- Managing correspondence and documentation management;<br>- Timely reaction to received phone calls and emails;<br>- Planning / organizing meetings with Google Calendar;<br>- Procurement and inventory of stationery items;<br>- Various activities related to office management.<br><span style=\"font-weight: bold\">Requirements:</span><br>- Knowledge of Excel, Word, PowerPoint, Project programs on high level;<br>- Knowledge of English and Russian is mandatory;<br>- Friendly attitude to technologies;<br>- Social Media Management experience<br>- Driving license is desirable;",
-      "img":"assets/img/vacancies/om.png",
-      "formLink":"https://docs.google.com/forms/d/e/1FAIpQLScLoJ9jr-Y4pyTSFRsKPNxRQ3gGI2Z5565KXPAcYKg0ecOL4w/viewform",
-      "shortDescription":"<span style=\"font-weight: bold\">Job Description:</span><br>- Managing correspondence and documentation management;<br>- Timely reaction to received phone calls and emails;<br>- Planning / organizing meetings with Google Calendar;<br>- Procurement and inventory of stationery items;<br>- Various activities related to office management."
+      "id": "3",
+      "title": "Business Analyst",
+      "description": "<span style=\"font-weight: bold\">Job Description:</span><br>- Identification and analysis of business requirements, review existing processes and systems;<br>- Preparation of project documentation for development, implementeton and functionality purposes<br>- Engage in existing projects management;<br>- Supporting functional testing of software and analyzing results with test team<br>- Prepare / modify standards based on business requirements;<br>- Analysis of new projects and drawing up a proper technical task for developers;<br>- Use of company standards in the process of clarification (JIRA)<br><span style=\"font-weight: bold\">Requirements:</span><br>- A minimum of 2 years experience in business analysis or a related field;<br>- A history of leading and supporting successful projects;<br>- Experience leading and developing top performing teams;<br>- Competency in MS OFFICE;",
+      "img": "assets/img/vacancies/Business-Analyst.png",
+      "formLink": "https://docs.google.com/a/fina2.net/forms/d/1rkyLCWW9H0BpVcCw_kgdWqGgQyA6PBpwk8tVi6tvZYE/edit?usp=drive_web",
+      "shortDescription": "<span style=\"font-weight: bold\">Job Description:</span><br>- Identification and analysis of business requirements, review existing processes and systems;<br>- Preparation of project documentation for development, implementeton and functionality purposes<br>- Engage in existing projects management;<br>- Supporting functional testing of software and analyzing results with test team<br>- Prepare / modify standards based on business requirements;"
+    },
+    {
+      "id": "4",
+      "title": "Office Manager",
+      "description": "<span style=\"font-weight: bold\">Job Description:</span><br>- Managing correspondence and documentation management;<br>- Timely reaction to received phone calls and emails;<br>- Planning / organizing meetings with Google Calendar;<br>- Procurement and inventory of stationery items;<br>- Various activities related to office management.<br><span style=\"font-weight: bold\">Requirements:</span><br>- Knowledge of Excel, Word, PowerPoint, Project programs on high level;<br>- Knowledge of English and Russian is mandatory;<br>- Friendly attitude to technologies;<br>- Social Media Management experience<br>- Driving license is desirable;",
+      "img": "assets/img/vacancies/om.png",
+      "formLink": "https://docs.google.com/forms/d/e/1FAIpQLScLoJ9jr-Y4pyTSFRsKPNxRQ3gGI2Z5565KXPAcYKg0ecOL4w/viewform",
+      "shortDescription": "<span style=\"font-weight: bold\">Job Description:</span><br>- Managing correspondence and documentation management;<br>- Timely reaction to received phone calls and emails;<br>- Planning / organizing meetings with Google Calendar;<br>- Procurement and inventory of stationery items;<br>- Various activities related to office management."
     }
   ]
 }
