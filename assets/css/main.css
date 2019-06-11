@@ -45,6 +45,10 @@ nav {
   background-color: white;
 }
 
+nav .navbar_fina_logo {
+  width: 70px;
+}
+
 nav a {
   color: #ea0000 !important;
   font-weight: bold !important;
