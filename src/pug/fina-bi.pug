@@ -1,0 +1,57 @@
+doctype html
+html(lang='en')
+
+    head
+        script(src="https://www.googletagmanager.com/gtag/js?id=UA-6079561-7" async)
+        script().
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-6079561-7');
+
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='In response to the need for better bank supervision systems a state-of-the-art information management system was developed for Supervision Authorities called FINA IRP. FINA IRP is the system to collect data, store them in the data base and generate different reports using very flexible report designer tools')
+        meta(name='author', content='')
+
+        title FINA BI
+
+        include includes/css/core
+
+        // Page level plugin CSS
+
+        include includes/css/custom
+
+    body
+        include includes/navbar
+        include includes/media-icons
+
+        .container-fluid
+            .row
+                .col-lg-8.offset-lg-2.portfolio-item
+                    .card.h-100.padding-left.padding-right
+                        .row
+                            .col-12.text-center
+                                h2 FINA BI
+                        .row
+                            .col-12
+                                p.text-justify In modern world one of the most important parts of businesses everyday life is analyzing incoming data. For this purposes modern technologies offer broad variety of software solutions. Instant data analysis capability is very important part of today's business processes. For satisfying modern business needs FINA offers wide range of business analysis tools.  Alongside custom Excel dashboards and IRP built in reporting FINA offers Power BI implementation on cloud or on-premise environments.
+                            .col-sm-12.col-md-8.my-auto
+                                p.text-justify BI tools enables you to transform unstructured data into comprehensible information that are visualized in interactive dashboards, which can further be queried and filtered to come up with more relevant insights.
+                                p.text-justify Power BI is a business analytics solution that lets you visualize your data and share insights across your organization, or embed them in your app or website. Connect to hundreds of data sources and bring your data to life with live dashboards and reports. Power BI is in Gartner Magic Quadrant for Analytics and Business Intelligence Platforms leaders board  for 12 consecutive years. It’s flexibility, functionality and easy to use environment makes Power BI top desirable software in BI market.
+                            .col-sm-12.col-md-4.my-auto
+                                img(src='assets/img/products/bi/analytics.png').img-fluid
+                            .col-12
+                                p.text-justify Power BI offers a 3 types of products: Power BI Cloud, Power BI report Server and Power BI Desktop (BI desktop Tool that is used for report creation). Power BI Report Server gives ability to a user to apply governance on its own terms. Build your BI environment on-premises and distribute reports behind your organization’s firewall.
+                            .col-sm-12.col-md-4.my-auto
+                                img(src='assets/img/products/bi/image-bi.png').img-fluid
+                            .col-sm-12.col-md-8.my-auto
+                                p.text-justify Power BI desktop is a report designer tool. It has a file structure and can be sent, shared and collaborated. With help of it, any user will be able to create data visualisations on its own needs. Desktop tool is easy to use, due to a simple, excel-like query language and  interface similar to power pivot. Connecting with data sources can be done in a snap of a finger. Virtually any data source can be connected to a Power BI desktop for data analyzing purposes. After connecting with existing data sources data can be further manipulated with the help of Power BI Desktop tools.  After report creation in Desktop tool File is uploaded in to the Power BI Report Server. From this point reports can be further distributed and shared to users inside organisation. For Power BI report Server Number of ‘report viewer’ users is unlimited and can be constrained by hardware capabilities, where report server is installed. From PBI Report server user can get embeddable link which can be used for customising dashboard in existing apps.
+
+
+
+        include includes/footer
+        include includes/js/core
+        include includes/js/custom
