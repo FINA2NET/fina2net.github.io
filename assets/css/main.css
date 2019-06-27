@@ -514,6 +514,10 @@ nav .dropdown-menu a:hover {
   font-size: 20px;
 }
 
+.title-color {
+  color: #FF0000;
+}
+
 .hexagon {
   z-index: 2;
   margin-top: -5px;
