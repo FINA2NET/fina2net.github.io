@@ -1,0 +1,50 @@
+doctype html
+html(lang="en")
+    head
+        script(src="https://www.googletagmanager.com/gtag/js?id=UA-6079561-7" async)
+        script().
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-6079561-7');
+
+
+        meta(property="og:url", content="http://fina2.net/Net-Developer.html" )
+        meta(property="og:type", content="article" )
+        meta(id="og_meta_title", property="og:title", content=".Net Developer" )
+        meta(id="og_meta_img", property="og:image", content="http://fina2.net/assets/img/vacancies/Im-dotnet.jpg" )
+
+        title .Net Developer - FINA
+
+        include ../includes/css/core
+        include ../includes/css/custom
+
+    body
+        include ../includes/navbar
+        include ../includes/media-icons
+
+        .container-fluid.padding-bottom
+            .row
+                .col-lg-10.offset-lg-1
+                    .container-fluid.vacancies-head
+
+                        .row.padding-bottom.padding-bottom.vacancies-card
+                            .col-lg-12.col-md-12
+                                .vacancies-title.mt-3
+                                    | .Net Developer
+                                hr.vacancies-hr
+                            .col-lg-12.col-md-12
+                                .vacancies-text
+                                    | Company FINA LLC announces a vacancy for the position of .Net Developer</br></br><span style="font-weight: bold">Knowledge of the following technologies:</span></br> &nbsp;&nbsp;- &nbsp;At least 1 year experience in web development Microsoft .NET technology</br> &nbsp;&nbsp;- &nbsp;Knowledge of Russian and English is desired</br></br><span style="font-weight: bold"> Knowledge of the following technologies will be preferable:</span></br> &nbsp;&nbsp;- &nbsp;Asp.NET MVC/Razor View Engine</br> &nbsp;&nbsp;- &nbsp;Asp.NET Web Forms</br> &nbsp;&nbsp;- &nbsp;JavaScript/JQuery</br> &nbsp;&nbsp;- &nbsp;ExtJS</br> &nbsp;&nbsp;- &nbsp;SQL/TSQL Query Language</br> &nbsp;&nbsp;- &nbsp;Ability to analyze Execution Plans and optimization SQL Scripts</br> &nbsp;&nbsp;- &nbsp;Experience in Ext.NET</br></br>The candidate must have solid understanding OOP programming and the SOLID principles.</br>Experience in design patterns and understanding  Multi Tier architecture.</br></br>Interested candidates, please fill in the Application Form and attach your CV.
+                            .col-lg-12
+                                .text-center.mt-4
+                                    a(href="https://docs.google.com/forms/d/1rnzQkMp2hsG55gfhwdSoJRYWPCrTW8DYWcLFTTYU_M0/edit", target="_blank", style="color:white!important")
+                                        .btn.my-btn
+                                            strong Application Form
+
+
+
+        include ../includes/footer
+        include ../includes/js/core
+        include ../includes/js/custom

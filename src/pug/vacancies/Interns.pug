@@ -1,0 +1,50 @@
+doctype html
+html(lang="en")
+    head
+        script(src="https://www.googletagmanager.com/gtag/js?id=UA-6079561-7" async)
+        script().
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-6079561-7');
+
+
+        meta(property="og:url", content="http://fina2.net/Interns.html" )
+        meta(property="og:type", content="article" )
+        meta(id="og_meta_title", property="og:title", content="Interns" )
+        meta(id="og_meta_img", property="og:image", content="http://fina2.net/assets/img/vacancies/intern.jpg" )
+
+        title Interns - FINA
+
+        include ../includes/css/core
+        include ../includes/css/custom
+
+    body
+        include ../includes/navbar
+        include ../includes/media-icons
+
+        .container-fluid.padding-bottom
+            .row
+                .col-lg-10.offset-lg-1
+                    .container-fluid.vacancies-head
+
+                        .row.padding-bottom.padding-bottom.vacancies-card
+                            .col-lg-12.col-md-12
+                                .vacancies-title.mt-3
+                                    | Interns
+                                hr.vacancies-hr
+                            .col-lg-12.col-md-12
+                                .vacancies-text
+                                    | LLC FINA  hires only the best. People who thrive in a culture of innovation and empowerment. People who are active learners and have a positive attitude. People who are leaders and know that by working together we can run faster, reach higher and achieve more.<br/><br/>We are looking for a creative persons, who are interested in joining our team as an interns. This is a paid internship where you will gain in-depth skills in our tech stack that will take you further to success. It provides students a valuable experience with real world applications while being able to work a part-time, flexible schedule to fit your educational needs.<br/><br/>What We Look For:<br/><ul><li>You must be able to commute to our office during the internship</li><li>Ability to quickly learn new technologies</li><li>Have a natural curiosity to dig into a problem or task until completed</li></ul>During your internship, you will be mentored by a senior members of the LLC FINA  team and receive regular feedback as to your performance highlighting your successes and potential areas for growth.<br/><br/>Based on company needs and your evaluation, you may be considered for continuing internship or full-time employment opportunities upon graduation.<br/><br/>If you think, that you are awesome enough and you want to become a professional<br/><ul><li>.NET Developer</li><li>Java Developer</li><li>System Integrator</li><li>Business Analyst</li></ul>we're looking forward to meeting you !<br/><br/>Interested candidates, please submit an online application and  attach your CV.
+                            .col-lg-12
+                                .text-center.mt-4
+                                    a(href="https://goo.gl/forms/fyIohCD1kDkwSyBw1", target="_blank", style="color:white!important")
+                                        .btn.my-btn
+                                            strong Application Form
+
+
+
+        include ../includes/footer
+        include ../includes/js/core
+        include ../includes/js/custom

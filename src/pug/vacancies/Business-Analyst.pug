@@ -1,0 +1,50 @@
+doctype html
+html(lang="en")
+    head
+        script(src="https://www.googletagmanager.com/gtag/js?id=UA-6079561-7" async)
+        script().
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-6079561-7');
+
+
+        meta(property="og:url", content="http://fina2.net/Business-Analyst.html" )
+        meta(property="og:type", content="article" )
+        meta(id="og_meta_title", property="og:title", content="Business Analyst" )
+        meta(id="og_meta_img", property="og:image", content="http://fina2.net/assets/img/vacancies/Business-Analyst.png" )
+
+        title Business Analyst - FINA
+
+        include ../includes/css/core
+        include ../includes/css/custom
+
+    body
+        include ../includes/navbar
+        include ../includes/media-icons
+
+        .container-fluid.padding-bottom
+            .row
+                .col-lg-10.offset-lg-1
+                    .container-fluid.vacancies-head
+
+                        .row.padding-bottom.padding-bottom.vacancies-card
+                            .col-lg-12.col-md-12
+                                .vacancies-title.mt-3
+                                    | Business Analyst
+                                hr.vacancies-hr
+                            .col-lg-12.col-md-12
+                                .vacancies-text
+                                    | <span style="font-weight: bold">Job Description:</span><br>- Identification and analysis of business requirements, review existing processes and systems;<br>- Preparation of project documentation for development, implementeton and functionality purposes<br>- Engage in existing projects management;<br>- Supporting functional testing of software and analyzing results with test team<br>- Prepare / modify standards based on business requirements;<br>- Analysis of new projects and drawing up a proper technical task for developers;<br>- Use of company standards in the process of clarification (JIRA)<br><span style="font-weight: bold">Requirements:</span><br>- A minimum of 2 years experience in business analysis or a related field;<br>- A history of leading and supporting successful projects;<br>- Experience leading and developing top performing teams;<br>- Competency in MS OFFICE;
+                            .col-lg-12
+                                .text-center.mt-4
+                                    a(href="https://forms.gle/ga35oZ91JcHiaXXY9", target="_blank", style="color:white!important")
+                                        .btn.my-btn
+                                            strong Application Form
+
+
+
+        include ../includes/footer
+        include ../includes/js/core
+        include ../includes/js/custom

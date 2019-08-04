@@ -103,7 +103,7 @@ gulp.task('js:minify', function () {
 gulp.task('js', ['js:minify']);
 // PUG
 gulp.task('pug', function buildHTML() {
-    return gulp.src('./src/pug/*.pug')
+    return gulp.src(['./src/pug/*.pug', './src/pug/vacancies/*.pug'])
         .pipe(pug())
         .pipe(gulp.dest('./'))
         .pipe(browserSync.reload({

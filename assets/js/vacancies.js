@@ -18,7 +18,7 @@ $(document).ready(function () {
                     + '<div class="col-sm-9 offset-sm-3 col-12">'
                     + '<div class="text-center">'
                     + '<a href="' + json.vacancies[i].formLink + '" target="_blank" style="color:white!important;"><div class="btn my-btn mr-2"><strong>Application Form</strong></div></a>'
-                    + '<div class="btn my-btn vacan-btn"  data-vacanID="' + json.vacancies[i].id + '"><strong>Read more</strong></div>'
+                    + '<div class="btn my-btn vacan-btn"  data-vacanID="' + json.vacancies[i].id + '" data-vacanTitle="' + json.vacancies[i].pageName + '"><strong>Read more</strong></div>'
                     + '</div>'
                     + '</div>'
                     + '</div>'
@@ -38,7 +38,7 @@ $(document).ready(function () {
                     + '<div class="col-sm-9 offset-sm-3 col-12">'
                     + '<div class="text-center">'
                     + '<a href="' + json.vacancies[i].formLink + '" target="_blank" style="color:white!important;"><div class="btn my-btn mr-2"><strong>Application Form</strong></div></a>'
-                    + '<div class="btn my-btn vacan-btn"  data-vacanID="' + json.vacancies[i].id + '"><strong>Read more</strong></div>'
+                    + '<div class="btn my-btn vacan-btn"  data-vacanID="' + json.vacancies[i].id + '" data-vacanTitle="' + json.vacancies[i].pageName + '"><strong>Read more</strong></div>'
                     + '</div>'
                     + '</div>'
                     + '</div>'
@@ -49,15 +49,18 @@ $(document).ready(function () {
 
 
 $(document).on('click',".vacan-btn",function () {
-    console.log($(this).attr('data-vacanID'));
+    console.log($(this).attr('data-vacanTitle'))
+    window.location = window.location.href.replace('vacancies',$(this).attr('data-vacanTitle'));
+    /*console.log($(this).attr('data-vacanID'));
     if($(this).attr('data-vacanID')=="interns"){
         window.location = window.location.href.replace('vacancies','interns');
     }else{
         window.location = updateQueryStringParameter(window.location.href.replace('vacancies','vacancion'), 'vacan',$(this).attr('data-vacanID'));
-    }
+    }*/
 });
 
 
+/*
 function updateQueryStringParameter(uri, key, value) {
     const re = new RegExp("([?&])" + key + "=.*?(&|$)", "i");
     const separator = uri.indexOf('?') !== -1 ? "&" : "?";
@@ -67,4 +70,4 @@ function updateQueryStringParameter(uri, key, value) {
     else {
         return uri + separator + key + "=" + value;
     }
-}
+}*/

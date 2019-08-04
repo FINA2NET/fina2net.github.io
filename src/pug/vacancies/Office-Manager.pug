@@ -1,0 +1,50 @@
+doctype html
+html(lang="en")
+    head
+        script(src="https://www.googletagmanager.com/gtag/js?id=UA-6079561-7" async)
+        script().
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-6079561-7');
+
+
+        meta(property="og:url", content="http://fina2.net/Office-Manager.html" )
+        meta(property="og:type", content="article" )
+        meta(id="og_meta_title", property="og:title", content="Office Manager" )
+        meta(id="og_meta_img", property="og:image", content="http://fina2.net/assets/img/vacancies/om.png" )
+
+        title Office Manager - FINA
+
+        include ../includes/css/core
+        include ../includes/css/custom
+
+    body
+        include ../includes/navbar
+        include ../includes/media-icons
+
+        .container-fluid.padding-bottom
+            .row
+                .col-lg-10.offset-lg-1
+                    .container-fluid.vacancies-head
+
+                        .row.padding-bottom.padding-bottom.vacancies-card
+                            .col-lg-12.col-md-12
+                                .vacancies-title.mt-3
+                                    | Office Manager
+                                hr.vacancies-hr
+                            .col-lg-12.col-md-12
+                                .vacancies-text
+                                    | <span style="font-weight: bold">Job Description:</span><br>- Managing correspondence and documentation management;<br>- Timely reaction to received phone calls and emails;<br>- Planning / organizing meetings with Google Calendar;<br>- Procurement and inventory of stationery items;<br>- Various activities related to office management.<br><span style="font-weight: bold">Requirements:</span><br>- Knowledge of Excel, Word, PowerPoint, Project programs on high level;<br>- Knowledge of English and Russian is mandatory;<br>- Friendly attitude to technologies;<br>- Social Media Management experience<br>- Driving license is desirable;
+                            .col-lg-12
+                                .text-center.mt-4
+                                    a(href="https://docs.google.com/forms/d/e/1FAIpQLScLoJ9jr-Y4pyTSFRsKPNxRQ3gGI2Z5565KXPAcYKg0ecOL4w/viewform", target="_blank", style="color:white!important")
+                                        .btn.my-btn
+                                            strong Application Form
+
+
+
+        include ../includes/footer
+        include ../includes/js/core
+        include ../includes/js/custom
