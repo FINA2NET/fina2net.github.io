@@ -25,6 +25,9 @@ html {
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: transparent; }
+.gioclass{
+  font-size: 25px;
+}
 
 @-ms-viewport {
   width: device-width; }
@@ -34,7 +37,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -344,7 +347,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family:  "Helvetica", "Arial", sans-serif !important;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -3289,7 +3292,8 @@ tbody.collapse.show {
   margin-bottom: 0; }
 
 .card-text:last-child {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 .card-link:hover {
   text-decoration: none; }
@@ -10319,7 +10323,7 @@ h6, .h6 {
   font-weight: 500; }
 
 p {
-  font-size: 14px;
+  font-size: 50px;
   margin: 0 0 10px; }
 
 b {

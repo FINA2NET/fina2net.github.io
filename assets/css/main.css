@@ -3,7 +3,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Ruda', sans-serif !important;
+  font-family: "Walkway UltraBold", sans-serif !important;
 }
 
 a {
@@ -14,6 +14,7 @@ a {
 a:hover {
   color: #FF0000;
 }
+
 
 .padding-top {
   padding-top: 30px;
@@ -265,7 +266,7 @@ nav .dropdown-menu a:hover {
 }
 
 .card-title a {
-  color: #FF0000;
+  color: #f21818;
 }
 
 .card-header {
@@ -276,11 +277,13 @@ nav .dropdown-menu a:hover {
 
 .card-header {
   text-align: center;
-  color: #FF0000;
+  color: #f21818;
 }
 
 .card-text {
   text-align: justify;
+  font-family: Rubik;
+  font-weight: normal;
 }
 
 .project-content-btn {
@@ -303,9 +306,9 @@ nav .dropdown-menu a:hover {
 
 .my-btn {
   border-radius: 2em;
-  background-color: #E85245 !important;
+  background-color: #ff1100 !important;
   color: white !important;
-  padding-bottom: 6px !important;
+  padding-bottom: 10px !important;
 }
 
 .my-btn:hover {
@@ -318,7 +321,8 @@ nav .dropdown-menu a:hover {
 
 .footer {
   padding: 50px 5% 20px 5%;
-  background-color: #5D5D5D;
+  background-color: #707070
+;
   color: white;
 }
 
@@ -406,11 +410,13 @@ nav .dropdown-menu a:hover {
 }
 
 #footer-main-content .footer-item:hover {
-  background-color: white;
+  font-style: italic;
+  color: #FFFFFF;
+  text-decoration: underline;
 }
 
 #footer-main-content .footer-item:hover a {
-  color: #5D5D5D;
+  color: #ffffff;
 }
 
 .footer-contact-info i {
@@ -485,7 +491,7 @@ nav .dropdown-menu a:hover {
 }
 
 .contact-right-side hr {
-  background-color: #FF0000;
+  background-color: #f21818;
 }
 
 .map-padding {
@@ -525,7 +531,7 @@ nav .dropdown-menu a:hover {
   position: absolute;
   width: 50px;
   height: 28.87px;
-  background-color: #FF0000;
+  background-color: #f21818;
   color: white;
 }
 
@@ -540,13 +546,13 @@ nav .dropdown-menu a:hover {
 
 .hexagon:before {
   bottom: 100%;
-  border-bottom: 14.43px solid #FF0000;
+  border-bottom: 14.43px solid #f21818;
 }
 
 .hexagon:after {
   top: 100%;
   width: 0;
-  border-top: 14.43px solid #FF0000;
+  border-top: 14.43px solid #ff0000;
 }
 
 .vl {
@@ -605,7 +611,7 @@ nav .dropdown-menu a:hover {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background: rgba(202, 8, 32, 0.8);
+  background: rgba(230, 23, 50, 0.8);
   color: #fff;
   padding: 15px;
   -moz-transition: all 0.4s ease-in-out 0s;
@@ -694,7 +700,7 @@ nav .dropdown-menu a:hover {
 
 .vacancies-form a {
   color: white !important;
-  background-color: #FF0000;
+  background-color: #f21818;
   border-radius: 2em;
   padding: 5px 10px 5px 10px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -706,7 +712,7 @@ nav .dropdown-menu a:hover {
 }
 
 .vacancies-hr {
-  background-color: #FF0000;
+  background-color: #f20000;
 }
 
 .vacancies-card {
@@ -732,7 +738,7 @@ nav .dropdown-menu a:hover {
 
 .project-section header {
   margin-top: 60px;
-  background: #FF0000;
+  background: #f21818;
   color: #FFFFFF;
   padding: 10px 0;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -747,7 +753,7 @@ nav .dropdown-menu a:hover {
 }
 
 .project-section a {
-  background: #FF0000;
+  background: #f21818;
   color: #FFFFFF;
   padding: 8px 20px;
   text-transform: uppercase;
@@ -836,7 +842,7 @@ nav .dropdown-menu a:hover {
 .timeline-img {
   width: 30px;
   height: 30px;
-  background: #FF0000;
+  background: #f21818;
   border-radius: 50%;
   position: absolute;
   left: 50%;
