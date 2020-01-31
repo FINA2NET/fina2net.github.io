@@ -1,9 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab|Oxygen|Raleway|Rubik&display=swap');
 body {
   background-color: white !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Walkway UltraBold", sans-serif !important;
+  font-family: "Raleway", sans-serif !important;
+}
+.menuitem {
+  font-family: Rubik;
+  font-weight: bold;
+}
+.cardtextsubheading {
+  font-family: Rubik;
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+}
+
+.cardtextheading {
+  font-family: "Hepta Slab";
+  font-weight: bold;
+  font-size: 20px;
 }
 
 a {
