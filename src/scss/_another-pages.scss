@@ -6,7 +6,7 @@
 }
 
 .title-color{
-  color: $primary-color;
+  color: #f21818;
 }
 
 .hexagon {
@@ -17,7 +17,7 @@
 
   width: 50px;
   height: 28.87px;
-  background-color: $primary-color;
+  background-color: #f21818;
   color: white;
 }
 
@@ -32,19 +32,19 @@
 
 .hexagon:before {
   bottom: 100%;
-  border-bottom: 14.43px solid $primary-color;
+  border-bottom: 14.43px solid #f21818;
 }
 
 .hexagon:after {
   top: 100%;
   width: 0;
-  border-top: 14.43px solid $primary-color;
+  border-top: 14.43px solid #f21818;
 }
 
 .vl{
   z-index: 2;
   position: absolute;
-  border-left: 4px solid $primary-color;
+  border-left: 4px solid #f21818;
   height: 120px;
   margin-left: calc(23px + 1.5vw);
 }
@@ -54,7 +54,7 @@
   position: absolute;
   margin-top: 119px;
   margin-left: calc(17px + 1.5vw);
-  border: 3px solid $primary-color;
+  border: 3px solid #f21818;
   border-radius: 50%;
   width: 16px;
   height: 16px;

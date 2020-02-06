@@ -4,8 +4,24 @@ body{
   background-color: white!important;
 }
 
-h1, h2, h3, h4, h5, h6{
-  font-family: 'Ruda', sans-serif !important;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif !important;
+}
+.menuitem {
+  font-family: Rubik;
+  font-weight: bold;
+}
+.cardtextsubheading {
+  font-family: Rubik;
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+}
+
+.cardtextheading {
+  font-family: "Hepta Slab";
+  font-weight: bold;
+  font-size: 20px;
 }
 
 a{
