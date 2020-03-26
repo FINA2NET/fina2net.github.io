@@ -45,6 +45,20 @@ a {
   padding: 0 !important;
   margin: 0 !important; }
 
+.covid-main-container {
+  padding-left: 300px;
+  padding-right: 120px; }
+
+.covid-text-container {
+  padding: 15px;
+  background-color: #EEEEF1;
+  font-family: Rubik, serif;
+  font-size: 15px;
+  border-radius: 4px;
+  opacity: 1; }
+  .covid-text-container a {
+    color: #3c4858; }
+
 nav {
   background-color: white; }
   nav .navbar_fina_logo {
