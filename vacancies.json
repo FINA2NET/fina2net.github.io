@@ -9,6 +9,15 @@
       "formLink": "https://goo.gl/forms/fyIohCD1kDkwSyBw1",
       "shortDescription": " LLC FINA hires only the best. People who thrive in a culture of innovation and empowerment. People who are active learners and have a positive attitude. People who are leaders and know that by working together we can run faster, reach higher and achieve more. "
     },
+  {
+    "id": "1",
+    "title": "Markuper",
+    "pageName": "Markuper",
+    "description": "",
+    "img": "assets/img/vacancies/markuper.png",
+    "formLink": "https://forms.gle/md5Gp1f4siPjLrzs9 ",
+    "shortDescription": "<div class=\"vacancies-text\">Company FINA LLC announces a vacancy for the position of Markuper\n                            </br></br>\n                        </div>\n                        <div style=\"font-weight: bold\">Responsibilities:</div>\n                        <ul>\n                            <li>Creating and refining design system components;</li>\n                            <li>Identifying visual characteristics and innovative ways of performing;</li>\n                            <li>From the process of creating and implementing the product with the product managers and creators.</li>\n                        </ul>"
+  },
     {
       "id": "1",
       "title": "Java Developer",
