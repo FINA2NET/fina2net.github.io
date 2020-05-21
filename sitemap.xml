@@ -1,32 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>http://fina.bi/FINA_overview.html</loc>
-        <lastmod>2018-04-05T14:29:16.927Z</lastmod>
+        <loc>http://fina2.net/</loc>
+        <lastmod>2020-05-18T10:47:08+00:00</lastmod>
+        <priority>1.00</priority>
     </url>
     <url>
-        <loc>http://fina.bi/about.html</loc>
-        <lastmod>2018-04-05T14:29:16.930Z</lastmod>
+        <loc>http://fina2.net/FINA-IRP.html</loc>
+        <lastmod>2020-05-18T10:47:08+00:00</lastmod>
+        <priority>0.80</priority>
     </url>
     <url>
-        <loc>http://fina.bi/clients.html</loc>
-        <lastmod>2018-04-05T14:29:16.930Z</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.5</priority>
+        <loc>http://fina2.net/fina-bi.html</loc>
+        <lastmod>2020-05-18T10:47:08+00:00</lastmod>
+        <priority>0.80</priority>
     </url>
     <url>
-        <loc>http://fina.bi/contact.html</loc>
-        <lastmod>2018-04-05T14:29:16.930Z</lastmod>
-        <changefreq>always</changefreq>
+        <loc>http://fina2.net/dkms.html</loc>
+        <lastmod>2020-05-18T10:47:08+00:00</lastmod>
+        <priority>0.80</priority>
     </url>
     <url>
-        <loc>http://fina.bi/</loc>
-        <lastmod>2018-04-05T14:29:17.070Z</lastmod>
+        <loc>http://fina2.net/about.html</loc>
+        <lastmod>2020-05-18T10:47:08+00:00</lastmod>
+        <priority>0.80</priority>
     </url>
     <url>
-        <loc>http://fina.bi/partners.html</loc>
-        <lastmod>2018-04-05T14:29:17.073Z</lastmod>
-        <changefreq>hourly</changefreq>
-        <priority>0.5</priority>
+        <loc>http://fina2.net/partners.html</loc>
+        <lastmod>2020-05-18T10:47:08+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>http://fina2.net/clients.html</loc>
+        <lastmod>2020-05-18T10:47:08+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>http://fina2.net/vacancies.html</loc>
+        <lastmod>2020-05-18T10:47:08+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>http://fina2.net/contact.html</loc>
+        <lastmod>2020-05-18T10:47:08+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>http://fina2.net/covid.html</loc>
+        <lastmod>2020-05-18T10:47:08+00:00</lastmod>
+        <priority>0.80</priority>
     </url>
 </urlset>
