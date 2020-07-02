@@ -9,15 +9,24 @@
       "formLink": "https://goo.gl/forms/fyIohCD1kDkwSyBw1",
       "shortDescription": " LLC FINA hires only the best. People who thrive in a culture of innovation and empowerment. People who are active learners and have a positive attitude. People who are leaders and know that by working together we can run faster, reach higher and achieve more. "
     },
-  {
-    "id": "1",
-    "title": "Markuper",
-    "pageName": "Markuper",
-    "description": "",
-    "img": "assets/img/vacancies/markuper_FINA.png",
-    "formLink": "https://forms.gle/md5Gp1f4siPjLrzs9 ",
-    "shortDescription": "<div class=\"vacancies-text\">Company FINA LLC announces a vacancy for the position of Markuper\n                            </br></br>\n                        </div>\n                        <div style=\"font-weight: bold\">Responsibilities:</div>\n                        <ul>\n                            <li>Creating and refining design system components;</li>\n                            <li>Identifying visual characteristics and performing in innovative way;</li>\n                            <li>Collaboration with product owners and managers in product creation and implementation.</li>\n                        </ul>"
-  },
+    {
+      "id": "1",
+      "title": "UI Junior Designer",
+      "pageName": "UI-Junior-Designer",
+      "description": "",
+      "img": "assets/img/vacancies/UI_Junior_Designer_FINA.png",
+      "formLink": "https://forms.gle/2kPpCkBYWyp2gyr68",
+      "shortDescription": "<div class=\"vacancies-text\">Company FINA LLC announces an internship for UI Junior Designer.\n                            </br></br>\n                        </div>\n                        <div style=\"font-weight: bold\">Responsibilities:</div>\n                        <ul>\n                            <li>Presenting new ideas;</li>\n                            <li>Use standard UI / UX patterns;</li>\n                            <li>Identify UI problems and develop solutions;</li>\n                            <li>Thinking of original concepts and simple solutions;</li>\n                            <li>Create a style guide and guide development processes properly.</li>\n                        </ul>\n                        <br/>"
+    },
+    {
+      "id": "1",
+      "title": "Markuper",
+      "pageName": "Markuper",
+      "description": "",
+      "img": "assets/img/vacancies/markuper_FINA.png",
+      "formLink": "https://forms.gle/md5Gp1f4siPjLrzs9",
+      "shortDescription": "<div class=\"vacancies-text\">Company FINA LLC announces a vacancy for the position of Markuper\n                            </br></br>\n                        </div>\n                        <div style=\"font-weight: bold\">Responsibilities:</div>\n                        <ul>\n                            <li>Creating and refining design system components;</li>\n                            <li>Identifying visual characteristics and performing in innovative way;</li>\n                            <li>Collaboration with product owners and managers in product creation and implementation.</li>\n                        </ul>"
+    },
     {
       "id": "1",
       "title": "Java Developer",
