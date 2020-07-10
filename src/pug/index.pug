@@ -7,8 +7,21 @@ html(lang='en')
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'UA-6079561-7');
+
+    script(type = "application/ld+json").
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "FINA LLC",
+        "url": "https://fina2.net",
+        "address": "Zhiuli Shartava str 40 9th Floor, Room 913 0160 Tbilisi, Georgia",
+        "sameAs": [
+        "https://www.facebook.com/FINA2.NET/",
+        "https://twitter.com/FINA2NET",
+        "https://www.linkedin.com/company/fina-ltd/"
+        ]
+      }
 
 
     meta(http-equiv="Cache-control" content="public")
@@ -132,7 +145,7 @@ html(lang='en')
     .container-fluid.container-padding
       .row.mt-5
         .col-md-4.col-lg-3.offset-lg-1.offset-md-0.my-auto
-          img(src="assets/img/fina-logo.png").img-fluid
+          img(src="assets/img/fina-logo.png" alt="logo").img-fluid
         .col-md-8.col-lg-7
           p.text-justify(style="font-family: Rubik") FINA is a software development and consulting company established in 2006 in Georgia. Our main preference is to earn your trust through our commitment and integrity extending maximum value and striving to exceed your expectations.
           p.text-justify(style="font-family: Rubik") LLC FINA owns ~150 square meter office in the center of Tbilisi (Capital of Georgia). Company is equipped with up-to-date computer hardware. The basic software platform has a high degree of standardization and a wide range of specialized software and is used for system design, development, quality assurance, project management and reporting.
@@ -149,7 +162,7 @@ html(lang='en')
           .timeline-item
             .timeline-img
             .timeline-content.timeline-card.js--fadeInLeft
-              img(src="assets/img/National_Bank_Georgia_LOGO_FINA.png").card-img-top
+              img(src="assets/img/National_Bank_Georgia_LOGO_FINA.png" alt="nbg_logo").card-img-top
               p.title-color(style="font-size:20px; font-family: Rubik; font-weight: bold").text-center Integrated Regulatory Platform at National Bank of Georgia
               .date MAY 2018
               p.card-text(style="padding-bottom:20px; font-family: Rubik")
@@ -157,7 +170,7 @@ html(lang='en')
           .timeline-item.target-timeline-item
             .timeline-img
             .timeline-content.timeline-card.js--fadeInRight
-              img(src="assets/img/Environmental_information_and_education_centre_logo.fina.png").card-img-top
+              img(src="assets/img/Environmental_information_and_education_centre_logo.fina.png" alt="eiec_logo").card-img-top
               p.title-color(style="font-size:20px; font-family: Rubik; font-weight: bold").text-center  Knowledge Management for Environmental Protection
               .date DEC 2017
               p.card-text(style="padding-bottom:20px; font-family: Rubik")
@@ -165,7 +178,7 @@ html(lang='en')
           .timeline-item.target-timeline-item
             .timeline-img
             .timeline-content.timeline-card.js--fadeInLeft
-              img(src="assets/img/central_bank_of_the_republic_of_kosovo_logo_fina.png").card-img-top
+              img(src="assets/img/central_bank_of_the_republic_of_kosovo_logo_fina.png" alt="cbk_logo").card-img-top
               p.title-color(style="font-size:20px; font-family: Rubik; font-weight: bold").text-center  Integrated Regulatory Platform at Central Bank of Kosovo
               .date MAY 2017
               p.card-text(style="padding-bottom:20px font-family: Rubik")

@@ -7,8 +7,21 @@ html(lang='en')
             window.dataLayer = window.dataLayer || [];
             function gtag() {dataLayer.push(arguments);}
             gtag('js', new Date());
-
             gtag('config', 'UA-6079561-7');
+
+        script(type = "application/ld+json").
+            {
+                "@context": "http://schema.org",
+                "@type": "Organization",
+                "name": "FINA LLC",
+                "url": "https://fina2.net",
+                "address": "Zhiuli Shartava str 40 9th Floor, Room 913 0160 Tbilisi, Georgia",
+                "sameAs": [
+                "https://www.facebook.com/FINA2.NET/",
+                "https://twitter.com/FINA2NET",
+                "https://www.linkedin.com/company/fina-ltd/"
+                ]
+            }
 
         meta(charset='utf-8')
         meta(http-equiv='X-UA-Compatible', content='IE=edge')
