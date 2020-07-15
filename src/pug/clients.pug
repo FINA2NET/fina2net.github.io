@@ -2,32 +2,7 @@ doctype html
 html(lang='en')
 
     head
-        script(src="https://www.googletagmanager.com/gtag/js?id=UA-6079561-7" async)
-        script().
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-6079561-7');
-
-        script(type = "application/ld+json").
-            {
-                "@context": "http://schema.org",
-                "@type": "Organization",
-                "name": "FINA LLC",
-                "url": "https://fina2.net",
-                "address": "Zhiuli Shartava str 40 9th Floor, Room 913 0160 Tbilisi, Georgia",
-                "sameAs": [
-                "https://www.facebook.com/FINA2.NET/",
-                "https://twitter.com/FINA2NET",
-                "https://www.linkedin.com/company/fina-ltd/"
-                ]
-            }
-
-
-        meta(charset='utf-8')
-        meta(http-equiv='X-UA-Compatible', content='IE=edge')
-        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        include includes/header
         meta(name='description', content='This page contains information about our clients and projects in different countries.')
         meta(name='author', content='')
 
@@ -49,6 +24,103 @@ html(lang='en')
         include includes/navbar
         include includes/media-icons
 
+        .container
+            .row
+                .col-lg-3.col-md-4.col-sm-6.padding-top.text-center
+                    .hvrbox.client-padding
+                        img(src='assets/img/tmp/National_Bank_Of_Georgia.jpg', alt='Mountains').hvrbox-layer_bottom.img-size
+                        .hvrbox-layer_top.hvrbox-layer_slideup
+                            .hvrbox-text
+                                p FinA @ National Bank of Georgia
+                                p 2017-2018
+                                p 2019-2020
+                .col-lg-3.col-md-4.col-sm-6.padding-top.text-center
+                    .hvrbox.client-padding
+                        img(src='assets/img/tmp/Environmental_information_and_education_centre_logo.jpg', alt='Mountains').hvrbox-layer_bottom.img-size
+                        .hvrbox-layer_top.hvrbox-layer_slideup
+                            .hvrbox-text
+                                p FinA @ Environmental Center of Georgia
+                                p 2017-2018
+                .col-lg-3.col-md-4.col-sm-6.padding-top.text-center
+                    .hvrbox.client-padding
+                        img(src='assets/img/tmp/central_bank_of_the_republic_of_kosovo_logo_fina.jpg', alt='Mountains').hvrbox-layer_bottom.img-size
+                        .hvrbox-layer_top.hvrbox-layer_slideup
+                            .hvrbox-text
+                                p FinA @ Central Bank of Kosovo
+                                p 2015-2016
+                .col-lg-3.col-md-4.col-sm-6.padding-top.text-center
+                    .hvrbox.client-padding
+                        img(src='assets/img/tmp/Central_Bank_of_Lesotho.jpg', alt='Mountains').hvrbox-layer_bottom.img-size
+                        .hvrbox-layer_top.hvrbox-layer_slideup
+                            .hvrbox-text
+                                p FinA @ Central Bank of Lesotho
+                                p 2015-2016
+                .col-lg-3.col-md-4.col-sm-6.padding-top.text-center
+                    .hvrbox.client-padding
+                        img(src='assets/img/tmp/Central_Bank_of_Nigeria.jpg', alt='Mountains').hvrbox-layer_bottom.img-size
+                        .hvrbox-layer_top.hvrbox-layer_slideup
+                            .hvrbox-text
+                                p FinA @ Central Bank of Nigeria
+                                p 2013-2016
+                .col-lg-3.col-md-4.col-sm-6.padding-top.text-center
+                    .hvrbox.client-padding
+                        img(src='assets/img/tmp/Central_Bank_of_Mongolia.jpg', alt='Mountains').hvrbox-layer_bottom.img-size
+                        .hvrbox-layer_top.hvrbox-layer_slideup
+                            .hvrbox-text
+                                p FinA @ Bank of Mongolia
+                                p 2014-2014
+                .col-lg-3.col-md-4.col-sm-6.padding-top.text-center
+                    .hvrbox.client-padding
+                        img(src='assets/img/tmp/Bank_of_Lao_PDR.png', alt='Mountains').hvrbox-layer_bottom.img-size
+                        .hvrbox-layer_top.hvrbox-layer_slideup
+                            .hvrbox-text
+                                p FinA @ National Bank of Laos
+                                p 2010-2011
+                .col-lg-3.col-md-4.col-sm-6.padding-top.text-center
+                    .hvrbox.client-padding
+                        img(src='assets/img/tmp/Central_Bank_of_Mongolia.png', alt='Mountains').hvrbox-layer_bottom.img-size
+                        .hvrbox-layer_top.hvrbox-layer_slideup
+                            .hvrbox-text
+                                p FinA @ Financial Regulatory Commission of Mongolia
+                                p 2010-2011
+                .col-lg-3.col-md-4.col-sm-6.padding-top.text-center
+                    .hvrbox.client-padding
+                        img(src='assets/img/tmp/Central_Bank_of_the_Congo.jpg', alt='Mountains').hvrbox-layer_bottom.img-size
+                        .hvrbox-layer_top.hvrbox-layer_slideup
+                            .hvrbox-text
+                                p FinA @ Central Bank of Congo
+                                p 2008-2009
+                .col-lg-3.col-md-4.col-sm-6.padding-top.text-center
+                    .hvrbox.client-padding
+                        img(src='assets/img/tmp/National_Bank_of_Tajikistan.png', alt='Mountains').hvrbox-layer_bottom.img-size
+                        .hvrbox-layer_top.hvrbox-layer_slideup
+                            .hvrbox-text
+                                p FinA @ National Bank of Tajikistan
+                                p 2007-2009
+                                p 2019
+                .col-lg-3.col-md-4.col-sm-6.padding-top.text-center
+                    .hvrbox.client-padding
+                        img(src='assets/img/tmp/BNR-National_Bank_of_Rwanda.jpg', alt='Mountains').hvrbox-layer_bottom.img-size
+                        .hvrbox-layer_top.hvrbox-layer_slideup
+                            .hvrbox-text
+                                p FinA @ National Bank of Rwanda
+                                p 2007-2008
+                .col-lg-3.col-md-4.col-sm-6.padding-top.text-center
+                    .hvrbox.client-padding
+                        img(src='assets/img/tmp/Central_Bank_of_Azerbaijan.png', alt='Mountains').hvrbox-layer_bottom.img-size
+                        .hvrbox-layer_top.hvrbox-layer_slideup
+                            .hvrbox-text
+                                p FinA @ Central Bank of Azerbaijan
+                                p 2006-2007
+                .col-lg-3.col-md-4.col-sm-6.padding-top.text-center
+                    .hvrbox.client-padding
+                        img(src='assets/img/tmp/National_Bank_of_the_Kyrgyz_Republic.PNG', alt='Mountains').hvrbox-layer_bottom.img-size
+                        .hvrbox-layer_top.hvrbox-layer_slideup
+                            .hvrbox-text
+                                p FinA @ National Bank of Kyrgyzstan
+                                p 2002-2003
+        .padding-top(style="height:436px!important")
+            iframe(src='https://www.google.com/maps/d/u/0/embed?mid=1gShkQ1STsefhwpQCEPRuFjZXX4xR3NiV', width='100%', height='400px')
 
 
         include includes/footer

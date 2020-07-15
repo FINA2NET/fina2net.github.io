@@ -2,32 +2,7 @@ doctype html
 html(lang='en')
 
     head
-        script(src="https://www.googletagmanager.com/gtag/js?id=UA-6079561-7" async)
-        script().
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
-            gtag('config', 'UA-6079561-7');
-
-        script(type = "application/ld+json").
-            {
-                "@context": "http://schema.org",
-                "@type": "Organization",
-                "name": "FINA LLC",
-                "url": "https://fina2.net",
-                "address": "Zhiuli Shartava str 40 9th Floor, Room 913 0160 Tbilisi, Georgia",
-                "sameAs": [
-                "https://www.facebook.com/FINA2.NET/",
-                "https://twitter.com/FINA2NET",
-                "https://www.linkedin.com/company/fina-ltd/"
-                ]
-            }
-
-        meta(charset='utf-8')
-        meta(http-equiv='X-UA-Compatible', content='IE=edge')
-        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        include includes/header
         meta(name='description', content='In case of any questions you can contact us using simple form or communicate with us through any social media channel, we will respond as soon as possible')
         meta(name='author', content='')
 
@@ -53,14 +28,6 @@ html(lang='en')
                 .col-md-3
                     .cont-box
                         div
-                            i.fa.fa-map-marker(style="font-size:35px;color:rgb(234, 0, 0)")
-                        div(style="font-weight:bold; color:rgb(234, 0, 0)") Address
-                        div Zhiuli Shartava str 40
-                        div 9th Floor, Room 913
-                        div 0160 Tbilisi, Georgia
-                .col-md-3
-                    .cont-box
-                        div
                             i.fa.fa-phone(style="font-size:35px;color:rgb(234, 0, 0)")
                         div(style="font-weight:bold; color:rgb(234, 0, 0)")  Phone
                         div + 995 592 93 33 39
@@ -76,8 +43,16 @@ html(lang='en')
                             i.fa.fa-comment(style="font-size:35px;color:rgb(234, 0, 0)")
                         div(style="font-weight:bold;color:rgb(234, 0, 0)") WeChat
                         div fina2net
+                .col-md-3
+                    .cont-box
+                        div
+                            i.fa.fa-map-marker(style="font-size:35px;color:rgb(234, 0, 0)")
+                        div(style="font-weight:bold; color:rgb(234, 0, 0)") Address
+                        div Zhiuli Shartava str 40
+                        div 9th Floor, Room 913
+                        div 0160 Tbilisi, Georgia
 
-        #contact-map-container.container-fluid(style="padding:110px 0 0 0; margin: 0!important")
+        #contact-map-container.container-fluid(style="padding:0; margin: 120px 0 0 0!important")
             #contact-map(style="width:100%;height:calc(300px + 18vh);")
             script.
                 function myMap() {

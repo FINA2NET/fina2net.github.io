@@ -1,33 +1,9 @@
 doctype html
 html(lang="en")
     head
-        script(src="https://www.googletagmanager.com/gtag/js?id=UA-6079561-7" async)
-        script().
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-6079561-7');
-
-        script(type = "application/ld+json").
-            {
-                "@context": "http://schema.org",
-                "@type": "Organization",
-                "name": "FINA LLC",
-                "url": "https://fina2.net",
-                "address": "Zhiuli Shartava str 40 9th Floor, Room 913 0160 Tbilisi, Georgia",
-                "sameAs": [
-                "https://www.facebook.com/FINA2.NET/",
-                "https://twitter.com/FINA2NET",
-                "https://www.linkedin.com/company/fina-ltd/"
-                ]
-            }
-
-
         title About - FINA
-        meta(charset='utf-8')
-        meta(http-equiv='X-UA-Compatible', content='IE=edge')
-        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
 
+        include includes/header
         include includes/css/core
         include includes/css/custom
 

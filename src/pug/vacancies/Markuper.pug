@@ -1,0 +1,61 @@
+doctype html
+html(lang="en")
+    head
+        include ../includes/header
+        meta(property="og:url", content="http://fina2.net/markuper.html" )
+        meta(property="og:type", content="article" )
+        meta(id="og_meta_title", property="og:title", content="Markuper" )
+        meta(id="og_meta_img", property="og:image", content="http://fina2.net/assets/img/vacancies/markuper.png" )
+
+        title Markuper - FINA
+
+        include ../includes/css/core
+        include ../includes/css/custom
+
+    body
+        include ../includes/navbar
+        include ../includes/media-icons
+
+        .container-fluid.padding-bottom
+            .row
+                .col-lg-10.offset-lg-1
+                    .container-fluid.vacancies-head
+
+                        .row.padding-bottom.padding-bottom.vacancies-card
+                            .col-lg-12.col-md-12
+                                .vacancies-title.mt-3
+                                    | Markuper
+                                hr.vacancies-hr
+                            .col-lg-12.col-md-12
+                                .vacancies-text
+                                    | Company FINA LLC announces a vacancy for the position of Markuper
+                                    br
+                                    br
+                                    div(style='font-weight:bold')  Responsibilities:
+                                    ul
+                                        li Creating and refining design system components;
+                                        li Identifying visual characteristics and performing in innovative way;
+                                        li Collaboration with product owners and managers in product creation and implementation.
+                                    div(style='font-weight:bold')  Requirements:
+                                    ul
+                                        li Knowledge of Semantic Markup;
+                                        li Structural knowledge of HTML5;
+                                        li Fundamental knowledge of CSS;
+                                        li Experience in Javascript;
+                                        li Experience in UI / UX design;
+                                    div(style='font-weight:bold')  We offer you:
+                                    ul
+                                        li Permanent professional development;
+                                        li The possibility of working with international projects (USAID, WB, GIZ, UNDP...);
+                                        li Working with Agile qualified team members;
+                                        li Friendly working environment.
+                                    div Interested candidates, please fill in the Application Form and attach your CV.
+                            .col-lg-12
+                                .text-center.mt-4
+                                    a(href="https://forms.gle/md5Gp1f4siPjLrzs9", target="_blank", style="color:white!important")
+                                        .btn.my-btn
+                                            strong Apply Now
+
+        include ../includes/footer
+        include ../includes/js/core
+        include ../includes/js/custom
