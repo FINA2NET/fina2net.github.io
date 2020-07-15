@@ -38,3 +38,14 @@ $ gulp default
 
 "npm start" and "gulp default" both add file watchers on .gulp and .scss files and automatically rebuilds html and css when changes detected.
 
+## Deployment
+
+After making changes, you can add them to git, commit and push.
+```shell
+$ git add .  # you can rplace . with file name
+$ git commit -m "Issue number and comment"
+$ git push
+```
+github pages takes 2-30 minutes to refresh the page.
+
+You can see the change on [fina2.net](https://fina2.net)
