@@ -24,12 +24,6 @@ html(lang='en')
     include includes/navbar
     include includes/media-icons
 
-    div(style="background-color:#D04343!important; color:white").text-center.cardtextsubheading.mt-4.pt-1.pb-1 COVID-19 ANNOUNCEMENT
-    div.text-center.mt-2.mb-2
-      | We maintain 100% availability for our support and remote access channels during pandemic outbreak. For additional information you are welcome to contact us at
-      a(href="mailto: support@fina2.net" style="color:black") &nbsp support@fina2.net.
-      a(href="covid.html") &nbsp Read More
-
     header
       #carouselExampleIndicators.carousel.slide(data-ride='carousel').d-none.d-md-block
         ol.carousel-indicators
@@ -37,6 +31,7 @@ html(lang='en')
           li(data-target='#carouselExampleIndicators', data-slide-to='1')
           li(data-target='#carouselExampleIndicators', data-slide-to='2')
           li(data-target='#carouselExampleIndicators', data-slide-to='3')
+          li(data-target='#carouselExampleIndicators', data-slide-to='4')
         .carousel-inner(role='listbox')
           // Slide One - Set the background image for this slide in the line below
           .carousel-item.active(style="background-image: url('assets/img/Giti_2019.png')")
@@ -56,6 +51,10 @@ html(lang='en')
             .carousel-caption.d-none.d-md-block
               h3
               p
+          .carousel-item(style="background-image: url('assets/img/covid.png')")
+            .carousel-caption.d-none.d-md-block
+              h3
+              a(href="covid.html") &nbsp Read More
         a.carousel-control-prev(href='#carouselExampleIndicators', role='button', data-slide='prev')
           span.carousel-control-prev-icon(aria-hidden='true')
           span.sr-only Previous
@@ -115,7 +114,7 @@ html(lang='en')
               br
               a.cardtextsubheading(href='FINA-IRP.html') Integrated Regulatory Platform
               p.card-text.mt-2
-                |In response to the need for better bank supervision systems was developed Integrated Regulatory Platform called FINA, Which is the system to collect data from banks, store them in the data base and generate different reports using very flexible report designer tools.
+                |In response to the need for better bank supervision (Suptech / Regtech) systems were developed the Integrated Regulatory Platform, Which is the system to collect data from banks, store them in the database and generate different reports using very flexible report designer tools.
         .col-lg-4(style="padding-bottom:50px")
           .card.h-100
             .hexagon
@@ -129,7 +128,7 @@ html(lang='en')
                 br
                 a.cardtextsubheading(href='fina-bi.html') Business Intelligence (Analytics)
                 p.card-text.mt-2
-                  | The Business Intelligence (BI) developed by FINA refers to technologies, applications and practices for the collection, integration, analysis, and presentation of business information. The purpose of Business Intelligence is to support better business decision making.
+                  | BI tools enable you to transform unstructured data into comprehensible information that are visualized in interactive dashboards, which can further be queried and filtered to come up with more relevant insights and data based decisions. The purpose of Business Intelligence is to support better business decision making.
         .col-lg-4(style="padding-bottom:50px")
           .card.h-100
             .hexagon
@@ -143,7 +142,77 @@ html(lang='en')
                 br
                 a.cardtextsubheading(href='dkms.html') Knowledge Management System
                 p.card-text.mt-2
-                  | Dynamic Knowledge Management Systems is IT system that stores and retrieves knowledge, improves collaboration, locates knowledge sources, mines repositories for hidden knowledge, captures and uses knowledge, or in some other way enhances the KM process.
+                  | Dynamic Knowledge Management System is an IT system that stores and retrieves knowledge, improves collaboration, locates knowledge sources, mines repositories for hidden knowledge, captures and uses knowledge, or in some other way enhances the KM process.
+        .col-lg-4(style="padding-bottom:50px")
+          .card.h-100
+            .hexagon
+            .vl
+            .circle
+            .some-text
+              i.fa.fa-building(style="color:white; font-size:30px;margin-left:2px")
+            div
+              div(style="padding:10px 15px 10px calc(50px + 3vw);")
+                a.cardtextheading(href='first.html') FIRST
+                br
+                a.cardtextsubheading(href='first.html') Financial Institution Registration Module
+                p.card-text.mt-2
+                  | FIRST, short for Financial Institutions Registry, is one of the main modules of FINA IRP, which fully covers the processes of the registration, change and cancellation of financial institutions.
+        .col-lg-4(style="padding-bottom:50px")
+          .card.h-100
+            .hexagon
+            .vl
+            .circle
+            .some-text
+              i.fa.fa-list(style="color:white; font-size:30px;margin-left:-2px")
+            div
+              div(style="padding:10px 15px 10px calc(50px + 3vw);")
+                a.cardtextheading(href='ems.html') EMS
+                br
+                a.cardtextsubheading(href='ems.html') Enforcement Management System
+                p.card-text.mt-2
+                  | Plan and manage onsite inspections of financial institutions.
+        .col-lg-4(style="padding-bottom:50px")
+          .card.h-100
+            .hexagon
+            .vl
+            .circle
+            .some-text
+              i.fa.fa-file-o(style="color:white; font-size:30px;margin-left:2px")
+            div
+              div(style="padding:10px 15px 10px calc(50px + 3vw);")
+                a.cardtextheading(href='dms.html') DMS
+                br
+                a.cardtextsubheading(href='dms.html') Document Management System
+                p.card-text.mt-2
+                  | Document management systems replace content chaos by storing them into one place. Document management systems can integrate all business processes, filling forms workflows and approvals.
+        .col-lg-4(style="padding-bottom:50px")
+          .card.h-100
+            .hexagon
+            .vl
+            .circle
+            .some-text
+              i.fa.fa-usd(style="color:white; font-size:30px;margin-left:4px")
+            div
+              div(style="padding:10px 15px 10px calc(50px + 3vw);")
+                a.cardtextheading(href='creg.html') CREG
+                br
+                a.cardtextsubheading(href='creg.html') Credit Register
+                p.card-text.mt-2
+                  | CREG is a service that provides faster data processing and faster data writing speeds. It simplifies calculation, validation and analysis processes via a simple XML configuration file.
+        .col-lg-4(style="padding-bottom:50px")
+          .card.h-100
+            .hexagon
+            .vl
+            .circle
+            .some-text
+              i.fa.fa-university(style="color:white; font-size:30px;margin-left:-2px")
+            div
+              div(style="padding:10px 15px 10px calc(50px + 3vw);")
+                a.cardtextheading(href='imof.html') iMof
+                br
+                a.cardtextsubheading(href='imof.html') Integrated System for Ministry of Finance
+                p.card-text.mt-2
+                  | iMOF is an integrated system to support the Ministry of Finance in  successful adjustment of government expenditures and revenues in accordance with the social and economic policy priorities and improves the Public Finance Management process.
 
     .project-section
       header(style="margin-top:0")
@@ -154,8 +223,8 @@ html(lang='en')
         .col-md-4.col-lg-3.offset-lg-1.offset-md-0.my-auto
           img(src="assets/img/fina-logo.png" alt="logo").img-fluid
         .col-md-8.col-lg-7
-          p.text-justify(style="font-family: Rubik") FINA is a software development and consulting company established in 2006 in Georgia. Our main preference is to earn your trust through our commitment and integrity extending maximum value and striving to exceed your expectations.
-          p.text-justify(style="font-family: Rubik") LLC FINA owns ~150 square meter office in the center of Tbilisi (Capital of Georgia). Company is equipped with up-to-date computer hardware. The basic software platform has a high degree of standardization and a wide range of specialized software and is used for system design, development, quality assurance, project management and reporting.
+          p.text-justify(style="font-family: Rubik") FINA is a software development and IT consulting company established in 2006 in Georgia. Our main preference is to earn your trust through our commitment and integrity extending maximum value and striving to exceed your expectations.
+          p.text-justify(style="font-family: Rubik") Company owns a ~150 square meter office in the center of Tbilisi (Capital of Georgia). Company is equipped with up-to-date computer hardware. The basic software platform has a high degree of standardization and a wide range of specialized software and is used for system design, development, quality assurance, project management and reporting.
       .col-md-8.col-lg-7.offset-md-4.offset-lg-4
         div.text-center
           a(href='about.html')
@@ -168,12 +237,20 @@ html(lang='en')
         .container-fluid.container-padding
           .timeline-item
             .timeline-img
+            .timeline-content.timeline-card.js--fadeInRight
+              img(src="assets/img/National_Bank_of_Tajikistan_LOGO_FINA.png" alt="nbt_logo").card-img-top
+              p.title-color(style="font-size:20px; font-family: Rubik; font-weight: bold").text-center  Integrated Regulatory Platform at National Bank of Tajikistan
+              .date JAN 2019
+              p.card-text(style="padding-bottom:20px; font-family: Rubik")
+                | Company Implemented Financial Supervision system FINA IRP (which included implementing DCS data collecting web portal for FI's), Document management system, and Business intelligence Software - Power BI. Project scope included updating hardware base of banking and non banking supervision departments in National Bank of Tajikistan: installing servers and equipping them with necessary software, updating NBSD and BSD department staff with newest Laptops desktop computers.
+          .timeline-item.target-timeline-item
+            .timeline-img
             .timeline-content.timeline-card.js--fadeInLeft
               img(src="assets/img/National_Bank_Georgia_LOGO_FINA.png" alt="nbg_logo").card-img-top
               p.title-color(style="font-size:20px; font-family: Rubik; font-weight: bold").text-center Integrated Regulatory Platform at National Bank of Georgia
               .date MAY 2018
               p.card-text(style="padding-bottom:20px; font-family: Rubik")
-                | FINA Implemented Financial Supervision Database system called “FINA” in Bank Supervision Department which included: DCS(Data Collection Server) - Web portal to collect data from financial institutions, FINA IRP - Mainc system to manage forms of financial reports, schedules, validation rules... and FINA Report Designer - based on LibreOffice Addin to create beautiful reports.
+                | Our Company has Developed and Implemented Anti-Money Laundering Monitoring System in Anti- Money Laundering Inspection and Supervision Department of National Bank of Georgia during the period of June 2017 — May 2018. Project goal was development and implementation of the automatic electronic supervisory reporting and management system.
           .timeline-item.target-timeline-item
             .timeline-img
             .timeline-content.timeline-card.js--fadeInRight
@@ -181,7 +258,7 @@ html(lang='en')
               p.title-color(style="font-size:20px; font-family: Rubik; font-weight: bold").text-center  Knowledge Management for Environmental Protection
               .date DEC 2017
               p.card-text(style="padding-bottom:20px; font-family: Rubik")
-                | DKMS (Dynamic Knowledge Management System) Climate Modul was implemented in Environmental Center of Georgia, system creates user friendly dashboards and reports for monitoring climate changes in Georgia
+                | DKMS (Dynamic Knowledge Management System) Climate Module was implemented in the Environmental Center of Georgia, system creates user friendly dashboards and reports for monitoring climate changes in Georgia.
           .timeline-item.target-timeline-item
             .timeline-img
             .timeline-content.timeline-card.js--fadeInLeft
