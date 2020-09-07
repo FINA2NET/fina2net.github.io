@@ -329,20 +329,35 @@ nav {
 #footer-main-content .footer-underline {
   border-top: solid 1px rgba(255, 255, 255, 0.6); }
 
+#footer-main-content .footer-item {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+  font-size: 13px;
+  font-weight: normal !important;
+  line-height: 1.5rem !important; }
+
 #footer-main-content .footer-item:hover {
   font-style: italic;
   color: #FFFFFF;
-  text-decoration: underline; }
+  text-decoration: underline !important; }
   #footer-main-content .footer-item:hover a {
     color: #ffffff; }
 
-.footer-contact-info i {
-  padding-right: 10px; }
+.footer-contact-info {
+  /*  .col-lg-12{
+    padding: 0!important;
+    margin: 0!important;
+  }
 
-.footer-contact-info p {
-  padding: 0;
-  margin: 0;
-  font-size: 18px; }
+  a{
+    padding: 0!important;
+    margin: 0!important;
+  }*/ }
+  .footer-contact-info i {
+    padding-right: 10px; }
+  .footer-contact-info p {
+    padding: 0;
+    margin: 0;
+    font-size: 18px; }
 
 .asd {
   color: #E85245; }
@@ -409,6 +424,9 @@ nav {
   text-align: center;
   background-color: white;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+
+.contact-info-data a {
+  color: black; }
 
 #fina-overview-nav a {
   font-size: 20px; }

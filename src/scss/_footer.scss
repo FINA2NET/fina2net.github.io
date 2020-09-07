@@ -88,10 +88,18 @@ footer {
   .footer-underline{
     border-top: solid 1px rgba(255, 255, 255, 0.6);
   }
+
+  .footer-item{
+    font-family: Roboto,Helvetica,Arial,sans-serif !important;
+    font-size: 13px;
+    font-weight: normal !important;
+    line-height: 1.5rem!important;
+  }
+
   .footer-item:hover{
     font-style: italic;
     color: #FFFFFF;
-    text-decoration: underline;
+    text-decoration: underline !important;
     a{
       color: #ffffff;
     }
@@ -108,6 +116,15 @@ footer {
 
     font-size: 18px;
   }
+/*  .col-lg-12{
+    padding: 0!important;
+    margin: 0!important;
+  }
+
+  a{
+    padding: 0!important;
+    margin: 0!important;
+  }*/
 }
 
 .asd{

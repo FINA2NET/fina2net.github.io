@@ -1,0 +1,55 @@
+doctype html
+html(lang='en')
+
+    head
+        include includes/header
+        title FINA: Integrated System for Ministry of Finance - iMOF
+        meta(name='description', content='iMOF is an integrated system to support the Ministry of Finance in successful adjustment of government expenditures and revenues.')
+
+        include includes/css/core
+
+        // Page level plugin CSS
+        include includes/css/custom
+
+    body
+        include includes/navbar
+        include includes/media-icons
+
+        .container-fluid
+            .row
+                .col-lg-8.offset-lg-2.portfolio-item
+                    .card.h-100.padding-left.padding-right
+                        .row
+                            .col-12.text-center
+                                h2 Integrated System for Ministry of Finance
+                        .row
+                            .col-12
+                                p.text-justify iMOF is an integrated system to support the Ministry of Finance in  successful adjustment of government expenditures and revenues in accordance with the social and economic policy priorities and improves the Public Finance Management process.
+                                h3.text-center iMOF System Modules
+                            .col-md-6.col-12
+                                img(src='assets/img/products/imof/Integrated-System-for-Ministry-of-Finance-iMOF-FINA.png').img-fluid
+                            .col-md-6.col-12
+                                div
+                                    h4 Expenditures MODULE
+                                    div This module tracks any expenditure at all levels of governance, including operations with both financial and nonfinancial assets.
+                                div
+                                    h4 iMOF MODULE
+                                    div This module is intended for mid to high level managers to monitor processes and make decisions. It is also used in public reporting
+                                div
+                                    h4 Revenues Module
+                                    div Multilevel revenue tracking with strong support for fiscal analysis and forecasts.
+                                div
+                                    h4 Budget Planning Module
+                                    div A fully featured budgeting system based on recent advances in public finance management. All stages of budgeting are clearly reflected, contains Debt and Grants management components.
+                            .col-12
+                                p.text-justify Following tools and components are in use in development process:
+                                ul.irp-resp-li
+                                    li .NET Framework 4.x, C#, Microsoft Visual Studio 2017/19
+                                    li Microsoft SQL Server Management Studio - TSQL
+                                    li Microsoft Analysis Services Implementation - MDX
+                                    li Microsoft Report Server - RDL/RDLC
+                                    li HTML, JavaScript, Ext JS / Ext.NET.
+
+        include includes/footer
+        include includes/js/core
+        include includes/js/custom

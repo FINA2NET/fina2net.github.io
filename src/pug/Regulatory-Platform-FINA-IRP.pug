@@ -1,0 +1,75 @@
+doctype html
+html(lang='en')
+
+    head
+        include includes/header
+        meta(name='description', content='FINA IRP is an Integrated Regulatory Platform (Regtech) for supervision authorities to collect and analyze data from financial institutions using BI tools.')
+        meta(name='author', content='')
+
+        title FINA: Regulatory Platform - FINA IRP
+
+        include includes/css/core
+
+        // Page level plugin CSS
+
+        include includes/css/custom
+
+    body
+        include includes/navbar
+        include includes/media-icons
+
+        .container-fluid
+            .row
+                .col-lg-8.offset-lg-2.portfolio-item
+                    .card.h-100
+                        #fina-overview.card-body
+                            h1.text-center FINA IRP
+                            p(style='text-align: center;')
+                                img(src='assets/img/products/irp/Regulatory-Platform-FINA-IRP.png', alt='').img-fluid
+                            h2  FINA Overview
+                            p.text-justify FINA IRP is an Integrated Regulatory Platform (Regtech / Suptech) for bank supervision authorities to collect data from the financial institutions and analyze them using integrated business intelligence tools, store them in the database and generate different reports using very flexible reporting tools.
+                            p.text-justify FINA is a fully customizable and localizable system; It is independent of any legal, regulatory, or accounting framework. Changes in input/output forms does not require additional programming and can be implemented into the system very quickly with any user with knowledge of spreadsheet functionality.
+                            p.text-justify FINA is platform independent and works on Windows, Linux, AIX and Solaris.
+                            p.text-justify FINA is database independent. It supports 3 main database systems -MSSQL, Oracle, and MySQL.
+                            p.text-justify FINA is a 3 tier java application and this makes it scalable and extendable.
+                            p.text-justify FINA is open source under the GNU/GPL license.
+                            h3 Document Management System
+                            p.text-justify Ensure complete, secure control of the document lifecycle, with straightforward search, storage, indexing, and version management. Application examples include Enterprise Document Management, Enterprise Content Management (ECM), Web Content Management (WCM), Content Management Interoperability Services (CMIS), and Collaboration.
+                            p.text-justify Benefits: Streamlined, automated lifecycle management; Fast, easy access to searchable content; Mitigated risk thorough audit trails and use histories.
+                            p.text-justify Key Features:
+                            ul.irp-resp-li
+                                    li Document Management
+                                    li Web Content Management
+                                    li Collaboration
+                                    li Content Platform and Repository
+                                    li Content Management Interoperability Services (CMIS)
+                                    li Records Management
+                                    li Image Management
+                            p.text-justify Our Document Management solutions provide organizations with all the services necessary for creating, converting, managing, and sharing electronic documents. Built on industry-standard open source platforms, our solutions ensure completeness, validity, traceability, and inalterability of important documents ranging from employment and maintenance contracts to purchase agreements and collaboration agreements with business partners. Additional features include version management, search capabilities, and visual representation of relationships and dependencies.
+                            p.text-justify An intuitive interface allows administrators to import and export workspaces and documents, and manage users and security based on Users, Groups, and Roles. Presentation templates and dashboard views provide personalized and real-time reporting of selected content. The preview feature shows content in combination with other elements, and the composite document feature helps to logically group documents and digital assets for specific marketing projects. Comprehensive search capabilities support indexing, metadata, and multi-category searches.
+                            h3 Comprehensive Integration and Formatting Options
+                            p.text-justify Our Document Management solutions are interoperable with any database (Oracle, MySQL, etc.), any membership system (RDBMS, LDAP, Windows Directory Services, etc.), any operating system (Windows, Linux, Solaris, etc.), and any external system (.NET, J2EE, Python, PHP, etc.). A built-in data management and transformation engine enables organizations to transform data into required formats based on business rules. And an integrated workflow tool gives users complete control over document lifecycle management and process flow.
+
+        include includes/footer
+
+        include includes/js/core
+
+        include includes/js/custom
+
+        script(type='text/javascript').
+            window.onresize = function () {
+                responsiveIRP();
+            };
+
+            $(document).ready(function () {
+                responsiveIRP();
+            });
+
+            function responsiveIRP() {
+                if (window.innerWidth < 500) {
+                    $(".irp-resp-li").addClass("responsive-IRP");
+                }
+                else {
+                    $(".irp-resp-li").removeClass("responsive-IRP");
+                }
+            }

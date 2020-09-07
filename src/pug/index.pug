@@ -3,7 +3,7 @@ html(lang='en')
 
   head
     include includes/header
-    meta(name='description', content='FINA is a software development and consulting company established in 2006 in Georgia. We are partners with Oracle and Pentaho. FINA has been awarded in two different business award in year nominations "the best complex business solution"(2016) and "The innovative business of the year"(2017)')
+    meta(name='description', content='FINA LLC is an IT Software Development Company. Our main products are Supervision (Suptech) and Regulatory Platform (Regtech) softwares.')
     meta(name='author', content='')
 
     meta(property="og:url", content="http://fina2.net" )
@@ -13,7 +13,7 @@ html(lang='en')
     meta(property="og:image", content="http://fina2.net/assets/img/Giti%20award.png" )
 
 
-    title FINA - Software Development & IT Consulting
+    title IT Software Development Company
 
     include includes/css/core
 
@@ -39,7 +39,7 @@ html(lang='en')
               h3
               p
           // Slide Two - Set the background image for this slide in the line below
-          .carousel-item(style="background-image: url('assets/img/Award_TBC_Bank.jpg')")
+          .carousel-item(style="background-image: url('assets/img/Award-TBC-Bank.jpg')")
             .carousel-caption.d-none.d-md-block
               h3
               p
@@ -64,10 +64,11 @@ html(lang='en')
     //      responsive slider
     #carouselExampleIndicatorsResponsive.carousel.slide(data-ride='carousel').d-sm-block.d-md-none
       ol.carousel-indicators
-        li.active(data-target='#carouselExampleIndicators', data-slide-to='0')
-        li(data-target='#carouselExampleIndicators', data-slide-to='1')
-        li(data-target='#carouselExampleIndicators', data-slide-to='2')
-        li(data-target='#carouselExampleIndicators', data-slide-to='3')
+        li.active(data-target='#carouselExampleIndicatorsResponsive', data-slide-to='0')
+        li(data-target='#carouselExampleIndicatorsResponsive', data-slide-to='1')
+        li(data-target='#carouselExampleIndicatorsResponsive', data-slide-to='2')
+        li(data-target='#carouselExampleIndicatorsResponsive', data-slide-to='3')
+        li(data-target='#carouselExampleIndicatorsResponsive', data-slide-to='4')
       .carousel-inner(role='listbox')
         // Slide One - Set the background image for this slide in the line below
         .carousel-item.active(style="background-image: url('assets/img/Giti_2019_res.png')")
@@ -75,7 +76,7 @@ html(lang='en')
             h3
             p
         // Slide Two - Set the background image for this slide in the line below
-        .carousel-item(style="background-image: url('assets/img/Award_TBC_Bank.jpg')")
+        .carousel-item(style="background-image: url('assets/img/Award-TBC-Bank.jpg')")
           .carousel-caption.d-none.d-md-block
             h3
             p
@@ -83,10 +84,14 @@ html(lang='en')
           .carousel-caption.d-none.d-md-block
             h3
             p
-        .carousel-item(style="background-image: url('assets/img/UnglobalCompact_res.png')")
+        .carousel-item(style="background-image: url('assets/img/UnglobalCompact-res.png')")
           .carousel-caption.d-none.d-md-block
             h3
             p
+        .carousel-item(style="background-image: url('assets/img/covid.png')")
+          .carousel-caption.d-md-block
+            h3
+              a(href="covid.html") &nbsp Read More
       a.carousel-control-prev(href='#carouselExampleIndicatorsResponsive', role='button', data-slide='prev')
         span.carousel-control-prev-icon(aria-hidden='true')
         span.sr-only Previous
@@ -110,9 +115,9 @@ html(lang='en')
             .some-text
               i.fa.fa-legal(style="color:white; font-size:25px")
             div(style="padding:10px 15px 10px calc(50px + 3vw);")
-              a.cardtextheading(href='FINA-IRP.html') FINA IRP
+              a.cardtextheading(href='Regulatory-Platform-FINA-IRP.html') FINA IRP
               br
-              a.cardtextsubheading(href='FINA-IRP.html') Integrated Regulatory Platform
+              a.cardtextsubheading(href='Regulatory-Platform-FINA-IRP.html') Integrated Regulatory Platform
               p.card-text.mt-2
                 |In response to the need for better bank supervision (Suptech / Regtech) systems were developed the Integrated Regulatory Platform, Which is the system to collect data from banks, store them in the database and generate different reports using very flexible report designer tools.
         .col-lg-4(style="padding-bottom:50px")
@@ -124,9 +129,9 @@ html(lang='en')
               i.fa.fa-line-chart(style="color:white; font-size:25px")
             div
               div(style="padding:10px 15px 10px calc(50px + 3vw);")
-                a.cardtextheading(href='fina-bi.html') FINA BI
+                a.cardtextheading(href='Data-visualization-tools-fina-bi.html') FINA BI
                 br
-                a.cardtextsubheading(href='fina-bi.html') Business Intelligence (Analytics)
+                a.cardtextsubheading(href='Data-visualization-tools-fina-bi.html') Business Intelligence (Analytics)
                 p.card-text.mt-2
                   | BI tools enable you to transform unstructured data into comprehensible information that are visualized in interactive dashboards, which can further be queried and filtered to come up with more relevant insights and data based decisions. The purpose of Business Intelligence is to support better business decision making.
         .col-lg-4(style="padding-bottom:50px")
@@ -138,9 +143,9 @@ html(lang='en')
               i.fa.fa-lightbulb-o(style="color:white; font-size:30px;margin-left:4px")
             div
               div(style="padding:10px 15px 10px calc(50px + 3vw);")
-                a.cardtextheading(href='dkms.html') DKMS
+                a.cardtextheading(href='Dynamic-Knowledge-Management-System-FINA.html') DKMS
                 br
-                a.cardtextsubheading(href='dkms.html') Knowledge Management System
+                a.cardtextsubheading(href='Dynamic-Knowledge-Management-System-FINA.html') Knowledge Management System
                 p.card-text.mt-2
                   | Dynamic Knowledge Management System is an IT system that stores and retrieves knowledge, improves collaboration, locates knowledge sources, mines repositories for hidden knowledge, captures and uses knowledge, or in some other way enhances the KM process.
         .col-lg-4(style="padding-bottom:50px")
@@ -152,9 +157,9 @@ html(lang='en')
               i.fa.fa-building(style="color:white; font-size:30px;margin-left:2px")
             div
               div(style="padding:10px 15px 10px calc(50px + 3vw);")
-                a.cardtextheading(href='first.html') FIRST
+                a.cardtextheading(href='Financial-Institutions-Registry-FIRST-FINA.html') FIRST
                 br
-                a.cardtextsubheading(href='first.html') Financial Institution Registration Module
+                a.cardtextsubheading(href='Financial-Institutions-Registry-FIRST-FINA.html') Financial Institution Registration Module
                 p.card-text.mt-2
                   | FIRST, short for Financial Institutions Registry, is one of the main modules of FINA IRP, which fully covers the processes of the registration, change and cancellation of financial institutions.
         .col-lg-4(style="padding-bottom:50px")
@@ -166,9 +171,9 @@ html(lang='en')
               i.fa.fa-list(style="color:white; font-size:30px;margin-left:-2px")
             div
               div(style="padding:10px 15px 10px calc(50px + 3vw);")
-                a.cardtextheading(href='fina-ems.html') EMS
+                a.cardtextheading(href='EMS-Enforcement-Management-System-fina.html') EMS
                 br
-                a.cardtextsubheading(href='fina-ems.html') Enforcement Management System
+                a.cardtextsubheading(href='EMS-Enforcement-Management-System-fina.html') Enforcement Management System
                 p.card-text.mt-2
                   | Plan and manage onsite inspections of financial institutions.
         .col-lg-4(style="padding-bottom:50px")
@@ -180,9 +185,9 @@ html(lang='en')
               i.fa.fa-file-o(style="color:white; font-size:30px;margin-left:2px")
             div
               div(style="padding:10px 15px 10px calc(50px + 3vw);")
-                a.cardtextheading(href='dms.html') DMS
+                a.cardtextheading(href='Document-Management-System-DMS-FINA.html') DMS
                 br
-                a.cardtextsubheading(href='dms.html') Document Management System
+                a.cardtextsubheading(href='Document-Management-System-DMS-FINA.html') Document Management System
                 p.card-text.mt-2
                   | Document management systems replace content chaos by storing them into one place. Document management systems can integrate all business processes, filling forms workflows and approvals.
         .col-lg-4(style="padding-bottom:50px")
@@ -194,9 +199,9 @@ html(lang='en')
               i.fa.fa-usd(style="color:white; font-size:30px;margin-left:4px")
             div
               div(style="padding:10px 15px 10px calc(50px + 3vw);")
-                a.cardtextheading(href='creg.html') CREG
+                a.cardtextheading(href='Financial-Institutions-and-Supervisory-Entities-CREG-FINA.html') CREG
                 br
-                a.cardtextsubheading(href='creg.html') Credit Register
+                a.cardtextsubheading(href='Financial-Institutions-and-Supervisory-Entities-CREG-FINA.html') Credit Register
                 p.card-text.mt-2
                   | CREG is a service that provides faster data processing and faster data writing speeds. It simplifies calculation, validation and analysis processes via a simple XML configuration file.
         .col-lg-4(style="padding-bottom:50px")
@@ -208,9 +213,9 @@ html(lang='en')
               i.fa.fa-university(style="color:white; font-size:30px;margin-left:-2px")
             div
               div(style="padding:10px 15px 10px calc(50px + 3vw);")
-                a.cardtextheading(href='imof.html') iMOF
+                a.cardtextheading(href='Integrated-System-for-Ministry-of-Finance-FINA.html') iMOF
                 br
-                a.cardtextsubheading(href='imof.html') Integrated System for Ministry of Finance
+                a.cardtextsubheading(href='Integrated-System-for-Ministry-of-Finance-FINA.html') Integrated System for Ministry of Finance
                 p.card-text.mt-2
                   | iMOF is an integrated system to support the Ministry of Finance in  successful adjustment of government expenditures and revenues in accordance with the social and economic policy priorities and improves the Public Finance Management process.
 
@@ -227,7 +232,7 @@ html(lang='en')
           p.text-justify(style="font-family: Rubik") Company owns a ~150 square meter office in the center of Tbilisi (Capital of Georgia). Company is equipped with up-to-date computer hardware. The basic software platform has a high degree of standardization and a wide range of specialized software and is used for system design, development, quality assurance, project management and reporting.
       .col-md-8.col-lg-7.offset-md-4.offset-lg-4
         div.text-center
-          a(href='about.html')
+          a(href='About-FINA.html')
             .btn.my-btn(style='font-weight:bold; font-family: Oxygen') Read More
     .project-section
       header
@@ -238,7 +243,7 @@ html(lang='en')
           .timeline-item
             .timeline-img
             .timeline-content.timeline-card.js--fadeInRight
-              img(src="assets/img/National_Bank_of_Tajikistan_LOGO_FINA.png" alt="nbt_logo").card-img-top
+              img(src="assets/img/National-Bank-of-Tajikistan-LOGO-FINA.png" alt="nbt_logo").card-img-top
               p.title-color(style="font-size:20px; font-family: Rubik; font-weight: bold").text-center  Integrated Regulatory Platform at National Bank of Tajikistan
               .date JAN 2019
               p.card-text(style="padding-bottom:20px; font-family: Rubik")
@@ -246,7 +251,7 @@ html(lang='en')
           .timeline-item.target-timeline-item
             .timeline-img
             .timeline-content.timeline-card.js--fadeInLeft
-              img(src="assets/img/National_Bank_Georgia_LOGO_FINA.png" alt="nbg_logo").card-img-top
+              img(src="assets/img/National-Bank-Georgia-LOGO-FINA.png" alt="nbg_logo").card-img-top
               p.title-color(style="font-size:20px; font-family: Rubik; font-weight: bold").text-center Integrated Regulatory Platform at National Bank of Georgia
               .date MAY 2018
               p.card-text(style="padding-bottom:20px; font-family: Rubik")
@@ -254,7 +259,7 @@ html(lang='en')
           .timeline-item.target-timeline-item
             .timeline-img
             .timeline-content.timeline-card.js--fadeInRight
-              img(src="assets/img/Environmental_information_and_education_centre_logo.fina.png" alt="eiec_logo").card-img-top
+              img(src="assets/img/Environmental-information-and-education-centre-logo.fina.png" alt="eiec_logo").card-img-top
               p.title-color(style="font-size:20px; font-family: Rubik; font-weight: bold").text-center  Knowledge Management for Environmental Protection
               .date DEC 2017
               p.card-text(style="padding-bottom:20px; font-family: Rubik")
