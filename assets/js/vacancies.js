@@ -50,7 +50,7 @@ $(document).ready(function () {
 
 $(document).on('click',".vacan-btn",function () {
     console.log($(this).attr('data-vacanTitle'))
-    window.location = window.location.href.replace('vacancies',$(this).attr('data-vacanTitle'));
+    window.location = window.location.href.replace('FINA-Careers',$(this).attr('data-vacanTitle'));
     /*console.log($(this).attr('data-vacanID'));
     if($(this).attr('data-vacanID')=="interns"){
         window.location = window.location.href.replace('vacancies','interns');
