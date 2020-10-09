@@ -1,8 +1,8 @@
-window.onresize=()=>{
+window.onresize = function() {
     responsiveFooter();
 };
 
-$( document ).ready(function() {
+$(document).ready(function () {
     responsiveFooter();
 });
 
@@ -12,11 +12,10 @@ responsive footer
  */
 
 function responsiveFooter() {
-    if(window.innerWidth<780) {
+    if (window.innerWidth < 780) {
         $("#footer-main-content").addClass("responsive-class");
         $('#copyright').addClass('responsive-copyright');
-    }
-    else{
+    } else {
         $("#footer-main-content").removeClass("responsive-class");
         $('#copyright').removeClass('responsive-copyright');
     }
@@ -25,20 +24,19 @@ function responsiveFooter() {
 
 //acordian
 
-let createAccordian = (accordianElem)=>{
-    if(accordianElem.is( ":hidden" ))
+function createAccordian(accordianElem) {
+    if (accordianElem.is(":hidden"))
         accordianElem.slideDown();
     else
         accordianElem.hide("slow");
 };
 
-$(document).ready(function(){
+$(document).ready(function () {
     $(".accordian-element").hide();
-    $(".accordian-title").click(function(){
+    $(".accordian-title").click(function () {
         createAccordian($(this).next());
     });
 });
-
 
 
 function responsiveClass(target, cssClass, flag) {
@@ -49,14 +47,13 @@ function responsiveClass(target, cssClass, flag) {
             $(target).removeClass(cssClass);
     });
 
-    window.onresize = () => {
+    window.onresize = function () {
         if (window.innerWidth < 780 === flag)
             $(target).addClass(cssClass);
         else
             $(target).removeClass(cssClass);
     }
 }
-
 
 
 //share

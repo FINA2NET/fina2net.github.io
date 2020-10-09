@@ -35,9 +35,12 @@ function css() {
 }
 
 function js() {
-    return src('./assets/js/*.js', {sourcemaps: true})
-        .pipe(concat('app.min.js'))
-        .pipe(dest('./assets/js', {sourcemaps: true}))
+    return src(['./assets/js/*.js', '!./assets/js/*.min.js'])
+        .pipe(uglify())
+        .pipe(rename({
+            suffix: '.min'
+        }))
+        .pipe(dest('./assets/js'))
 }
 
 function material(){
