@@ -1,10 +1,8 @@
-
-
 $(document).ready(function () {
-    $.getJSON("vacancies.json", function(json) {
-        for(let i=0; i<json.vacancies.length;i++)
+    $.getJSON("vacancies.json", function (json) {
+        for (var i = 0; i < json.vacancies.length; i++)
 
-            if(json.vacancies[i].id=="interns"){
+            if (json.vacancies[i].id == "interns") {
                 $('.vacancies-head').append(
                     '<div id="' + json.vacancies[i].id + '" class="row padding-top padding-bottom vacancies-card">'
                     + '<div class="col-lg-3 col-sm-3 col-12">'
@@ -23,7 +21,7 @@ $(document).ready(function () {
                     + '</div>'
                     + '</div>'
                 );
-            }else {
+            } else {
 
                 $('.vacancies-head').append(
                     '<div id="' + json.vacancies[i].id + '" class="row padding-top padding-bottom vacancies-card">'
@@ -48,9 +46,9 @@ $(document).ready(function () {
 });
 
 
-$(document).on('click',".vacan-btn",function () {
+$(document).on('click', ".vacan-btn", function () {
     console.log($(this).attr('data-vacanTitle'))
-    window.location = window.location.href.replace('FINA-Careers',$(this).attr('data-vacanTitle'));
+    window.location = window.location.href.replace('FINA-Careers', $(this).attr('data-vacanTitle'));
     /*console.log($(this).attr('data-vacanID'));
     if($(this).attr('data-vacanID')=="interns"){
         window.location = window.location.href.replace('vacancies','interns');
