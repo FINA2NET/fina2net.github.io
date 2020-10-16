@@ -84,7 +84,7 @@ exports.html = parallel(html, vacancyHtml);
 exports.material = material;
 exports.robot = robot;
 exports.sitemapInit = sitemapInit;
-exports.buildAll = parallel(html, js);
+exports.buildAll = parallel(html, vacancyHtml, js);
 exports.default = function () {
     watch('./src/pug/**/*', html);
     watch('./src/scss/**/*.scss', css);
