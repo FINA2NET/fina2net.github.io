@@ -1,5 +1,5 @@
 const {src, dest, watch, parallel} = require('gulp');
-let sass = require('gulp-sass');
+// let sass = require('gulp-sass');
 let cleanCSS = require('gulp-clean-css');
 let rename = require("gulp-rename");
 let robots = require('gulp-robots');
@@ -25,7 +25,7 @@ function vacancyHtml() {
 
 function css() {
     return src('./src/scss/**/*.scss')
-        .pipe(sass())
+        // .pipe(sass())
         .pipe(dest('./assets/css'))
         .pipe(rename({
             suffix: '.min'
@@ -44,7 +44,7 @@ function js() {
 }
 
 function material(){
-    return src('./assets/scss/material-kit.scss').pipe(sass()).pipe(dest('./'));
+    // return src('./assets/scss/material-kit.scss').pipe(sass()).pipe(dest('./'));
 }
 
 function robot() {
@@ -87,7 +87,7 @@ exports.sitemapInit = sitemapInit;
 exports.buildAll = parallel(html, vacancyHtml, js);
 exports.default = function () {
     watch('./src/pug/**/*', html);
-    watch('./src/scss/**/*.scss', css);
+    // watch('./src/scss/**/*.scss', css);
 };
 
 
